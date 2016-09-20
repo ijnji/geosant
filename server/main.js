@@ -1,6 +1,6 @@
 'use strict'
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 1000;
 
 let chalk = require('chalk');
 let app = require('./app/index.js');
@@ -8,7 +8,7 @@ let server = require('http').createServer();
 let io = require('./socketio/index.js');
 
 server.on('request', app);
-require('./io')(server);
+io(server);
 
 server.listen(PORT, () => {
     console.log(chalk.blue('Server started on port ')

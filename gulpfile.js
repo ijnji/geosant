@@ -33,6 +33,10 @@ gulp.task('buildCSS', () => {
     .pipe(gulp.dest('./public'));
 });
 
-gulp.task('default', () => {
+gulp.task('build', () => {
     runSeq(['buildJS', 'buildCSS']);
+});
+
+gulp.task('default', () => {
+    runSeq(['build']);
 });
