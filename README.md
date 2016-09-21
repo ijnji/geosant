@@ -1,3 +1,3 @@
-# ijnjimoe
+# Geosent
 
-Repository for ijnji.moe
+Repository for geosent.
