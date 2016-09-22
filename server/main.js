@@ -1,6 +1,6 @@
 'use strict'
 
-const PORT = process.env.PORT || 1000;
+const PORT = process.env.PORT || 3000;
 
 let chalk = require('chalk');
 let app = require('./app/index.js');
