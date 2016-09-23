@@ -4,9 +4,7 @@ window.app.factory('SocketFactory', function() {
     let factory = {};
 
     factory.socket = window.io(window.location.origin);
-    if (!factory.socket) throw new Error('Socket.io not found.');
-    
-    factory.socket.on('connect', () => {
+    factory.socket.on('connect', function() {
         console.log('I\'m connected!');
     });
 
