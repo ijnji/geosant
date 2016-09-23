@@ -1,3 +1,4 @@
 .DS_Store
-public/*
+public/main.js
+public/style.css
 node_modules/*
