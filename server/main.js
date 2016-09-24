@@ -12,7 +12,7 @@ server.on('request', app);
 let io = require('./socketio/index.js')(server);
 io.on('connection', function(socket) {
 
-    console.log(socket.id + ': connected');
+    console.log(chalk.cyan(socket.id + ': connected'));
 
     socket.on('disconnect', function() {
         geohost.onDisconnect(socket);
