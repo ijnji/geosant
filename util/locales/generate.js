@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const fname = 'geodata.js';
+const fname = 'locales.js';
 const withCountry = require('./withCountry.js');
 const withCoordinates = require('./withCoordinates.js');
 
@@ -29,7 +29,7 @@ fs.writeFile(fname, '');
 let str = '';
 str += '\'use strict\';\r\n';
 str += '\r\n';
-str += 'const geodata = [{\r\n';
+str += 'const LOCALES = [{\r\n';
 fs.appendFileSync(fname, str);
 
 str = '';
@@ -49,5 +49,5 @@ fs.appendFileSync(fname, str);
 
 str = '';
 str += '\r\n';
-str += 'module.exports = geodata;';
+str += 'module.exports = LOCALES;';
 fs.appendFileSync(fname, str);

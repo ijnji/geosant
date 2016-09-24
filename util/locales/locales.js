@@ -1,6 +1,6 @@
 'use strict';
 
-const geodata = [{
+const LOCALES = [{
     id: 0,
     city: "Adak",
     country: "United States",
@@ -3962,4 +3962,4 @@ const geodata = [{
     lon: "179°51′"
 }];
 
-module.exports = geodata;
+module.exports = LOCALES;
