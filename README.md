@@ -1,3 +1,3 @@
-# Geosent
+# Geosant
 
-Repository for geosent.
+Repository for the Geosant webapp.

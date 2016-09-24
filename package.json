@@ -1,9 +1,9 @@
 {
-  "name": "geosent",
+  "name": "geosant",
   "version": "1.0.0",
   "description": "",
   "main": "server/main.js",
-  "repository": "https://github.com/ijnji/geosent.git",
+  "repository": "https://github.com/ijnji/geosant.git",
   "scripts": {
     "start": "nodemon --watch server -e js,html server/main.js",
     "postinstall": "gulp build"
@@ -15,6 +15,7 @@
     "express": "^4.14.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",

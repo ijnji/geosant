@@ -6,16 +6,5 @@ let io = undefined;
 module.exports = function(server) {
     if (io) return io;
     io = socketio(server);
-    io.on('connection', (socket) => {
-        console.log('User has connected.');
-        let room;
-        socket.on('disconnect', () => {
-            console.log('User has disconnected.');
-        });
-        // socket.on('wantToJoinRoom', (roomName) => {
-        //     room = roomName;
-        //     socket.join(room);
-        // });
-    });
     return io;
 };
