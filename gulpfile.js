@@ -45,6 +45,10 @@ gulp.task('build', function() {
 gulp.task('default', function() {
     runSeq(['build']);
 
+    gulp.watch(['browser/scss/**/*.scss'], function() {
+        runSeq('buildCSS', 'reload');
+    });
+
     gulp.watch(['browser/js/**/*.js'], function() {
         runSeq('buildJS', 'reload');
     });

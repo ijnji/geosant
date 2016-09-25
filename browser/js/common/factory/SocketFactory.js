@@ -1,6 +1,6 @@
 'use strict';
 
-window.app.factory('SocketFactory', function(GeoclientFactory) {
+window.app.factory('SocketFactory', function() {
     let factory = {};
 
     factory.socket = window.io(window.location.origin);
