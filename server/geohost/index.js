@@ -35,11 +35,10 @@ geohost.endGame = function(gameId) {
 geohost.onNewGame = function(socket) {
     let gameId = shortid.generate();
     geohost.games[gameId] = {
-        state: {
-            status: STATE_WAITING,
-            locale: 0,
-            round: 0
-        },
+        state: STATE_WAITING,
+        locale: 0,
+        round: 0,
+        guesses: {}, // Key is socket.id
         sockets: [ socket ]
     };
     geohost.socketToGame[socket.id] = gameId;
@@ -76,28 +75,30 @@ geohost.onJoinGame = function(socket, gameId) {
     let game = geohost.games[gameId];
     game.sockets.push(socket);
     if (game.sockets.length === 2) {
-        game.state.status = STATE_PLAYING;
+        game.state = STATE_PLAYING;
         geohost.nextRound(game);
     }
 };
 
 geohost.nextRound = function(game) {
-    if (game.state.status !== STATE_PLAYING) return;
-    //if (game.state.round >= 10) return;
+    if (game.state !== STATE_PLAYING) return;
+    if (game.round >= 10) return;
 
-    game.state.round++;
-
-    let loc = geohost.randomLocaleIndex();
-    game.state.locale = loc;
-
-    game.sockets.forEach(function(socket) {
+    game.round++;
+    game.locale = geohost.randomLocaleIndex();
+    game.guesses = {};
+    game.sockets.forEach(function(soc) {
         socket.emit('eServerNextRound', {
-            round: game.state.round,
-            locale: LOCALES[game.state.locale]
+            round: game.round,
+            localeCity: LOCALES[game.state.locale].city,
+            localeCountry: LOCALES[game.state.locale].country,
         });
     });
+    game.timeoutHandler = setTimeout(geohost.checkRound, 1000, game);
+};
 
-    setTimeout(geohost.nextRound, 1000, game);
+geohost.checkRound = function(game) {
+    
 };
 
 geohost.randomLocaleIndex = function() {

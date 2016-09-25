@@ -1,2673 +1,2674 @@
 const withCoordinates = [{
     lat: "51°53′",
-    lon: "-176°38′",
+    lng: "-176°38′",
     city_wiki: "Adak,_Alaska"
 }, {
     lat: "-21°8′",
-    lon: "-175°12′",
+    lng: "-175°12′",
     city_wiki: "Nuku%CA%BBalofa"
 }, {
     lat: "-13°50′",
-    lon: "-171°50′",
+    lng: "-171°50′",
     city_wiki: "Apia"
 }, {
     lat: "-14°16′",
-    lon: "-170°42′",
+    lng: "-170°42′",
     city_wiki: "Pago_Pago"
 }, {
     lat: "-19°03′",
-    lon: "-169°55′",
+    lng: "-169°55′",
     city_wiki: "Alofi"
 }, {
     lat: "-21°12′",
-    lon: "-159°46′",
+    lng: "-159°46′",
     city_wiki: "Avarua"
 }, {
     lat: "21°18′",
-    lon: "-157°49′",
+    lng: "-157°49′",
     city_wiki: "Honolulu"
 }, {
     lat: "19°42′",
-    lon: "-155°06′",
+    lng: "-155°06′",
     city_wiki: "Hilo,_Hawaii"
 }, {
     lat: "61°13′",
-    lon: "-149°53′",
+    lng: "-149°53′",
     city_wiki: "Anchorage,_Alaska"
 }, {
     lat: "-17°32′",
-    lon: "-149°34′",
+    lng: "-149°34′",
     city_wiki: "Papeete"
 }, {
     lat: "64°50′",
-    lon: "-147°42′",
+    lng: "-147°42′",
     city_wiki: "Fairbanks,_Alaska"
 }, {
     lat: "57°03′",
-    lon: "-135°19′",
+    lng: "-135°19′",
     city_wiki: "Sitka,_Alaska"
 }, {
     lat: "60°43′",
-    lon: "-135°03′",
+    lng: "-135°03′",
     city_wiki: "Whitehorse,_Yukon"
 }, {
     lat: "58°21′",
-    lon: "-134°30′",
+    lng: "-134°30′",
     city_wiki: "Juneau,_Alaska"
 }, {
     lat: "-25°04′",
-    lon: "-130°06′",
+    lng: "-130°06′",
     city_wiki: "Adamstown,_Pitcairn_Islands"
 }, {
     lat: "49°15′",
-    lon: "-123°06′",
+    lng: "-123°06′",
     city_wiki: "Vancouver"
 }, {
-    lat: "38°′",
-    lon: "-123°′",
+    lat: "38°0′",
+    lng: "-123°0′",
     city_wiki: "Rabi_Island"
 }, {
     lat: "45°31′",
-    lon: "-122°40′",
+    lng: "-122°40′",
     city_wiki: "Portland,_Oregon"
 }, {
     lat: "37°46′",
-    lon: "-122°25′",
+    lng: "-122°25′",
     city_wiki: "San_Francisco"
 }, {
     lat: "47°36′",
-    lon: "-122°19′",
+    lng: "-122°19′",
     city_wiki: "Seattle"
 }, {
     lat: "38°33′",
-    lon: "-121°28′",
+    lng: "-121°28′",
     city_wiki: "Sacramento,_California"
 }, {
     lat: "34°03′",
-    lon: "-118°15′",
+    lng: "-118°15′",
     city_wiki: "Los_Angeles"
 }, {
     lat: "33°56′",
-    lon: "-117°23′",
+    lng: "-117°23′",
     city_wiki: "Riverside,_California"
 }, {
     lat: "32°46′",
-    lon: "-117°09′",
+    lng: "-117°09′",
     city_wiki: "San_Diego"
 }, {
     lat: "32°31′",
-    lon: "-117°02′",
+    lng: "-117°02′",
     city_wiki: "Tijuana"
 }, {
     lat: "32°40′",
-    lon: "-115°28′",
+    lng: "-115°28′",
     city_wiki: "Mexicali"
 }, {
     lat: "36°10′",
-    lon: "-115°08′",
+    lng: "-115°08′",
     city_wiki: "Las_Vegas,_Nevada"
 }, {
     lat: "62°27′",
-    lon: "-114°24′",
+    lng: "-114°24′",
     city_wiki: "Yellowknife"
 }, {
     lat: "51°02′",
-    lon: "-114°03′",
+    lng: "-114°03′",
     city_wiki: "Calgary"
 }, {
     lat: "53°34′",
-    lon: "-113°31′",
+    lng: "-113°31′",
     city_wiki: "Edmonton"
 }, {
     lat: "33°26′",
-    lon: "-112°04′",
+    lng: "-112°04′",
     city_wiki: "Phoenix,_Arizona"
 }, {
     lat: "40°45′",
-    lon: "-111°53′",
+    lng: "-111°53′",
     city_wiki: "Salt_Lake_City"
 }, {
     lat: "32°12′",
-    lon: "-110°55′",
+    lng: "-110°55′",
     city_wiki: "Tucson,_Arizona"
 }, {
     lat: "27°09′",
-    lon: "-109°26′",
+    lng: "-109°26′",
     city_wiki: "Hanga_Roa"
 }, {
     lat: "52°07′",
-    lon: "-106°39′",
+    lng: "-106°39′",
     city_wiki: "Saskatoon"
 }, {
     lat: "35°06′",
-    lon: "-106°36′",
+    lng: "-106°36′",
     city_wiki: "Albuquerque,_New_Mexico"
 }, {
     lat: "31°47′",
-    lon: "-106°25′",
+    lng: "-106°25′",
     city_wiki: "El_Paso,_Texas"
 }, {
     lat: "28°06′",
-    lon: "-106°0′",
+    lng: "-106°0′",
     city_wiki: "Chihuahua,_Chihuahua"
 }, {
     lat: "39°44′",
-    lon: "-104°59′",
+    lng: "-104°59′",
     city_wiki: "Denver"
 }, {
     lat: "24°01′",
-    lon: "-104°40′",
+    lng: "-104°40′",
     city_wiki: "Durango,_Durango"
 }, {
     lat: "50°26′",
-    lon: "-104°37′",
+    lng: "-104°37′",
     city_wiki: "Regina,_Saskatchewan"
 }, {
     lat: "20°46′",
-    lon: "-103°24′",
+    lng: "-103°24′",
     city_wiki: "Zapopan,_Jalisco"
 }, {
     lat: "20°40′",
-    lon: "-103°21′",
+    lng: "-103°21′",
     city_wiki: "Guadalajara,_Jalisco"
 }, {
     lat: "25°40′",
-    lon: "-100°18′",
+    lng: "-100°18′",
     city_wiki: "Monterrey"
 }, {
     lat: "19°24′",
-    lon: "-99°07′",
+    lng: "-99°07′",
     city_wiki: "Mexico_City"
 }, {
     lat: "29°32′",
-    lon: "-98°28′",
+    lng: "-98°28′",
     city_wiki: "San_Antonio"
 }, {
     lat: "19°03′",
-    lon: "-98°12′",
+    lng: "-98°12′",
     city_wiki: "Puebla,_Puebla"
 }, {
     lat: "30°16′",
-    lon: "-97°46′",
+    lng: "-97°46′",
     city_wiki: "Austin,_Texas"
 }, {
     lat: "35°28′",
-    lon: "-97°32′",
+    lng: "-97°32′",
     city_wiki: "Oklahoma_City"
 }, {
     lat: "37°41′",
-    lon: "-97°20′",
+    lng: "-97°20′",
     city_wiki: "Wichita,_Kansas"
 }, {
     lat: "49°54′",
-    lon: "-97°08′",
+    lng: "-97°08′",
     city_wiki: "Winnipeg"
 }, {
     lat: "32°46′",
-    lon: "-96°48′",
+    lng: "-96°48′",
     city_wiki: "Dallas"
 }, {
     lat: "19°11′",
-    lon: "-96°08′",
+    lng: "-96°08′",
     city_wiki: "Veracruz,_Veracruz"
 }, {
     lat: "29°45′",
-    lon: "-95°22′",
+    lng: "-95°22′",
     city_wiki: "Houston"
 }, {
     lat: "39°06′",
-    lon: "-94°34′",
+    lng: "-94°34′",
     city_wiki: "Kansas_City,_Missouri"
 }, {
     lat: "44°58′",
-    lon: "-93°15′",
+    lng: "-93°15′",
     city_wiki: "Minneapolis"
 }, {
     lat: "14°50′",
-    lon: "-91°31′",
+    lng: "-91°31′",
     city_wiki: "Quetzaltenango"
 }, {
     lat: "14°38′",
-    lon: "-90°33′",
+    lng: "-90°33′",
     city_wiki: "Guatemala_City"
 }, {
     lat: "38°37′",
-    lon: "-90°11′",
+    lng: "-90°11′",
     city_wiki: "St._Louis,_Missouri"
 }, {
     lat: "29°58′",
-    lon: "-90°04′",
+    lng: "-90°04′",
     city_wiki: "New_Orleans"
 }, {
     lat: "35°07′",
-    lon: "-89°58′",
+    lng: "-89°58′",
     city_wiki: "Memphis,_Tennessee"
 }, {
     lat: "20°58′",
-    lon: "-89°37′",
+    lng: "-89°37′",
     city_wiki: "M%C3%A9rida,_Yucat%C3%A1n"
 }, {
     lat: "13°41′",
-    lon: "-89°11′",
+    lng: "-89°11′",
     city_wiki: "San_Salvador"
 }, {
     lat: "17°15′",
-    lon: "-88°46′",
+    lng: "-88°46′",
     city_wiki: "Belmopan"
 }, {
     lat: "17°29′",
-    lon: "-88°11′",
+    lng: "-88°11′",
     city_wiki: "Belize_City"
 }, {
     lat: "47°03′",
-    lon: "-87°57′",
+    lng: "-87°57′",
     city_wiki: "Milwaukee"
 }, {
     lat: "41°52′",
-    lon: "-87°37′",
+    lng: "-87°37′",
     city_wiki: "Chicago"
 }, {
     lat: "14°05′",
-    lon: "-87°13′",
+    lng: "-87°13′",
     city_wiki: "Tegucigalpa"
 }, {
     lat: "36°10′",
-    lon: "-86°47′",
+    lng: "-86°47′",
     city_wiki: "Nashville,_Tennessee"
 }, {
     lat: "12°08′",
-    lon: "-86°15′",
+    lng: "-86°15′",
     city_wiki: "Managua"
 }, {
     lat: "39°47′",
-    lon: "-86°09′",
+    lng: "-86°09′",
     city_wiki: "Indianapolis"
 }, {
     lat: "38°15′",
-    lon: "-85°45′",
+    lng: "-85°45′",
     city_wiki: "Louisville,_Kentucky"
 }, {
     lat: "39°08′",
-    lon: "-84°30′",
+    lng: "-84°30′",
     city_wiki: "Cincinnati"
 }, {
     lat: "33°45′",
-    lon: "-84°23′",
+    lng: "-84°23′",
     city_wiki: "Atlanta"
 }, {
     lat: "9°56′",
-    lon: "-84°05′",
+    lng: "-84°05′",
     city_wiki: "San_Jos%C3%A9,_Costa_Rica"
 }, {
     lat: "42°20′",
-    lon: "-83°03′",
+    lng: "-83°03′",
     city_wiki: "Detroit"
 }, {
     lat: "39°59′",
-    lon: "-82°59′",
+    lng: "-82°59′",
     city_wiki: "Columbus,_Ohio"
 }, {
     lat: "27°58′",
-    lon: "-82°28′",
+    lng: "-82°28′",
     city_wiki: "Tampa,_Florida"
 }, {
     lat: "23°08′",
-    lon: "-82°23′",
+    lng: "-82°23′",
     city_wiki: "Havana"
 }, {
     lat: "41°29′",
-    lon: "-81°40′",
+    lng: "-81°40′",
     city_wiki: "Cleveland"
 }, {
     lat: "30°19′",
-    lon: "-81°39′",
+    lng: "-81°39′",
     city_wiki: "Jacksonville,_Florida"
 }, {
     lat: "19°18′",
-    lon: "-81°23′",
+    lng: "-81°23′",
     city_wiki: "George_Town,_Cayman_Islands"
 }, {
     lat: "35°12′",
-    lon: "-80°49′",
+    lng: "-80°49′",
     city_wiki: "Charlotte,_North_Carolina"
 }, {
     lat: "25°47′",
-    lon: "-80°13′",
+    lng: "-80°13′",
     city_wiki: "Miami"
 }, {
     lat: "40°26′",
-    lon: "-79°58′",
+    lng: "-79°58′",
     city_wiki: "Pittsburgh"
 }, {
     lat: "2°11′",
-    lon: "-79°53′",
+    lng: "-79°53′",
     city_wiki: "Guayaquil"
 }, {
     lat: "8°59′",
-    lon: "-79°31′",
+    lng: "-79°31′",
     city_wiki: "Panama_City"
 }, {
     lat: "43°39′",
-    lon: "-79°23′",
+    lng: "-79°23′",
     city_wiki: "Toronto"
 }, {
     lat: "42°54′",
-    lon: "-78°51′",
+    lng: "-78°51′",
     city_wiki: "Buffalo,_New_York"
 }, {
     lat: "35°49′",
-    lon: "-78°38′",
+    lng: "-78°38′",
     city_wiki: "Raleigh,_North_Carolina"
 }, {
     lat: "00°15′",
-    lon: "-78°35′",
+    lng: "-78°35′",
     city_wiki: "Quito"
 }, {
     lat: "43°09′",
-    lon: "-77°36′",
+    lng: "-77°36′",
     city_wiki: "Rochester,_New_York"
 }, {
     lat: "25°03′",
-    lon: "-77°20′",
+    lng: "-77°20′",
     city_wiki: "Nassau,_Bahamas"
 }, {
     lat: "38°53′",
-    lon: "-77°02′",
+    lng: "-77°02′",
     city_wiki: "Washington,_D.C."
 }, {
     lat: "-12°02′",
-    lon: "-77°01′",
+    lng: "-77°01′",
     city_wiki: "Lima"
 }, {
     lat: "17°59′",
-    lon: "-76°48′",
+    lng: "-76°48′",
     city_wiki: "Kingston,_Jamaica"
 }, {
     lat: "39°17′",
-    lon: "-76°37′",
+    lng: "-76°37′",
     city_wiki: "Baltimore"
 }, {
     lat: "3°25′",
-    lon: "-76°31′",
+    lng: "-76°31′",
     city_wiki: "Cali"
 }, {
     lat: "36°51′",
-    lon: "-75°59′",
+    lng: "-75°59′",
     city_wiki: "Virginia_Beach"
 }, {
     lat: "20°01′",
-    lon: "-75°48′",
+    lng: "-75°48′",
     city_wiki: "Santiago_de_Cuba"
 }, {
     lat: "45°25′",
-    lon: "-75°41′",
+    lng: "-75°41′",
     city_wiki: "Ottawa"
 }, {
     lat: "6°14′",
-    lon: "-75°34′",
+    lng: "-75°34′",
     city_wiki: "Medell%C3%ADn"
 }, {
     lat: "10°24′",
-    lon: "-75°30′",
+    lng: "-75°30′",
     city_wiki: "Cartagena,_Colombia"
 }, {
     lat: "39°57′",
-    lon: "-75°10′",
+    lng: "-75°10′",
     city_wiki: "Philadelphia"
 }, {
     lat: "10°57′",
-    lon: "-74°47′",
+    lng: "-74°47′",
     city_wiki: "Barranquilla",
-    lat: "39*49'",
-    lon: "-74°11'",
+}, {
+    lat: "39°49′",
+    lng: "-74°11′",
     city_wiki: "Forked_River"
 }, {
     lat: "41°26′",
-    lon: "-74°08′",
+    lng: "-74°08′",
     city_wiki: "Jersey_City,_New_Jersey"
 }, {
     lat: "4°36′",
-    lon: "-74°04′",
+    lng: "-74°04′",
     city_wiki: "Bogot%C3%A1"
 }, {
     lat: "40°43′",
-    lon: "-74°00′",
+    lng: "-74°00′",
     city_wiki: "New_York_City"
 }, {
     lat: "45°30′",
-    lon: "-73°33′",
+    lng: "-73°33′",
     city_wiki: "Montreal"
 }, {
     lat: "-3°44′",
-    lon: "-73°15′",
+    lng: "-73°15′",
     city_wiki: "Iquitos"
 }, {
     lat: "-39°49′",
-    lon: "-73°14′",
+    lng: "-73°14′",
     city_wiki: "Valdivia,_Chile"
 }, {
     lat: "-36°50′",
-    lon: "-73°03′",
+    lng: "-73°03′",
     city_wiki: "Concepci%C3%B3n,_Chile"
 }, {
     lat: "18°32′",
-    lon: "-72°20′",
+    lng: "-72°20′",
     city_wiki: "Port-au-Prince"
 }, {
     lat: "-13°30′",
-    lon: "-71°58′",
+    lng: "-71°58′",
     city_wiki: "Cusco"
 }, {
     lat: "-10°39′",
-    lon: "-71°38′",
+    lng: "-71°38′",
     city_wiki: "Maracaibo"
 }, {
     lat: "-33°03′",
-    lon: "-71°37′",
+    lng: "-71°37′",
     city_wiki: "Valpara%C3%ADso"
 }, {
     lat: "-16°24′",
-    lon: "-71°32′",
+    lng: "-71°32′",
     city_wiki: "Arequipa"
 }, {
     lat: "41°49′",
-    lon: "-71°25′",
+    lng: "-71°25′",
     city_wiki: "Providence,_Rhode_Island"
 }, {
     lat: "-41°09′",
-    lon: "-71°18′",
+    lng: "-71°18′",
     city_wiki: "San_Carlos_de_Bariloche"
 }, {
     lat: "-29°54′",
-    lon: "-71°15′",
+    lng: "-71°15′",
     city_wiki: "La_Serena,_Chile"
 }, {
     lat: "46°48′",
-    lon: "-71°13′",
+    lng: "-71°13′",
     city_wiki: "Quebec_City"
 }, {
     lat: "21°27′",
-    lon: "-71°08′",
+    lng: "-71°08′",
     city_wiki: "Cockburn_Town"
 }, {
     lat: "42°21′",
-    lon: "-71°03′",
+    lng: "-71°03′",
     city_wiki: "Boston"
 }, {
     lat: "-53°10′",
-    lon: "-70°56′",
+    lng: "-70°56′",
     city_wiki: "Punta_Arenas,_Chile"
 }, {
     lat: "-33°27′",
-    lon: "-70°40′",
+    lng: "-70°40′",
     city_wiki: "Santiago,_Chile"
 }, {
     lat: "-23°39′",
-    lon: "-70°24′",
+    lng: "-70°24′",
     city_wiki: "Antofagasta"
 }, {
     lat: "-20°13′",
-    lon: "-70°09′",
+    lng: "-70°09′",
     city_wiki: "Iquique"
 }, {
     lat: "12°31′",
-    lon: "-70°02′",
+    lng: "-70°02′",
     city_wiki: "Oranjestad,_Aruba"
 }, {
     lat: "18°29′",
-    lon: "-69°55′",
+    lng: "-69°55′",
     city_wiki: "Santo_Domingo"
 }, {
-    lat: "-10°07'",
-    lon: "-69°21'",
+    lat: "-10°07′",
+    lng: "-69°21′",
     city_wiki: "Rio_Branco"
 }, {
     lat: "12°07′",
-    lon: "-68°56′",
+    lng: "-68°56′",
     city_wiki: "Willemstad"
 }, {
     lat: "-22°28′",
-    lon: "-68°56′",
+    lng: "-68°56′",
     city_wiki: "Calama,_Chile"
 }, {
     lat: "-32°53′",
-    lon: "-68°49′",
+    lng: "-68°49′",
     city_wiki: "Mendoza,_Argentina"
 }, {
     lat: "63°45′",
-    lon: "-68°31′",
+    lng: "-68°31′",
     city_wiki: "Iqaluit"
 }, {
     lat: "-54°48′",
-    lon: "-68°18′",
+    lng: "-68°18′",
     city_wiki: "Ushuaia"
 }, {
     lat: "-16°30′",
-    lon: "-68°09′",
+    lng: "-68°09′",
     city_wiki: "La_Paz"
 }, {
     lat: "54°56′",
-    lon: "-67°37′",
+    lng: "-67°37′",
     city_wiki: "Puerto_Williams"
 }, {
     lat: "10°30′",
-    lon: "-66°55′",
+    lng: "-66°55′",
     city_wiki: "Caracas"
 }, {
     lat: "45°57′",
-    lon: "-66°40′",
+    lng: "-66°40′",
     city_wiki: "Fredericton"
 }, {
     lat: "18°27′",
-    lon: "-66°04′",
+    lng: "-66°04′",
     city_wiki: "San_Juan,_Puerto_Rico"
 }, {
     lat: "45°16′",
-    lon: "-66°03′",
+    lng: "-66°03′",
     city_wiki: "Saint_John,_New_Brunswick"
 }, {
     lat: "-19°02′",
-    lon: "-65°15′",
+    lng: "-65°15′",
     city_wiki: "Sucre"
 }, {
     lat: "-18°21′",
-    lon: "-64°57′",
+    lng: "-64°57′",
     city_wiki: "Charlotte_Amalie,_United_States_Virgin_Islands"
 }, {
     lat: "32°17′",
-    lon: "-64°47′",
+    lng: "-64°47′",
     city_wiki: "Hamilton,_Bermuda"
 }, {
     lat: "18°26′",
-    lon: "-64°37′",
+    lng: "-64°37′",
     city_wiki: "Road_Town"
 }, {
     lat: "-31°24′",
-    lon: "-64°11′",
+    lng: "-64°11′",
     city_wiki: "C%C3%B3rdoba,_Argentina"
 }, {
-    lat: "-8°45'",
-    lon: "-63°54'",
+    lat: "-8°45′",
+    lng: "-63°54′",
     city_wiki: "Porto_Velho"
 }, {
     lat: "44°40′",
-    lon: "-63°36′",
+    lng: "-63°36′",
     city_wiki: "City_of_Halifax"
 }, {
     lat: "-17°48′",
-    lon: "-63°10′",
+    lng: "-63°10′",
     city_wiki: "Santa_Cruz_de_la_Sierra"
 }, {
     lat: "46°14′",
-    lon: "-63°08′",
+    lng: "-63°08′",
     city_wiki: "Charlottetown"
 }, {
     lat: "18°13′",
-    lon: "-63°03′",
+    lng: "-63°03′",
     city_wiki: "The_Valley,_Anguilla"
 }, {
     lat: "16°50′",
-    lon: "-62°40′",
+    lng: "-62°40′",
     city_wiki: "Basseterre"
 }, {
     lat: "-38°43′",
-    lon: "-62°16′",
+    lng: "-62°16′",
     city_wiki: "Bah%C3%ADa_Blanca"
 }, {
     lat: "17°07′",
-    lon: "-61°51′",
+    lng: "-61°51′",
     city_wiki: "St._John%27s,_Antigua_and_Barbuda"
 }, {
     lat: "12°03′",
-    lon: "-61°45′",
+    lng: "-61°45′",
     city_wiki: "St._George%27s,_Grenada"
 }, {
     lat: "15°59′",
-    lon: "-61°43′",
+    lng: "-61°43′",
     city_wiki: "Basse-Terre"
 }, {
     lat: "10°40′",
-    lon: "-61°31′",
+    lng: "-61°31′",
     city_wiki: "Port_of_Spain"
 }, {
     lat: "10°17′",
-    lon: "-61°28′",
+    lng: "-61°28′",
     city_wiki: "San_Fernando,_Trinidad_and_Tobago"
 }, {
     lat: "15°18′",
-    lon: "-61°23′",
+    lng: "-61°23′",
     city_wiki: "Roseau"
 }, {
     lat: "10°30′",
-    lon: "-61°23′",
+    lng: "-61°23′",
     city_wiki: "Chaguanas"
 }, {
     lat: "13°10′",
-    lon: "-61°14′",
+    lng: "-61°14′",
     city_wiki: "Kingstown"
 }, {
     lat: "14°36′",
-    lon: "-61°05′",
+    lng: "-61°05′",
     city_wiki: "Fort-de-France"
 }, {
     lat: "14°01′",
-    lon: "-60°59′",
+    lng: "-60°59′",
     city_wiki: "Castries"
 }, {
     lat: "-32°57′",
-    lon: "-60°40′",
+    lng: "-60°40′",
     city_wiki: "Rosario,_Santa_Fe"
 }, {
-    lat: "2°49'",
-    lon: "-60°39'",
+    lat: "2°49′",
+    lng: "-60°39′",
     city_wiki: "Boa_Vista,_Roraima"
 }, {
     lat: "-3°06′",
-    lon: "-60°01′",
+    lng: "-60°01′",
     city_wiki: "Manaus"
 }, {
     lat: "13°05′",
-    lon: "-59°37′",
+    lng: "-59°37′",
     city_wiki: "Bridgetown"
 }, {
     lat: "-34°36′",
-    lon: "-58°22′",
+    lng: "-58°22′",
     city_wiki: "Buenos_Aires"
 }, {
     lat: "-6°48′",
-    lon: "-58°10′",
+    lng: "-58°10′",
     city_wiki: "Georgetown,_Guyana"
 }, {
     lat: "51°41′",
-    lon: "-57°51′",
+    lng: "-57°51′",
     city_wiki: "Stanley,_Falkland_Islands"
 }, {
     lat: "-25°16′",
-    lon: "-57°40′",
+    lng: "-57°40′",
     city_wiki: "Asunci%C3%B3n"
 }, {
     lat: "46°46′",
-    lon: "-56°10′",
+    lng: "-56°10′",
     city_wiki: "Saint-Pierre,_Saint_Pierre_and_Miquelon"
 }, {
     lat: "-34°55′",
-    lon: "-56°10′",
+    lng: "-56°10′",
     city_wiki: "Montevideo"
 }, {
-    lat: "-15°35'",
-    lon: "-56°05'",
+    lat: "-15°35′",
+    lng: "-56°05′",
     city_wiki: "Cuiab%C3%A1"
 }, {
     lat: "5°52′",
-    lon: "-55°10′",
+    lng: "-55°10′",
     city_wiki: "Paramaribo"
 }, {
-    lat: "-20°26'",
-    lon: "-54°38'",
+    lat: "-20°26′",
+    lng: "-54°38′",
     city_wiki: "Campo_Grande"
 }, {
     lat: "-25°25′",
-    lon: "-54°37′",
+    lng: "-54°37′",
     city_wiki: "Ciudad_del_Este"
 }, {
     lat: "-33°41′",
-    lon: "-53°27′",
+    lng: "-53°27′",
     city_wiki: "Chu%C3%AD"
 }, {
     lat: "47°33′",
-    lon: "-52°42′",
+    lng: "-52°42′",
     city_wiki: "St._John%27s,_Newfoundland_and_Labrador"
 }, {
     lat: "-31°46′",
-    lon: "-52°20′",
+    lng: "-52°20′",
     city_wiki: "Pelotas"
 }, {
     lat: "4°55′",
-    lon: "-52°19′",
+    lng: "-52°19′",
     city_wiki: "Cayenne"
 }, {
     lat: "64°10′",
-    lon: "-51°45′",
+    lng: "-51°45′",
     city_wiki: "Nuuk"
 }, {
     lat: "30°02′",
-    lon: "-51°13′",
+    lng: "-51°13′",
     city_wiki: "Porto_Alegre"
 }, {
-    lat: "0°02'",
-    lon: "-51°03'",
+    lat: "0°02′",
+    lng: "-51°03′",
     city_wiki: "Macap%C3%A1"
 }, {
     lat: "-22°39′",
-    lon: "-50°24′",
+    lng: "-50°24′",
     city_wiki: "Assis"
 }, {
     lat: "-25°25′",
-    lon: "-49°15′",
+    lng: "-49°15′",
     city_wiki: "Curitiba"
 }, {
     lat: "1°28′",
-    lon: "-48°29′",
+    lng: "-48°29′",
     city_wiki: "Bel%C3%A9m"
 }, {
     lat: "-15°48′",
-    lon: "-47°54′",
+    lng: "-47°54′",
     city_wiki: "Bras%C3%ADlia"
 }, {
     lat: "-22°54′",
-    lon: "-47°03′",
+    lng: "-47°03′",
     city_wiki: "Campinas"
 }, {
     lat: "-23°33′",
-    lon: "-46°38′",
+    lng: "-46°38′",
     city_wiki: "S%C3%A3o_Paulo"
 }, {
     lat: "-23°11′",
-    lon: "-45°52′",
+    lng: "-45°52′",
     city_wiki: "S%C3%A3o_Jos%C3%A9_dos_Campos"
 }, {
     lat: "-22°54′",
-    lon: "-43°14′",
+    lng: "-43°14′",
     city_wiki: "Rio_de_Janeiro"
 }, {
     lat: "-20°19′",
-    lon: "-40°20′",
+    lng: "-40°20′",
     city_wiki: "Vit%C3%B3ria,_Brazil"
 }, {
-    lat: "-14º47′",
-    lon: "-39º03′",
+    lat: "-14°47′",
+    lng: "-39°03′",
     city_wiki: "Ilh%C3%A9us"
 }, {
-    lat: "-3º46′",
-    lon: "-38º34′",
+    lat: "-3°46′",
+    lng: "-38°34′",
     city_wiki: "Fortaleza"
 }, {
-    lat: "-9º39′",
-    lon: "-35º43′",
+    lat: "-9°39′",
+    lng: "-35°43′",
     city_wiki: "Macei%C3%B3"
 }, {
     lat: "-8°04′",
-    lon: "-34°52′",
+    lng: "-34°52′",
     city_wiki: "Recife"
 }, {
-    lat: "38º32′",
-    lon: "-28º38′",
+    lat: "38°32′",
+    lng: "-28°38′",
     city_wiki: "Horta_(Azores)"
 }, {
-    lat: "38º39′",
-    lon: "-27º13′",
+    lat: "38°39′",
+    lng: "-27°13′",
     city_wiki: "Angra_do_Hero%C3%ADsmo"
 }, {
-    lat: "37º44′",
-    lon: "-25º40′",
+    lat: "37°44′",
+    lng: "-25°40′",
     city_wiki: "Ponta_Delgada,_S%C3%A3o_Miguel_Island"
 }, {
     lat: "14°55′",
-    lon: "-23°31′",
+    lng: "-23°31′",
     city_wiki: "Praia"
 }, {
-    lat: "64º08′",
-    lon: "-21º56′",
+    lat: "64°08′",
+    lng: "-21°56′",
     city_wiki: "Reykjav%C3%ADk"
 }, {
-    lat: "14º41′",
-    lon: "-17º26′",
+    lat: "14°41′",
+    lng: "-17°26′",
     city_wiki: "Dakar"
 }, {
-    lat: "14º50′",
-    lon: "-17º06′",
+    lat: "14°50′",
+    lng: "-17°06′",
     city_wiki: "Thi%C3%A8s"
 }, {
-    lat: "13º26′",
-    lon: "-16º40′",
+    lat: "13°26′",
+    lng: "-16°40′",
     city_wiki: "Serekunda"
 }, {
-    lat: "13º16′",
-    lon: "-16º39′",
+    lat: "13°16′",
+    lng: "-16°39′",
     city_wiki: "Brikama"
 }, {
-    lat: "13º27′",
-    lon: "-16º34′",
+    lat: "13°27′",
+    lng: "-16°34′",
     city_wiki: "Banjul"
 }, {
-    lat: "28º28′",
-    lon: "-16º15′",
+    lat: "28°28′",
+    lng: "-16°15′",
     city_wiki: "Santa_Cruz_de_Tenerife"
 }, {
-    lat: "18º06′",
-    lon: "-15º57′",
+    lat: "18°06′",
+    lng: "-15°57′",
     city_wiki: "Nouakchott"
 }, {
-    lat: "11º51′",
-    lon: "-15º35′",
+    lat: "11°51′",
+    lng: "-15°35′",
     city_wiki: "Bissau"
 }, {
-    lat: "28º8′",
-    lon: "-15º26′",
+    lat: "28°8′",
+    lng: "-15°26′",
     city_wiki: "Las_Palmas_de_Gran_Canaria"
 }, {
     lat: "9°31′",
-    lon: "-13°42′",
+    lng: "-13°42′",
     city_wiki: "Conakry"
 }, {
     lat: "8°28′",
-    lon: "-13°16′",
+    lng: "-13°16′",
     city_wiki: "Freetown"
 }, {
-    lat: "27º9′",
-    lon: "-13º12′",
+    lat: "27°9′",
+    lng: "-13°12′",
     city_wiki: "El_Aai%C3%BAn"
 }, {
-    lat: "6º19′",
-    lon: "-10º46′",
+    lat: "6°19′",
+    lng: "-10°46′",
     city_wiki: "Monrovia"
 }, {
-    lat: "38º42′",
-    lon: "-9º11′",
+    lat: "38°42′",
+    lng: "-9°11′",
     city_wiki: "Lisbon"
 }, {
-    lat: "41º9′",
-    lon: "-8º38′",
+    lat: "41°9′",
+    lng: "-8°38′",
     city_wiki: "Porto"
 }, {
-    lat: "51º53′",
-    lon: "-8º28′",
+    lat: "51°53′",
+    lng: "-8°28′",
     city_wiki: "Cork_(city)"
 }, {
-    lat: "31º38′",
-    lon: "-8º0′",
+    lat: "31°38′",
+    lng: "-8°0′",
     city_wiki: "Marrakech"
 }, {
-    lat: "12º39′",
-    lon: "-8º0′",
+    lat: "12°39′",
+    lng: "-8°0′",
     city_wiki: "Bamako"
 }, {
-    lat: "33º32′",
-    lon: "-7º35′",
+    lat: "33°32′",
+    lng: "-7°35′",
     city_wiki: "Casablanca"
 }, {
-    lat: "12º59′",
-    lon: "-7º34′",
+    lat: "12°59′",
+    lng: "-7°34′",
     city_wiki: "Koulikoro"
 }, {
-    lat: "34º02′",
-    lon: "-6º50′",
+    lat: "34°02′",
+    lng: "-6°50′",
     city_wiki: "Rabat"
 }, {
     lat: "62°0′",
-    lon: "-6°47′",
+    lng: "-6°47′",
     city_wiki: "T%C3%B3rshavn"
 }, {
-    lat: "53º20′",
-    lon: "-6º16′",
+    lat: "53°20′",
+    lng: "-6°16′",
     city_wiki: "Dublin"
 }, {
-    lat: "37º22′",
-    lon: "-5º59′",
+    lat: "37°22′",
+    lng: "-5°59′",
     city_wiki: "Seville"
 }, {
-    lat: "54º36′",
-    lon: "-5º55′",
+    lat: "54°36′",
+    lng: "-5°55′",
     city_wiki: "Belfast"
 }, {
     lat: "-15°55′",
-    lon: "-5°44′W﻿",
+    lng: "-5°44′W﻿",
     city_wiki: "Jamestown,_Saint_Helena"
 }, {
     lat: "36°08′",
-    lon: "-5°21′",
+    lng: "-5°21′",
     city_wiki: "Gibraltar"
 }, {
     lat: "6°49′",
-    lon: "-5°17′",
+    lng: "-5°17′",
     city_wiki: "Yamoussoukro"
 }, {
     lat: "54°08′",
-    lon: "-4°29′",
+    lng: "-4°29′",
     city_wiki: "Douglas,_Isle_of_Man"
 }, {
-    lat: "36º43′",
-    lon: "-4º25′",
+    lat: "36°43′",
+    lng: "-4°25′",
     city_wiki: "M%C3%A1laga"
 }, {
-    lat: "55º51′",
-    lon: "-4º15′",
+    lat: "55°51′",
+    lng: "-4°15′",
     city_wiki: "Glasgow"
 }, {
-    lat: "5º20′",
-    lon: "-4º01′",
+    lat: "5°20′",
+    lng: "-4°01′",
     city_wiki: "Abidjan"
 }, {
-    lat: "40º24′",
-    lon: "-3º41′",
+    lat: "40°24′",
+    lng: "-3°41′",
     city_wiki: "Madrid"
 }, {
-    lat: "51º29′",
-    lon: "-3º11′",
+    lat: "51°29′",
+    lng: "-3°11′",
     city_wiki: "Cardiff"
 }, {
-    lat: "55º57′",
-    lon: "-3º09′",
+    lat: "55°57′",
+    lng: "-3°09′",
     city_wiki: "Edinburgh"
 }, {
     lat: "16°46′",
-    lon: "-3°00′",
+    lng: "-3°00′",
     city_wiki: "Timbuktu"
 }, {
-    lat: "53º24′",
-    lon: "-2º59′",
+    lat: "53°24′",
+    lng: "-2°59′",
     city_wiki: "Liverpool"
 }, {
-    lat: "43º15′",
-    lon: "-2º55′",
+    lat: "43°15′",
+    lng: "-2°55′",
     city_wiki: "Bilbao"
 }, {
-    lat: "53º28′",
-    lon: "-2º14′",
+    lat: "53°28′",
+    lng: "-2°14′",
     city_wiki: "Manchester"
 }, {
-    lat: "57º09′",
-    lon: "-2º06′",
+    lat: "57°09′",
+    lng: "-2°06′",
     city_wiki: "Aberdeen"
 }, {
-    lat: "52º29′",
-    lon: "-1º53′",
+    lat: "52°29′",
+    lng: "-1°53′",
     city_wiki: "Birmingham"
 }, {
-    lat: "53º48′",
-    lon: "-1º33′",
+    lat: "53°48′",
+    lng: "-1°33′",
     city_wiki: "Leeds"
 }, {
     lat: "47°13′",
-    lon: "-1′33″",
+    lng: "-1°33′",
     city_wiki: "Nantes"
 }, {
-    lat: "12º21′",
-    lon: "-1º32′",
+    lat: "12°21′",
+    lng: "-1°32′",
     city_wiki: "Ouagadougou"
 }, {
     lat: "9°24′",
-    lon: "-0°51′",
+    lng: "-0°51′",
     city_wiki: "Tamale,_Ghana"
 }, {
-    lat: "39º29′",
-    lon: "-0º22′",
+    lat: "39°29′",
+    lng: "-0°22′",
     city_wiki: "Valencia,_Spain"
 }, {
-    lat: "5º33′",
-    lon: "-0º12′",
+    lat: "5°33′",
+    lng: "-0°12′",
     city_wiki: "Accra"
 }, {
-    lat: "51º30′",
-    lon: "-0º07′",
+    lat: "51°30′",
+    lng: "-0°07′",
     city_wiki: "London"
 }, {
-    lat: "51º28′",
-    lon: "-0º0′",
+    lat: "51°28′",
+    lng: "-0°0′",
     city_wiki: "Greenwich"
 }, {
     lat: "6°08′",
-    lon: "1°12′",
+    lng: "1°12′",
     city_wiki: "Lom%C3%A9"
 }, {
     lat: "43°36′",
-    lon: "1°26′",
+    lng: "1°26′",
     city_wiki: "Toulouse"
 }, {
     lat: "42°30′",
-    lon: "1°30′",
+    lng: "1°30′",
     city_wiki: "Andorra_la_Vella"
 }, {
-    lat: "38.98°",
-    lon: "1.43°",
+    lat: "38°58′",
+    lng: "1°25′",
     city_wiki: "Ibiza"
 }, {
     lat: "13°31′",
-    lon: "2°6′",
+    lng: "2°6′",
     city_wiki: "Niamey"
 }, {
     lat: "41°23′",
-    lon: "2°11′",
+    lng: "2°11′",
     city_wiki: "Barcelona"
 }, {
     lat: "48°52′",
-    lon: "2°20′",
+    lng: "2°20′",
     city_wiki: "Paris"
 }, {
     lat: "6°21′",
-    lon: "2°25′",
+    lng: "2°25′",
     city_wiki: "Cotonou"
 }, {
     lat: "6°30′",
-    lon: "2°36′",
+    lng: "2°36′",
     city_wiki: "Porto-Novo"
 }, {
     lat: "39°34′",
-    lon: "2°39′",
+    lng: "2°39′",
     city_wiki: "Palma,_Majorca"
 }, {
     lat: "36°42′",
-    lon: "3°13′",
+    lng: "3°13′",
     city_wiki: "Algiers"
 }, {
     lat: "6°27′",
-    lon: "3°23′",
+    lng: "3°23′",
     city_wiki: "Lagos"
 }, {
     lat: "7°22′",
-    lon: "3°53′",
+    lng: "3°53′",
     city_wiki: "Ibadan"
 }, {
     lat: "52°4′",
-    lon: "4°18′",
+    lng: "4°18′",
     city_wiki: "The_Hague"
 }, {
     lat: "50°50′",
-    lon: "4°21′",
+    lng: "4°21′",
     city_wiki: "Brussels"
 }, {
     lat: "51°13′",
-    lon: "4°24′",
+    lng: "4°24′",
     city_wiki: "Antwerp"
 }, {
     lat: "51°56′",
-    lon: "4°28′",
+    lng: "4°28′",
     city_wiki: "Rotterdam"
 }, {
     lat: "45°46′",
-    lon: "4°50′",
+    lng: "4°50′",
     city_wiki: "Lyon"
 }, {
     lat: "52°22′",
-    lon: "4°53′",
+    lng: "4°53′",
     city_wiki: "Amsterdam"
 }, {
     lat: "43°18′",
-    lon: "5°22′",
+    lng: "5°22′",
     city_wiki: "Marseille"
 }, {
     lat: "60°22′",
-    lon: "5°24′",
+    lng: "5°24′",
     city_wiki: "Bergen"
 }, {
     lat: "49°36′",
-    lon: "6°07′",
+    lng: "6°07′",
     city_wiki: "Luxembourg_(city)"
 }, {
     lat: "46°12′",
-    lon: "6°09′",
+    lng: "6°09′",
     city_wiki: "Geneva"
 }, {
     lat: "0°20′",
-    lon: "6°41′",
+    lng: "6°41′",
     city_wiki: "S%C3%A3o_Tom%C3%A9"
 }, {
     lat: "51°14′",
-    lon: "6°47′",
+    lng: "6°47′",
     city_wiki: "D%C3%BCsseldorf"
 }, {
     lat: "50°57′",
-    lon: "6°58′",
+    lng: "6°58′",
     city_wiki: "Cologne"
 }, {
     lat: "43°33′",
-    lon: "7°00′",
+    lng: "7°00′",
     city_wiki: "Cannes"
 }, {
     lat: "43°42′",
-    lon: "7°16′",
+    lng: "7°16′",
     city_wiki: "Nice"
 }, {
     lat: "43°44′",
-    lon: "7°24′",
+    lng: "7°24′",
     city_wiki: "Monaco"
 }, {
     lat: "46°57′",
-    lon: "7°27′",
+    lng: "7°27′",
     city_wiki: "Bern"
 }, {
     lat: "9°04′",
-    lon: "7°29′",
+    lng: "7°29′",
     city_wiki: "Abuja"
 }, {
     lat: "6°27′",
-    lon: "7°30′",
+    lng: "7°30′",
     city_wiki: "Enugu"
 }, {
     lat: "45°04′",
-    lon: "7°42′",
+    lng: "7°42′",
     city_wiki: "Turin"
 }, {
     lat: "48°35′",
-    lon: "7°45′",
+    lng: "7°45′",
     city_wiki: "Strasbourg"
 }, {
     lat: "12°00′",
-    lon: "8°31′",
+    lng: "8°31′",
     city_wiki: "Kano"
 }, {
     lat: "47°22′",
-    lon: "8°33′",
+    lng: "8°33′",
     city_wiki: "Z%C3%BCrich"
 }, {
     lat: "50°06′",
-    lon: "8°41′",
+    lng: "8°41′",
     city_wiki: "Frankfurt"
 }, {
     lat: "3°45′",
-    lon: "8°46′",
+    lng: "8°46′",
     city_wiki: "Malabo"
 }, {
     lat: "48°46′",
-    lon: "9°10′",
+    lng: "9°10′",
     city_wiki: "Stuttgart"
 }, {
     lat: "45°28′",
-    lon: "9°11′",
+    lng: "9°11′",
     city_wiki: "Milan"
 }, {
     lat: "0°23′",
-    lon: "9°27′",
+    lng: "9°27′",
     city_wiki: "Libreville"
 }, {
     lat: "47°08′",
-    lon: "9°31′",
+    lng: "9°31′",
     city_wiki: "Vaduz"
 }, {
     lat: "4°03′",
-    lon: "9°42′",
+    lng: "9°42′",
     city_wiki: "Douala"
 }, {
     lat: "52°22′",
-    lon: "9°43′",
+    lng: "9°43′",
     city_wiki: "Hanover"
 }, {
     lat: "53°35′",
-    lon: "9°59′",
+    lng: "9°59′",
     city_wiki: "Hamburg"
 }, {
     lat: "36°48′",
-    lon: "10°10′",
+    lng: "10°10′",
     city_wiki: "Tunis"
 }, {
     lat: "56°9′",
-    lon: "10°12′",
+    lng: "10°12′",
     city_wiki: "Aarhus"
 }, {
     lat: "59°57′",
-    lon: "10°45′",
+    lng: "10°45′",
     city_wiki: "Oslo"
 }, {
     lat: "47°16′",
-    lon: "11°23′",
+    lng: "11°23′",
     city_wiki: "Innsbruck"
 }, {
     lat: "3°52′",
-    lon: "11°31′",
+    lng: "11°31′",
     city_wiki: "Yaound%C3%A9"
 }, {
     lat: "48°08′",
-    lon: "11°34′",
+    lng: "11°34′",
     city_wiki: "Munich"
 }, {
     lat: "57°42′",
-    lon: "11°58′",
+    lng: "11°58′",
     city_wiki: "Gothenburg"
 }, {
     lat: "51°20′",
-    lon: "12°23′",
+    lng: "12°23′",
     city_wiki: "Leipzig"
 }, {
     lat: "43°56′",
-    lon: "12°26′",
+    lng: "12°26′",
     city_wiki: "City_of_San_Marino"
 }, {
     lat: "41°54′",
-    lon: "12°27′",
+    lng: "12°27′",
     city_wiki: "Vatican_City"
 }, {
     lat: "41°54′",
-    lon: "12°30′",
+    lng: "12°30′",
     city_wiki: "Rome"
 }, {
     lat: "55°40′",
-    lon: "12°34′",
+    lng: "12°34′",
     city_wiki: "Copenhagen"
 }, {
     lat: "55°35′",
-    lon: "13°02′",
+    lng: "13°02′",
     city_wiki: "Malm%C3%B6"
 }, {
     lat: "47°48′",
-    lon: "13°02′",
+    lng: "13°02′",
     city_wiki: "Salzburg"
 }, {
     lat: "32°54′",
-    lon: "13°11′",
+    lng: "13°11′",
     city_wiki: "Tripoli"
 }, {
     lat: "-8°50′",
-    lon: "13°14′",
+    lng: "13°14′",
     city_wiki: "Luanda"
 }, {
     lat: "52°31′",
-    lon: "13°25′",
+    lng: "13°25′",
     city_wiki: "Berlin"
 }, {
     lat: "51°03′",
-    lon: "13°44′",
+    lng: "13°44′",
     city_wiki: "Dresden"
 }, {
     lat: "40°50′",
-    lon: "14°15′",
+    lng: "14°15′",
     city_wiki: "Naples"
 }, {
     lat: "48°18′",
-    lon: "14°17′",
+    lng: "14°17′",
     city_wiki: "Linz"
 }, {
     lat: "50°05′",
-    lon: "14°25′",
+    lng: "14°25′",
     city_wiki: "Prague"
 }, {
     lat: "27°02′",
-    lon: "14°26′",
+    lng: "14°26′",
     city_wiki: "Sabha,_Libya"
 }, {
     lat: "35°53′",
-    lon: "14°27′",
+    lng: "14°27′",
     city_wiki: "Birkirkara"
 }, {
     lat: "46°4′",
-    lon: "14°30′",
+    lng: "14°30′",
     city_wiki: "Ljubljana"
 }, {
     lat: "35°54′",
-    lon: "14°30′",
+    lng: "14°30′",
     city_wiki: "Valletta"
 }, {
     lat: "12°6′",
-    lon: "15°3′",
+    lng: "15°3′",
     city_wiki: "N%27Djamena"
 }, {
     lat: "-4°16′",
-    lon: "15°17′",
+    lng: "15°17′",
     city_wiki: "Brazzaville"
 }, {
     lat: "-4°19′",
-    lon: "15°19′",
+    lng: "15°19′",
     city_wiki: "Kinshasa"
 }, {
     lat: "47°04′",
-    lon: "15°26′",
+    lng: "15°26′",
     city_wiki: "Graz"
 }, {
     lat: "78°13′",
-    lon: "15°33′",
+    lng: "15°33′",
     city_wiki: "Longyearbyen"
 }, {
     lat: "45°49′",
-    lon: "15°59′",
+    lng: "15°59′",
     city_wiki: "Zagreb"
 }, {
     lat: "48°12′",
-    lon: "16°22′",
+    lng: "16°22′",
     city_wiki: "Vienna"
 }, {
     lat: "43°30′",
-    lon: "16°26′",
+    lng: "16°26′",
     city_wiki: "Split_(city)"
 }, {
     lat: "48°08′",
-    lon: "17°06′",
+    lng: "17°06′",
     city_wiki: "Bratislava"
 }, {
     lat: "59°21′",
-    lon: "18°4′",
+    lng: "18°4′",
     city_wiki: "Stockholm"
 }, {
     lat: "43°51′",
-    lon: "18°21′",
+    lng: "18°21′",
     city_wiki: "Sarajevo"
 }, {
     lat: "-33°55′",
-    lon: "18°25′",
+    lng: "18°25′",
     city_wiki: "Cape_Town"
 }, {
     lat: "4°21′",
-    lon: "18°35′",
+    lng: "18°35′",
     city_wiki: "Bangui"
 }, {
     lat: "54°21′",
-    lon: "18°40′",
+    lng: "18°40′",
     city_wiki: "Gda%C5%84sk"
 }, {
     lat: "47°28′",
-    lon: "19°03′",
+    lng: "19°03′",
     city_wiki: "Budapest"
 }, {
     lat: "42°28′",
-    lon: "19°16′",
+    lng: "19°16′",
     city_wiki: "Podgorica"
 }, {
     lat: "41°19′",
-    lon: "19°49′",
+    lng: "19°49′",
     city_wiki: "Tirana"
 }, {
     lat: "50°3′",
-    lon: "19°56′",
+    lng: "19°56′",
     city_wiki: "Krak%C3%B3w"
 }, {
     lat: "44°49′",
-    lon: "20°27′",
+    lng: "20°27′",
     city_wiki: "Belgrade"
 }, {
     lat: "54°43′",
-    lon: "20°31′",
+    lng: "20°31′",
     city_wiki: "Kaliningrad"
 }, {
     lat: "52°14′",
-    lon: "21°00′",
+    lng: "21°00′",
     city_wiki: "Warsaw"
 }, {
     lat: "42°40′",
-    lon: "21°10′",
+    lng: "21°10′",
     city_wiki: "Pristina"
 }, {
     lat: "42°0′",
-    lon: "21°26′",
+    lng: "21°26′",
     city_wiki: "Skopje"
 }, {
     lat: "40°38′",
-    lon: "22°57′",
+    lng: "22°57′",
     city_wiki: "Thessaloniki"
 }, {
     lat: "42°42′",
-    lon: "23°20′",
+    lng: "23°20′",
     city_wiki: "Sofia"
 }, {
     lat: "37°58′",
-    lon: "23°43′",
+    lng: "23°43′",
     city_wiki: "Athens"
 }, {
     lat: "61°30′",
-    lon: "23°45′",
+    lng: "23°45′",
     city_wiki: "Tampere"
 }, {
     lat: "49°51′",
-    lon: "24°01′",
+    lng: "24°01′",
     city_wiki: "Lviv"
 }, {
     lat: "56°58′",
-    lon: "24°08′",
+    lng: "24°08′",
     city_wiki: "Riga"
 }, {
     lat: "60°12′",
-    lon: "24°39′",
+    lng: "24°39′",
     city_wiki: "Espoo"
 }, {
     lat: "59°26′",
-    lon: "24°45′",
+    lng: "24°45′",
     city_wiki: "Tallinn"
 }, {
     lat: "60°10′",
-    lon: "24°56′",
+    lng: "24°56′",
     city_wiki: "Helsinki"
 }, {
     lat: "54°41′",
-    lon: "25°17′",
+    lng: "25°17′",
     city_wiki: "Vilnius"
 }, {
     lat: "-33°57′",
-    lon: "25°36′",
+    lng: "25°36′",
     city_wiki: "Port_Elizabeth"
 }, {
     lat: "-17°51′",
-    lon: "25°52′",
+    lng: "25°52′",
     city_wiki: "Livingstone,_Zambia"
 }, {
     lat: "-24°39′",
-    lon: "25°54′",
+    lng: "25°54′",
     city_wiki: "Gaborone"
 }, {
     lat: "44°26′",
-    lon: "26°06′",
+    lng: "26°06′",
     city_wiki: "Bucharest"
 }, {
     lat: "-29°06′",
-    lon: "26°13′",
+    lng: "26°13′",
     city_wiki: "Bloemfontein"
 }, {
     lat: "58°23′",
-    lon: "26°43′",
+    lng: "26°43′",
     city_wiki: "Tartu"
 }, {
     lat: "38°26′",
-    lon: "27°09′",
+    lng: "27°09′",
     city_wiki: "%C4%B0zmir"
 }, {
     lat: "-11°40′",
-    lon: "27°28′",
+    lng: "27°28′",
     city_wiki: "Lubumbashi"
 }, {
     lat: "-29°18′",
-    lon: "27°28′",
+    lng: "27°28′",
     city_wiki: "Maseru"
 }, {
     lat: "-21°10′",
-    lon: "27°30′",
+    lng: "27°30′",
     city_wiki: "Francistown"
 }, {
     lat: "53°54′",
-    lon: "27°34′",
+    lng: "27°34′",
     city_wiki: "Minsk"
 }, {
     lat: "-26°12′",
-    lon: "28°02′",
+    lng: "28°02′",
     city_wiki: "Johannesburg"
 }, {
     lat: "-25°44′",
-    lon: "28°11′",
+    lng: "28°11′",
     city_wiki: "Pretoria"
 }, {
     lat: "-15°25′",
-    lon: "28°17′",
+    lng: "28°17′",
     city_wiki: "Lusaka"
 }, {
     lat: "-12°58′",
-    lon: "28°38′",
+    lng: "28°38′",
     city_wiki: "Ndola"
 }, {
     lat: "-20°10′",
-    lon: "28°34′",
+    lng: "28°34′",
     city_wiki: "Bulawayo"
 }, {
     lat: "47°0′",
-    lon: "28°52′",
+    lng: "28°52′",
     city_wiki: "Chi%C5%9Fin%C4%83u"
 }, {
     lat: "41°0′",
-    lon: "28°58′",
+    lng: "28°58′",
     city_wiki: "Istanbul"
 }, {
     lat: "40°11′",
-    lon: "29°04′",
+    lng: "29°04′",
     city_wiki: "Bursa"
 }, {
     lat: "-3°23′",
-    lon: "29°22′",
+    lng: "29°22′",
     city_wiki: "Bujumbura"
 }, {
     lat: "46°51′",
-    lon: "29°38′",
+    lng: "29°38′",
     city_wiki: "Tiraspol"
 }, {
     lat: "31°12′",
-    lon: "29°55′",
+    lng: "29°55′",
     city_wiki: "Alexandria"
 }, {
     lat: "-1°56′",
-    lon: "30°03′",
+    lng: "30°03′",
     city_wiki: "Kigali"
 }, {
     lat: "59°56′",
-    lon: "30°20′",
+    lng: "30°20′",
     city_wiki: "Saint_Petersburg"
 }, {
     lat: "50°27′",
-    lon: "30°31′",
+    lng: "30°31′",
     city_wiki: "Kiev"
 }, {
     lat: "46°28′",
-    lon: "30°44′",
+    lng: "30°44′",
     city_wiki: "Odessa"
 }, {
     lat: "-17°49′",
-    lon: "31°03′",
+    lng: "31°03′",
     city_wiki: "Harare"
 }, {
     lat: "-29°53′",
-    lon: "31°03′",
+    lng: "31°03′",
     city_wiki: "Durban"
 }, {
     lat: "-26°19′",
-    lon: "31°08′",
+    lng: "31°08′",
     city_wiki: "Mbabane"
 }, {
     lat: "-26°28′",
-    lon: "31°12′",
+    lng: "31°12′",
     city_wiki: "Lobamba"
 }, {
     lat: "30°03′",
-    lon: "31°13′",
+    lng: "31°13′",
     city_wiki: "Cairo"
 }, {
     lat: "-26°29′",
-    lon: "31°22′",
+    lng: "31°22′",
     city_wiki: "Manzini,_Swaziland"
 }, {
     lat: "31°15′",
-    lon: "32°17′",
+    lng: "32°17′",
     city_wiki: "Port_Said"
 }, {
     lat: "37°52′",
-    lon: "32°29′",
+    lng: "32°29′",
     city_wiki: "Konya"
 }, {
     lat: "15°39′",
-    lon: "32°29′",
+    lng: "32°29′",
     city_wiki: "Omdurman"
 }, {
     lat: "15°38′",
-    lon: "32°32′",
+    lng: "32°32′",
     city_wiki: "Khartoum"
 }, {
     lat: "29°58′",
-    lon: "32°33′",
+    lng: "32°33′",
     city_wiki: "Suez"
 }, {
     lat: "-25°58′",
-    lon: "32°35′",
+    lng: "32°35′",
     city_wiki: "Maputo"
 }, {
     lat: "25°41′",
-    lon: "32°39′",
+    lng: "32°39′",
     city_wiki: "Luxor"
 }, {
     lat: "39°52′",
-    lon: "32°50′",
+    lng: "32°50′",
     city_wiki: "Ankara"
 }, {
     lat: "-2°31′",
-    lon: "32°54′",
+    lng: "32°54′",
     city_wiki: "Mwanza"
 }, {
     lat: "68°58′",
-    lon: "33°05′",
+    lng: "33°05′",
     city_wiki: "Murmansk"
 }, {
     lat: "35°10′",
-    lon: "33°21′",
+    lng: "33°21′",
     city_wiki: "Nicosia"
 }, {
     lat: "-13°59′",
-    lon: "33°47′",
+    lng: "33°47′",
     city_wiki: "Lilongwe"
 }, {
     lat: "44°57′",
-    lon: "34°06′",
+    lng: "34°06′",
     city_wiki: "Simferopol"
 }, {
     lat: "31°31′",
-    lon: "34°27′",
+    lng: "34°27′",
     city_wiki: "Gaza"
 }, {
     lat: "36°48′",
-    lon: "34°38′",
+    lng: "34°38′",
     city_wiki: "Mersin"
 }, {
     lat: "32°05′",
-    lon: "34°48′",
+    lng: "34°48′",
     city_wiki: "Tel_Aviv"
 }, {
     lat: "-15°47′",
-    lon: "35°0′",
+    lng: "35°0′",
     city_wiki: "Blantyre,_Malawi"
 }, {
     lat: "31°47′",
-    lon: "35°13′",
+    lng: "35°13′",
     city_wiki: "Jerusalem"
 }, {
     lat: "37°0′",
-    lon: "35°19′",
+    lng: "35°19′",
     city_wiki: "Adana"
 }, {
     lat: "33°53′",
-    lon: "35°30′",
+    lng: "35°30′",
     city_wiki: "Beirut"
 }, {
     lat: "-6°10′",
-    lon: "35°44′",
+    lng: "35°44′",
     city_wiki: "Dodoma"
 }, {
     lat: "31°57′",
-    lon: "35°56′",
+    lng: "35°56′",
     city_wiki: "Amman"
 }, {
     lat: "33°30′",
-    lon: "36°17′",
+    lng: "36°17′",
     city_wiki: "Damascus"
 }, {
     lat: "49°55′",
-    lon: "36°19′",
+    lng: "36°19′",
     city_wiki: "Kharkiv"
 }, {
     lat: "-1°17′",
-    lon: "36°49′",
+    lng: "36°49′",
     city_wiki: "Nairobi"
 }, {
     lat: "37°04′",
-    lon: "37°23′",
+    lng: "37°23′",
     city_wiki: "Gaziantep"
 }, {
     lat: "55°45′",
-    lon: "37°36′",
+    lng: "37°36′",
     city_wiki: "Moscow"
 }, {
     lat: "9°01′",
-    lon: "38°44′",
+    lng: "38°44′",
     city_wiki: "Addis_Ababa"
 }, {
     lat: "15°20′",
-    lon: "38°56′",
+    lng: "38°56′",
     city_wiki: "Asmara"
 }, {
     lat: "21°32′",
-    lon: "39°10′",
+    lng: "39°10′",
     city_wiki: "Jeddah"
 }, {
     lat: "-6°10′",
-    lon: "39°12′",
+    lng: "39°12′",
     city_wiki: "Zanzibar_City"
 }, {
     lat: "-6°49′",
-    lon: "39°16′",
+    lng: "39°16′",
     city_wiki: "Dar_es_Salaam"
 }, {
     lat: "24°28′",
-    lon: "39°36′",
+    lng: "39°36′",
     city_wiki: "Medina"
 }, {
     lat: "21°25′",
-    lon: "39°49′",
+    lng: "39°49′",
     city_wiki: "Mecca"
 }, {
     lat: "43°00′",
-    lon: "41°01′",
+    lng: "41°01′",
     city_wiki: "Sukhumi"
 }, {
     lat: "11°35′",
-    lon: "43°08′",
+    lng: "43°08′",
     city_wiki: "Djibouti_(city)"
 }, {
     lat: "-11°45′",
-    lon: "43°12′",
+    lng: "43°12′",
     city_wiki: "Moroni,_Comoros"
 }, {
     lat: "42°14′",
-    lon: "43°58′",
+    lng: "43°58′",
     city_wiki: "Tskhinvali"
 }, {
     lat: "15°21′",
-    lon: "44°12′",
+    lng: "44°12′",
     city_wiki: "Sana%27a"
 }, {
     lat: "33°19′",
-    lon: "44°25′",
+    lng: "44°25′",
     city_wiki: "Baghdad"
 }, {
     lat: "56°20′",
-    lon: "44°0′",
+    lng: "44°0′",
     city_wiki: "Nizhny_Novgorod"
 }, {
     lat: "9°30′",
-    lon: "44°0′",
+    lng: "44°0′",
     city_wiki: "Hargeisa"
 }, {
     lat: "36°20′",
-    lon: "44°01′",
+    lng: "44°01′",
     city_wiki: "Arbil"
 }, {
     lat: "40°11′",
-    lon: "44°31′",
+    lng: "44°31′",
     city_wiki: "Yerevan"
 }, {
     lat: "41°43′",
-    lon: "44°47′",
+    lng: "44°47′",
     city_wiki: "Tbilisi"
 }, {
     lat: "-12°47′",
-    lon: "45°13′",
+    lng: "45°13′",
     city_wiki: "Mamoudzou"
 }, {
     lat: "2°02′",
-    lon: "45°21′",
+    lng: "45°21′",
     city_wiki: "Mogadishu"
 }, {
     lat: "38°05′",
-    lon: "46°17′",
+    lng: "46°17′",
     city_wiki: "Tabriz"
 }, {
     lat: "24°42′",
-    lon: "46°43′",
+    lng: "46°43′",
     city_wiki: "Riyadh"
 }, {
     lat: "39°49′",
-    lon: "46°45′",
+    lng: "46°45′",
     city_wiki: "Stepanakert"
 }, {
     lat: "-18°56′",
-    lon: "47°31′",
+    lng: "47°31′",
     city_wiki: "Antananarivo"
 }, {
     lat: "30°30′",
-    lon: "47°49′",
+    lng: "47°49′",
     city_wiki: "Basra"
 }, {
     lat: "29°22′",
-    lon: "47°58′",
+    lng: "47°58′",
     city_wiki: "Kuwait_City"
 }, {
     lat: "40°22′",
-    lon: "49°53′",
+    lng: "49°53′",
     city_wiki: "Baku"
 }, {
     lat: "26°26′",
-    lon: "50°07′",
+    lng: "50°07′",
     city_wiki: "Dammam"
 }, {
     lat: "53°14′",
-    lon: "50°10′",
+    lng: "50°10′",
     city_wiki: "Samara,_Russia"
 }, {
     lat: "26°13′",
-    lon: "50°35′",
+    lng: "50°35′",
     city_wiki: "Manama"
 }, {
     lat: "35°41′",
-    lon: "51°25′",
+    lng: "51°25′",
     city_wiki: "Tehran"
 }, {
     lat: "25°17′",
-    lon: "51°32′",
+    lng: "51°32′",
     city_wiki: "Doha"
 }, {
     lat: "24°28′",
-    lon: "54°22′",
+    lng: "54°22′",
     city_wiki: "Abu_Dhabi"
 }, {
     lat: "25°16′",
-    lon: "55°18′",
+    lng: "55°18′",
     city_wiki: "Dubai"
 }, {
     lat: "-4°37′",
-    lon: "55°27′",
+    lng: "55°27′",
     city_wiki: "Victoria,_Seychelles"
 }, {
     lat: "-20°52′",
-    lon: "55°27′",
+    lng: "55°27′",
     city_wiki: "Saint-Denis,_R%C3%A9union"
 }, {
     lat: "58°0′",
-    lon: "56°19′",
+    lng: "56°19′",
     city_wiki: "Perm"
 }, {
     lat: "-20°10′",
-    lon: "57°30′",
+    lng: "57°30′",
     city_wiki: "Port_Louis"
 }, {
     lat: "37°58′",
-    lon: "58°20′",
+    lng: "58°20′",
     city_wiki: "Ashgabat"
 }, {
     lat: "23°36′",
-    lon: "58°32′",
+    lng: "58°32′",
     city_wiki: "Muscat,_Oman"
 }, {
     lat: "42°28′",
-    lon: "59°36′",
+    lng: "59°36′",
     city_wiki: "Nukus"
 }, {
     lat: "36°18′",
-    lon: "59°36′",
+    lng: "59°36′",
     city_wiki: "Mashhad"
 }, {
     lat: "56°50′",
-    lon: "60°35′",
+    lng: "60°35′",
     city_wiki: "Yekaterinburg"
 }, {
     lat: "31°37′",
-    lon: "65°43′",
+    lng: "65°43′",
     city_wiki: "Kandahar"
 }, {
     lat: "24°51′",
-    lon: "67°00′",
+    lng: "67°00′",
     city_wiki: "Karachi"
 }, {
     lat: "25°22′",
-    lon: "68°22′",
+    lng: "68°22′",
     city_wiki: "Hyderabad,_Sindh"
 }, {
     lat: "38°32′",
-    lon: "68°46′",
+    lng: "68°46′",
     city_wiki: "Dushanbe"
 }, {
     lat: "34°32′",
-    lon: "69°10′",
+    lng: "69°10′",
     city_wiki: "Kabul"
 }, {
     lat: "41°16′",
-    lon: "69°13′",
+    lng: "69°13′",
     city_wiki: "Tashkent"
 }, {
     lat: "51°11′",
-    lon: "71°27′",
+    lng: "71°27′",
     city_wiki: "Astana"
 }, {
     lat: "30°12′",
-    lon: "71°27′",
+    lng: "71°27′",
     city_wiki: "Multan"
 }, {
     lat: "34°00′",
-    lon: "71°30′",
+    lng: "71°30′",
     city_wiki: "Peshawar"
 }, {
     lat: "40°98′",
-    lon: "71°58′",
+    lng: "71°58′",
     city_wiki: "Namangan"
 }, {
     lat: "23°01′",
-    lon: "72°34′",
+    lng: "72°34′",
     city_wiki: "Ahmedabad"
 }, {
     lat: "18°57′",
-    lon: "72°49′",
+    lng: "72°49′",
     city_wiki: "Mumbai"
 }, {
     lat: "21°10′",
-    lon: "72°49′",
+    lng: "72°49′",
     city_wiki: "Surat,_Gujarat"
 }, {
     lat: "31°22′",
-    lon: "72°59′",
+    lng: "72°59′",
     city_wiki: "Faisalabad"
 }, {
     lat: "33°36′",
-    lon: "73°02′",
+    lng: "73°02′",
     city_wiki: "Rawalpindi"
 }, {
     lat: "33°43′",
-    lon: "73°04′",
+    lng: "73°04′",
     city_wiki: "Islamabad"
 }, {
     lat: "54°59′",
-    lon: "73°22′",
+    lng: "73°22′",
     city_wiki: "Omsk"
 }, {
     lat: "4°10′",
-    lon: "73°30′",
+    lng: "73°30′",
     city_wiki: "Mal%C3%A9"
 }, {
     lat: "18°31′",
-    lon: "73°51′",
+    lng: "73°51′",
     city_wiki: "Pune"
 }, {
     lat: "31°33′",
-    lon: "74°20′",
+    lng: "74°20′",
     city_wiki: "Lahore"
 }, {
     lat: "42°52′",
-    lon: "74°36′",
+    lng: "74°36′",
     city_wiki: "Bishkek"
 }, {
     lat: "34°05′",
-    lon: "74°47′",
+    lng: "74°47′",
     city_wiki: "Srinagar"
 }, {
     lat: "31°38′",
-    lon: "74°51′",
+    lng: "74°51′",
     city_wiki: "Amritsar"
 }, {
     lat: "26°55′",
-    lon: "75°49′",
+    lng: "75°49′",
     city_wiki: "Jaipur"
 }, {
     lat: "30°54′",
-    lon: "75°51′",
+    lng: "75°51′",
     city_wiki: "Ludhiana"
 }, {
     lat: "43°16′",
-    lon: "76°53′",
+    lng: "76°53′",
     city_wiki: "Almaty"
 }, {
     lat: "28°37′",
-    lon: "77°12′",
+    lng: "77°12′",
     city_wiki: "New_Delhi"
 }, {
     lat: "12°58′",
-    lon: "77°34′",
+    lng: "77°34′",
     city_wiki: "Bangalore"
 }, {
     lat: "17°22′",
-    lon: "78°28′",
+    lng: "78°28′",
     city_wiki: "Hyderabad,_Andhra_Pradesh"
 }, {
     lat: "21°04′",
-    lon: "79°01′",
+    lng: "79°01′",
     city_wiki: "Nagpur"
 }, {
     lat: "6°53′",
-    lon: "79°52′",
+    lng: "79°52′",
     city_wiki: "Colombo"
 }, {
     lat: "6°54′",
-    lon: "79°53′",
+    lng: "79°53′",
     city_wiki: "Sri_Jayawardenapura-Kotte"
 }, {
     lat: "13°05′",
-    lon: "80°16′",
+    lng: "80°16′",
     city_wiki: "Chennai"
 }, {
     lat: "26°27′",
-    lon: "80°20′",
+    lng: "80°20′",
     city_wiki: "Kanpur"
 }, {
     lat: "7°17′",
-    lon: "80°38′",
+    lng: "80°38′",
     city_wiki: "Kandy"
 }, {
     lat: "26°51′",
-    lon: "80°55′",
+    lng: "80°55′",
     city_wiki: "Lucknow"
 }, {
     lat: "7°43′",
-    lon: "81°42′",
+    lng: "81°42′",
     city_wiki: "Batticaloa"
 }, {
     lat: "55°01′",
-    lon: "82°56′",
+    lng: "82°56′",
     city_wiki: "Novosibirsk"
 }, {
     lat: "25°36′",
-    lon: "85°08′",
+    lng: "85°08′",
     city_wiki: "Patna"
 }, {
     lat: "27°42′",
-    lon: "85°20′",
+    lng: "85°20′",
     city_wiki: "Kathmandu"
 }, {
     lat: "43°48′",
-    lon: "87°35′",
+    lng: "87°35′",
     city_wiki: "%C3%9Cr%C3%BCmqi"
 }, {
     lat: "69°21′",
-    lon: "88°12′",
+    lng: "88°12′",
     city_wiki: "Norilsk"
 }, {
     lat: "22°34′",
-    lon: "88°22′",
+    lng: "88°22′",
     city_wiki: "Kolkata"
 }, {
     lat: "27°19′",
-    lon: "88°37′",
+    lng: "88°37′",
     city_wiki: "Gangtok"
 }, {
     lat: "29°16′",
-    lon: "88°52′",
+    lng: "88°52′",
     city_wiki: "Shigatse"
 }, {
     lat: "27°28′",
-    lon: "89°38′",
+    lng: "89°38′",
     city_wiki: "Thimphu"
 }, {
     lat: "23°42′",
-    lon: "90°22′",
+    lng: "90°22′",
     city_wiki: "Dhaka"
 }, {
     lat: "29°39′",
-    lon: "91°07′",
+    lng: "91°07′",
     city_wiki: "Lhasa"
 }, {
     lat: "23°30′",
-    lon: "91°12′",
+    lng: "91°12′",
     city_wiki: "Agartala"
 }, {
     lat: "26°10′",
-    lon: "91°46′",
+    lng: "91°46′",
     city_wiki: "Guwahati"
 }, {
     lat: "22°22′",
-    lon: "91°48′",
+    lng: "91°48′",
     city_wiki: "Chittagong"
 }, {
     lat: "25°34′",
-    lon: "91°53′",
+    lng: "91°53′",
     city_wiki: "Shillong"
 }, {
     lat: "11°40′",
-    lon: "92°45′",
+    lng: "92°45′",
     city_wiki: "Port_Blair"
 }, {
     lat: "27°28′",
-    lon: "94°54′",
+    lng: "94°54′",
     city_wiki: "Dibrugarh"
 }, {
     lat: "5°33′",
-    lon: "95°19′",
+    lng: "95°19′",
     city_wiki: "Banda_Aceh"
 }, {
     lat: "19°45′",
-    lon: "96°06′",
+    lng: "96°06′",
     city_wiki: "Naypyidaw"
 }, {
     lat: "16°48′",
-    lon: "96°10′",
+    lng: "96°10′",
     city_wiki: "Yangon"
 }, {
     lat: "3°35′",
-    lon: "98°40′",
+    lng: "98°40′",
     city_wiki: "Medan"
 }, {
     lat: "7°53′",
-    lon: "98°24′",
+    lng: "98°24′",
     city_wiki: "Phuket_(city)"
 }, {
     lat: "18°47′",
-    lon: "98°59′",
+    lng: "98°59′",
     city_wiki: "Chiang_Mai"
 }, {
     lat: "9°08′",
-    lon: "99°20′",
+    lng: "99°20′",
     city_wiki: "Surat_Thani"
 }, {
     lat: "5°25′",
-    lon: "100°19′",
+    lng: "100°19′",
     city_wiki: "George_Town,_Penang"
 }, {
     lat: "-0°57′",
-    lon: "100°21′",
+    lng: "100°21′",
     city_wiki: "Padang,_Indonesia"
 }, {
     lat: "6°07′",
-    lon: "100°22′",
+    lng: "100°22′",
     city_wiki: "Alor_Star"
 }, {
     lat: "7°01′",
-    lon: "100°28′",
+    lng: "100°28′",
     city_wiki: "Hat_Yai"
 }, {
     lat: "13°45′",
-    lon: "100°29′",
+    lng: "100°29′",
     city_wiki: "Bangkok"
 }, {
     lat: "12°55′",
-    lon: "100°52′",
+    lng: "100°52′",
     city_wiki: "Pattaya"
 }, {
     lat: "4°36′",
-    lon: "101°04′",
+    lng: "101°04′",
     city_wiki: "Ipoh"
 }, {
     lat: "0°32′",
-    lon: "101°27′",
+    lng: "101°27′",
     city_wiki: "Pekanbaru"
 }, {
     lat: "56°10′",
-    lon: "101°37′",
+    lng: "101°37′",
     city_wiki: "Bratsk"
 }, {
     lat: "3°08′",
-    lon: "101°41′",
+    lng: "101°41′",
     city_wiki: "Kuala_Lumpur"
 }, {
     lat: "36°38′",
-    lon: "101°46′",
+    lng: "101°46′",
     city_wiki: "Xining"
 }, {
     lat: "14°58′",
-    lon: "102°06′",
+    lng: "102°06′",
     city_wiki: "Nakhon_Ratchasima"
 }, {
     lat: "6°08′",
-    lon: "102°15′",
+    lng: "102°15′",
     city_wiki: "Kota_Bharu"
 }, {
     lat: "2°11′",
-    lon: "102°23′",
+    lng: "102°23′",
     city_wiki: "Malacca_Town"
 }, {
     lat: "17°57′",
-    lon: "102°37′",
+    lng: "102°37′",
     city_wiki: "Vientiane"
 }, {
     lat: "25°04′",
-    lon: "102°41′",
+    lng: "102°41′",
     city_wiki: "Kunming"
 }, {
     lat: "17°25′",
-    lon: "102°45′",
+    lng: "102°45′",
     city_wiki: "Udon_Thani"
 }, {
     lat: "1°29′",
-    lon: "103°44′",
+    lng: "103°44′",
     city_wiki: "Johor_Bahru"
 }, {
     lat: "36°02′",
-    lon: "103°48′",
+    lng: "103°48′",
     city_wiki: "Lanzhou"
 }, {
     lat: "1°22′",
-    lon: "103°48′",
+    lng: "103°48′",
     city_wiki: "Singapore"
 }, {
     lat: "13°21′",
-    lon: "103°51′",
+    lng: "103°51′",
     city_wiki: "Siem_Reap"
 }, {
     lat: "30°39′",
-    lon: "104°04′",
+    lng: "104°04′",
     city_wiki: "Chengdu"
 }, {
     lat: "-2°59′",
-    lon: "104°45′",
+    lng: "104°45′",
     city_wiki: "Palembang"
 }, {
     lat: "11°33′",
-    lon: "104°55′",
+    lng: "104°55′",
     city_wiki: "Phnom_Penh"
 }, {
     lat: "21°02′",
-    lon: "105°51′",
+    lng: "105°51′",
     city_wiki: "Hanoi"
 }, {
     lat: "29°33′",
-    lon: "106°30′",
+    lng: "106°30′",
     city_wiki: "Chongqing"
 }, {
     lat: "20°51′",
-    lon: "106°41′",
+    lng: "106°41′",
     city_wiki: "Hai_Phong"
 }, {
     lat: "10°46′",
-    lon: "106°41′",
+    lng: "106°41′",
     city_wiki: "Ho_Chi_Minh_City"
 }, {
     lat: "-6°08′",
-    lon: "106°45′",
+    lng: "106°45′",
     city_wiki: "Jakarta"
 }, {
     lat: "-6°36′",
-    lon: "106°48′",
+    lng: "106°48′",
     city_wiki: "Bogor"
 }, {
     lat: "47°55′",
-    lon: "106°55′",
+    lng: "106°55′",
     city_wiki: "Ulan_Bator"
 }, {
     lat: "-6°57′",
-    lon: "107°34′",
+    lng: "107°34′",
     city_wiki: "Bandung"
 }, {
     lat: "16°28′",
-    lon: "107°36′",
+    lng: "107°36′",
     city_wiki: "Hu%E1%BA%BF"
 }, {
     lat: "16°04′",
-    lon: "108°14′",
+    lng: "108°14′",
     city_wiki: "Da_Nang"
 }, {
     lat: "22°49′",
-    lon: "108°19′",
+    lng: "108°19′",
     city_wiki: "Nanning"
 }, {
     lat: "34°16′",
-    lon: "108°54′",
+    lng: "108°54′",
     city_wiki: "Xi%27an"
 }, {
     lat: "0°0′",
-    lon: "109°20′",
+    lng: "109°20′",
     city_wiki: "Pontianak,_Indonesia"
 }, {
     lat: "1°33′",
-    lon: "110°21′",
+    lng: "110°21′",
     city_wiki: "Kuching"
 }, {
     lat: "-7°48′",
-    lon: "110°22′",
+    lng: "110°22′",
     city_wiki: "Yogyakarta_(city)"
 }, {
     lat: "-6°58′",
-    lon: "110°25′",
+    lng: "110°25′",
     city_wiki: "Semarang"
 }, {
     lat: "37°52′",
-    lon: "112°33′",
+    lng: "112°33′",
     city_wiki: "Taiyuan"
 }, {
     lat: "-7°58′",
-    lon: "112°37′",
+    lng: "112°37′",
     city_wiki: "Malang"
 }, {
     lat: "-7°14′",
-    lon: "112°44′",
+    lng: "112°44′",
     city_wiki: "Surabaya"
 }, {
     lat: "23°06′",
-    lon: "113°16′",
+    lng: "113°16′",
     city_wiki: "Guangzhou"
 }, {
     lat: "22°10′",
-    lon: "113°33′",
+    lng: "113°33′",
     city_wiki: "Macau"
 }, {
     lat: "34°45′",
-    lon: "113°38′",
+    lng: "113°38′",
     city_wiki: "Zhengzhou"
 }, {
     lat: "23°02′",
-    lon: "113°43′",
+    lng: "113°43′",
     city_wiki: "Dongguan"
 }, {
     lat: "4°23′",
-    lon: "113°58′",
+    lng: "113°58′",
     city_wiki: "Miri"
 }, {
     lat: "22°33′",
-    lon: "114°06′",
+    lng: "114°06′",
     city_wiki: "Shenzhen"
 }, {
     lat: "22°18′",
-    lon: "114°12′",
-    city_wiki: "Hong Kong"
+    lng: "114°12′",
+    city_wiki: "Hong_Kong"
 }, {
     lat: "30°34′",
-    lon: "114°16′",
+    lng: "114°16′",
     city_wiki: "Wuhan"
 }, {
     lat: "36°36′",
-    lon: "114°29′",
+    lng: "114°29′",
     city_wiki: "Handan"
 }, {
     lat: "38°02′",
-    lon: "114°30′",
+    lng: "114°30′",
     city_wiki: "Shijiazhuang"
 }, {
     lat: "4°53′",
-    lon: "114°56′",
+    lng: "114°56′",
     city_wiki: "Bandar_Seri_Begawan"
 }, {
     lat: "-8°39′",
-    lon: "115°13′",
+    lng: "115°13′",
     city_wiki: "Denpasar"
 }, {
     lat: "-32°31′",
-    lon: "115°43′",
+    lng: "115°43′",
     city_wiki: "Mandurah"
 }, {
     lat: "-31°57′",
-    lon: "115°51′",
+    lng: "115°51′",
     city_wiki: "Perth,_Western_Australia"
 }, {
     lat: "5°58′",
-    lon: "116°05′",
+    lng: "116°05′",
     city_wiki: "Kota_Kinabalu"
 }, {
     lat: "39°54′",
-    lon: "116°24′",
+    lng: "116°24′",
     city_wiki: "Beijing"
 }, {
     lat: "-1°15′",
-    lon: "116°49′",
+    lng: "116°49′",
     city_wiki: "Balikpapan"
 }, {
     lat: "36°40′",
-    lon: "116°59′",
+    lng: "116°59′",
     city_wiki: "Jinan"
 }, {
     lat: "39°08′",
-    lon: "117°11′",
+    lng: "117°11′",
     city_wiki: "Tianjin"
 }, {
     lat: "-20°18′",
-    lon: "118°36′",
+    lng: "118°36′",
     city_wiki: "Port_Hedland,_Western_Australia"
 }, {
     lat: "32°03′",
-    lon: "118°46′",
+    lng: "118°46′",
     city_wiki: "Nanjing"
 }, {
     lat: "-5°8′",
-    lon: "119°25′",
+    lng: "119°25′",
     city_wiki: "Makassar"
 }, {
     lat: "30°15′",
-    lon: "120°10′",
+    lng: "120°10′",
     city_wiki: "Hangzhou"
 }, {
     lat: "22°38′",
-    lon: "120°16′",
+    lng: "120°16′",
     city_wiki: "Kaohsiung"
 }, {
     lat: "36°05′",
-    lon: "120°20′",
+    lng: "120°20′",
     city_wiki: "Qingdao"
 }, {
     lat: "24°09′",
-    lon: "120°40′",
+    lng: "120°40′",
     city_wiki: "Taichung"
 }, {
     lat: "14°35′",
-    lon: "120°58′",
+    lng: "120°58′",
     city_wiki: "Manila"
 }, {
     lat: "14°38′",
-    lon: "121°02′",
+    lng: "121°02′",
     city_wiki: "Quezon_City"
 }, {
     lat: "14°33′",
-    lon: "121°02′",
+    lng: "121°02′",
     city_wiki: "Makati_City"
 }, {
     lat: "31°12′",
-    lon: "121°30′",
+    lng: "121°30′",
     city_wiki: "Shanghai"
 }, {
     lat: "25°02′",
-    lon: "121°38′",
+    lng: "121°38′",
     city_wiki: "Taipei"
 }, {
     lat: "39°02′",
-    lon: "121°46′",
+    lng: "121°46′",
     city_wiki: "Dalian"
 }, {
     lat: "10°41′",
-    lon: "122°33′",
+    lng: "122°33′",
     city_wiki: "Iloilo_City"
 }, {
     lat: "6°54′",
-    lon: "122°4′",
+    lng: "122°4′",
     city_wiki: "Zamboanga_City"
 }, {
     lat: "41°47′",
-    lon: "123°27′",
+    lng: "123°27′",
     city_wiki: "Shenyang"
 }, {
-    lat: "9°39'",
-    lon: "123°51'",
+    lat: "9°39′",
+    lng: "123°51′",
     city_wiki: "Tagbilaran"
 }, {
     lat: "10°17′",
-    lon: "123°54′",
+    lng: "123°54′",
     city_wiki: "Cebu_City"
 }, {
     lat: "43°53′",
-    lon: "125°19′",
+    lng: "125°19′",
     city_wiki: "Changchun"
 }, {
     lat: "-8°33′",
-    lon: "125°35′",
+    lng: "125°35′",
     city_wiki: "Dili"
 }, {
     lat: "39°02′",
-    lon: "125°45′",
+    lng: "125°45′",
     city_wiki: "Pyongyang"
 }, {
     lat: "7°30′",
-    lon: "126°0′",
+    lng: "126°0′",
     city_wiki: "Davao_City"
 }, {
     lat: "37°58′",
-    lon: "126°33′",
+    lng: "126°33′",
     city_wiki: "Kaesong"
 }, {
     lat: "45°45′",
-    lon: "126°38′",
+    lng: "126°38′",
     city_wiki: "Harbin"
 }, {
     lat: "37°29′",
-    lon: "126°38′",
+    lng: "126°38′",
     city_wiki: "Incheon"
 }, {
     lat: "37°33′",
-    lon: "126°59′",
+    lng: "126°59′",
     city_wiki: "Seoul"
 }, {
     lat: "39°09′",
-    lon: "127°26′",
+    lng: "127°26′",
     city_wiki: "Wonsan"
 }, {
     lat: "26°20′",
-    lon: "127°48′",
+    lng: "127°48′",
     city_wiki: "Okinawa,_Okinawa"
 }, {
     lat: "-3°42′",
-    lon: "128°10′",
+    lng: "128°10′",
     city_wiki: "Ambon,_Maluku"
 }, {
     lat: "35°52′",
-    lon: "128°36′",
+    lng: "128°36′",
     city_wiki: "Daegu"
 }, {
     lat: "35°06′",
-    lon: "129°02′",
+    lng: "129°02′",
     city_wiki: "Busan"
 }, {
     lat: "62°02′",
-    lon: "129°44′",
+    lng: "129°44′",
     city_wiki: "Yakutsk"
 }, {
     lat: "41°48′",
-    lon: "129°47′",
+    lng: "129°47′",
     city_wiki: "Chongjin"
 }, {
     lat: "33°35′",
-    lon: "130°24′",
+    lng: "130°24′",
     city_wiki: "Fukuoka"
 }, {
     lat: "-12°27′",
-    lon: "130°50′",
+    lng: "130°50′",
     city_wiki: "Darwin,_Northern_Territory"
 }, {
     lat: "43°08′",
-    lon: "131°54′",
+    lng: "131°54′",
     city_wiki: "Vladivostok"
 }, {
     lat: "34°23′",
-    lon: "132°27′",
+    lng: "132°27′",
     city_wiki: "Hiroshima"
 }, {
     lat: "7°21′",
-    lon: "134°28′",
+    lng: "134°28′",
     city_wiki: "Koror"
 }, {
     lat: "7°30′",
-    lon: "134°37′",
+    lng: "134°37′",
     city_wiki: "Melekeok"
 }, {
     lat: "34°41′",
-    lon: "135°12′",
+    lng: "135°12′",
     city_wiki: "Kobe"
 }, {
     lat: "34°41′",
-    lon: "135°30′",
+    lng: "135°30′",
     city_wiki: "Osaka"
 }, {
     lat: "35°01′",
-    lon: "135°46′",
+    lng: "135°46′",
     city_wiki: "Kyoto"
 }, {
     lat: "35°11′",
-    lon: "136°54′",
+    lng: "136°54′",
     city_wiki: "Nagoya"
 }, {
     lat: "-34°55′",
-    lon: "138°36′",
+    lng: "138°36′",
     city_wiki: "Adelaide"
 }, {
     lat: "35°27′",
-    lon: "139°38′",
+    lng: "139°38′",
     city_wiki: "Yokohama"
 }, {
     lat: "35°31′",
-    lon: "139°42′",
+    lng: "139°42′",
     city_wiki: "Kawasaki,_Kanagawa"
 }, {
     lat: "35°41′",
-    lon: "139°46′",
+    lng: "139°46′",
     city_wiki: "Tokyo"
 }, {
     lat: "-2°32′",
-    lon: "140°43′",
+    lng: "140°43′",
     city_wiki: "Jayapura"
 }, {
     lat: "43°04′",
-    lon: "141°21′",
+    lng: "141°21′",
     city_wiki: "Sapporo"
 }, {
     lat: "-38°09′",
-    lon: "144°21′",
+    lng: "144°21′",
     city_wiki: "Geelong"
 }, {
     lat: "13°29′",
-    lon: "144°45′",
+    lng: "144°45′",
     city_wiki: "Hag%C3%A5t%C3%B1a,_Guam"
 }, {
     lat: "13°31′",
-    lon: "144°50′",
+    lng: "144°50′",
     city_wiki: "Dededo,_Guam"
 }, {
     lat: "-37°48′",
-    lon: "144°57′",
+    lng: "144°57′",
     city_wiki: "Melbourne"
 }, {
     lat: "15°11′",
-    lon: "145°45′",
+    lng: "145°45′",
     city_wiki: "Saipan"
 }, {
     lat: "-16°55′",
-    lon: "145°46′",
+    lng: "145°46′",
     city_wiki: "Cairns"
 }, {
     lat: "-19°15′",
-    lon: "146°49′",
+    lng: "146°49′",
     city_wiki: "Townsville"
 }, {
     lat: "-9°28′",
-    lon: "147°10′",
+    lng: "147°10′",
     city_wiki: "Port_Moresby"
 }, {
     lat: "-42°53′",
-    lon: "147°19′",
+    lng: "147°19′",
     city_wiki: "Hobart"
 }, {
     lat: "-35°18′",
-    lon: "149°07′",
+    lng: "149°07′",
     city_wiki: "Canberra"
 }, {
     lat: "-23°22′",
-    lon: "150°30′",
+    lng: "150°30′",
     city_wiki: "Rockhampton"
 }, {
     lat: "59°34′",
-    lon: "150°48′",
+    lng: "150°48′",
     city_wiki: "Magadan"
 }, {
     lat: "-34°26′",
-    lon: "150°53′",
+    lng: "150°53′",
     city_wiki: "Wollongong"
 }, {
     lat: "-33°51′",
-    lon: "151°12′",
+    lng: "151°12′",
     city_wiki: "Sydney"
 }, {
     lat: "-32°55′",
-    lon: "151°45′",
+    lng: "151°45′",
     city_wiki: "Newcastle,_New_South_Wales"
 }, {
     lat: "7°27′",
-    lon: "151°51′",
+    lng: "151°51′",
     city_wiki: "Weno"
 }, {
     lat: "-27°28′",
-    lon: "153°01′",
+    lng: "153°01′",
     city_wiki: "Brisbane"
 }, {
     lat: "-28°10′",
-    lon: "153°33′",
+    lng: "153°33′",
     city_wiki: "Gold_Coast,_Queensland"
 }, {
     lat: "6°55′",
-    lon: "158°11′",
+    lng: "158°11′",
     city_wiki: "Palikir"
 }, {
     lat: "53°01′",
-    lon: "158°39′",
+    lng: "158°39′",
     city_wiki: "Petropavlovsk-Kamchatsky"
 }, {
     lat: "-9°26′",
-    lon: "159°57′",
+    lng: "159°57′",
     city_wiki: "Honiara"
 }, {
     lat: "-22°16′",
-    lon: "166°27′",
+    lng: "166°27′",
     city_wiki: "Noum%C3%A9a"
 }, {
     lat: "-0°33′",
-    lon: "166°55′",
+    lng: "166°55′",
     city_wiki: "Yaren_District"
 }, {
     lat: "-29°04′",
-    lon: "167°58′",
+    lng: "167°58′",
     city_wiki: "Kingston,_Norfolk_Island"
 }, {
     lat: "-17°45′",
-    lon: "168°18′",
+    lng: "168°18′",
     city_wiki: "Port_Vila"
 }, {
     lat: "-46°25′",
-    lon: "168°18′",
+    lng: "168°18′",
     city_wiki: "Invercargill"
 }, {
     lat: "-45°52′",
-    lon: "170°30′",
+    lng: "170°30′",
     city_wiki: "Dunedin"
 }, {
     lat: "7°04′",
-    lon: "171°16′",
+    lng: "171°16′",
     city_wiki: "Majuro"
 }, {
     lat: "-43°32′",
-    lon: "172°37′",
+    lng: "172°37′",
     city_wiki: "Christchurch"
 }, {
     lat: "1°19′",
-    lon: "172°59′",
+    lng: "172°59′",
     city_wiki: "South_Tarawa"
 }, {
     lat: "-41°17′",
-    lon: "174°46′",
+    lng: "174°46′",
     city_wiki: "Wellington"
 }, {
     lat: "-36°51′",
-    lon: "174°47′",
+    lng: "174°47′",
     city_wiki: "Auckland"
 }, {
     lat: "-37°47′",
-    lon: "175°17′",
+    lng: "175°17′",
     city_wiki: "Hamilton,_New_Zealand"
 }, {
     lat: "-13°17′",
-    lon: "176°11′",
+    lng: "176°11′",
     city_wiki: "Mata-Utu"
 }, {
     lat: "64°44′",
-    lon: "177°30′",
+    lng: "177°30′",
     city_wiki: "Anadyr_(town)"
 }, {
     lat: "-18°08′",
-    lon: "178°26′",
+    lng: "178°26′",
     city_wiki: "Suva"
 }, {
     lat: "-8°31′",
-    lon: "179°13′",
+    lng: "179°13′",
     city_wiki: "Funafuti"
 }, {
     lat: "-16°26′",
-    lon: "179°22′",
+    lng: "179°22′",
     city_wiki: "Labasa"
 }, {
     lat: "-9°23′",
-    lon: "179°51′",
+    lng: "179°51′",
     city_wiki: "Nukulaelae"
 }];
 

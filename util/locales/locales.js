@@ -4,3962 +4,3962 @@ const LOCALES = [{
     id: 0,
     city: "Adak",
     country: "United States",
-    lat: "51°53′",
-    lon: "-176°38′"
+    lat: "51.883",
+    lng: "-176.633"
 }, {
     id: 1,
     city: "Apia",
     country: "Samoa",
-    lat: "-13°50′",
-    lon: "-171°50′"
+    lat: "-13.833",
+    lng: "-171.833"
 }, {
     id: 2,
     city: "Pago Pago",
     country: "United States",
-    lat: "-14°16′",
-    lon: "-170°42′"
+    lat: "-14.267",
+    lng: "-170.700"
 }, {
     id: 3,
     city: "Alofi",
     country: "Niue",
-    lat: "-19°03′",
-    lon: "-169°55′"
+    lat: "-19.050",
+    lng: "-169.917"
 }, {
     id: 4,
     city: "Avarua",
     country: "Cook Islands",
-    lat: "-21°12′",
-    lon: "-159°46′"
+    lat: "-21.200",
+    lng: "-159.767"
 }, {
     id: 5,
     city: "Honolulu",
     country: "United States",
-    lat: "21°18′",
-    lon: "-157°49′"
+    lat: "21.300",
+    lng: "-157.817"
 }, {
     id: 6,
     city: "Hilo",
     country: "United States",
-    lat: "19°42′",
-    lon: "-155°06′"
+    lat: "19.700",
+    lng: "-155.100"
 }, {
     id: 7,
     city: "Anchorage",
     country: "United States",
-    lat: "61°13′",
-    lon: "-149°53′"
+    lat: "61.217",
+    lng: "-149.883"
 }, {
     id: 8,
     city: "Papeete",
     country: "French Polynesia",
-    lat: "-17°32′",
-    lon: "-149°34′"
+    lat: "-17.533",
+    lng: "-149.567"
 }, {
     id: 9,
     city: "Fairbanks",
     country: "United States",
-    lat: "64°50′",
-    lon: "-147°42′"
+    lat: "64.833",
+    lng: "-147.700"
 }, {
     id: 10,
     city: "Sitka",
     country: "United States",
-    lat: "57°03′",
-    lon: "-135°19′"
+    lat: "57.050",
+    lng: "-135.317"
 }, {
     id: 11,
     city: "Whitehorse",
     country: "Canada",
-    lat: "60°43′",
-    lon: "-135°03′"
+    lat: "60.717",
+    lng: "-135.050"
 }, {
     id: 12,
     city: "Juneau",
     country: "United States",
-    lat: "58°21′",
-    lon: "-134°30′"
+    lat: "58.350",
+    lng: "-134.500"
 }, {
     id: 13,
     city: "Adamstown",
     country: "United States",
-    lat: "-25°04′",
-    lon: "-130°06′"
+    lat: "-25.067",
+    lng: "-130.100"
 }, {
     id: 14,
     city: "Vancouver",
     country: "Canada",
-    lat: "49°15′",
-    lon: "-123°06′"
+    lat: "49.250",
+    lng: "-123.100"
 }, {
     id: 15,
     city: "Portland",
     country: "United States",
-    lat: "45°31′",
-    lon: "-122°40′"
+    lat: "45.517",
+    lng: "-122.667"
 }, {
     id: 16,
     city: "San Francisco",
     country: "United States",
-    lat: "37°46′",
-    lon: "-122°25′"
+    lat: "37.767",
+    lng: "-122.417"
 }, {
     id: 17,
     city: "Seattle",
     country: "United States",
-    lat: "47°36′",
-    lon: "-122°19′"
+    lat: "47.600",
+    lng: "-122.317"
 }, {
     id: 18,
     city: "Sacramento",
     country: "United States",
-    lat: "38°33′",
-    lon: "-121°28′"
+    lat: "38.550",
+    lng: "-121.467"
 }, {
     id: 19,
     city: "Los Angeles",
     country: "United States",
-    lat: "34°03′",
-    lon: "-118°15′"
+    lat: "34.050",
+    lng: "-118.250"
 }, {
     id: 20,
     city: "Riverside",
     country: "United States",
-    lat: "33°56′",
-    lon: "-117°23′"
+    lat: "33.933",
+    lng: "-117.383"
 }, {
     id: 21,
     city: "San Diego",
     country: "United States",
-    lat: "32°46′",
-    lon: "-117°09′"
+    lat: "32.767",
+    lng: "-117.150"
 }, {
     id: 22,
     city: "Tijuana",
     country: "Mexico",
-    lat: "32°31′",
-    lon: "-117°02′"
+    lat: "32.517",
+    lng: "-117.033"
 }, {
     id: 23,
     city: "Mexicali",
     country: "Mexico",
-    lat: "32°40′",
-    lon: "-115°28′"
+    lat: "32.667",
+    lng: "-115.467"
 }, {
     id: 24,
     city: "Las Vegas",
     country: "United States",
-    lat: "36°10′",
-    lon: "-115°08′"
+    lat: "36.167",
+    lng: "-115.133"
 }, {
     id: 25,
     city: "Yellowknife",
     country: "Canada",
-    lat: "62°27′",
-    lon: "-114°24′"
+    lat: "62.450",
+    lng: "-114.400"
 }, {
     id: 26,
     city: "Calgary",
     country: "Canada",
-    lat: "51°02′",
-    lon: "-114°03′"
+    lat: "51.033",
+    lng: "-114.050"
 }, {
     id: 27,
     city: "Edmonton",
     country: "Canada",
-    lat: "53°34′",
-    lon: "-113°31′"
+    lat: "53.567",
+    lng: "-113.517"
 }, {
     id: 28,
     city: "Phoenix",
     country: "United States",
-    lat: "33°26′",
-    lon: "-112°04′"
+    lat: "33.433",
+    lng: "-112.067"
 }, {
     id: 29,
     city: "Salt Lake City",
     country: "United States",
-    lat: "40°45′",
-    lon: "-111°53′"
+    lat: "40.750",
+    lng: "-111.883"
 }, {
     id: 30,
     city: "Tucson",
     country: "United States",
-    lat: "32°12′",
-    lon: "-110°55′"
+    lat: "32.200",
+    lng: "-110.917"
 }, {
     id: 31,
     city: "Hanga Roa",
     country: "Chile",
-    lat: "27°09′",
-    lon: "-109°26′"
+    lat: "27.150",
+    lng: "-109.433"
 }, {
     id: 32,
     city: "Saskatoon",
     country: "Canada",
-    lat: "52°07′",
-    lon: "-106°39′"
+    lat: "52.117",
+    lng: "-106.650"
 }, {
     id: 33,
     city: "Albuquerque",
     country: "United States",
-    lat: "35°06′",
-    lon: "-106°36′"
+    lat: "35.100",
+    lng: "-106.600"
 }, {
     id: 34,
     city: "El Paso",
     country: "United States",
-    lat: "31°47′",
-    lon: "-106°25′"
+    lat: "31.783",
+    lng: "-106.417"
 }, {
     id: 35,
     city: "Chihuahua",
     country: "Mexico",
-    lat: "28°06′",
-    lon: "-106°0′"
+    lat: "28.100",
+    lng: "-106.000"
 }, {
     id: 36,
     city: "Denver",
     country: "United States",
-    lat: "39°44′",
-    lon: "-104°59′"
+    lat: "39.733",
+    lng: "-104.983"
 }, {
     id: 37,
     city: "Durango",
     country: "Mexico",
-    lat: "24°01′",
-    lon: "-104°40′"
+    lat: "24.017",
+    lng: "-104.667"
 }, {
     id: 38,
     city: "Regina",
     country: "Canada",
-    lat: "50°26′",
-    lon: "-104°37′"
+    lat: "50.433",
+    lng: "-104.617"
 }, {
     id: 39,
     city: "Zapopan",
     country: "Mexico",
-    lat: "20°46′",
-    lon: "-103°24′"
+    lat: "20.767",
+    lng: "-103.400"
 }, {
     id: 40,
     city: "Guadalajara",
     country: "Mexico",
-    lat: "20°40′",
-    lon: "-103°21′"
+    lat: "20.667",
+    lng: "-103.350"
 }, {
     id: 41,
     city: "Monterrey",
     country: "Mexico",
-    lat: "25°40′",
-    lon: "-100°18′"
+    lat: "25.667",
+    lng: "-100.300"
 }, {
     id: 42,
     city: "Mexico City",
     country: "Mexico",
-    lat: "19°24′",
-    lon: "-99°07′"
+    lat: "19.400",
+    lng: "-99.117"
 }, {
     id: 43,
     city: "San Antonio",
     country: "United States",
-    lat: "29°32′",
-    lon: "-98°28′"
+    lat: "29.533",
+    lng: "-98.467"
 }, {
     id: 44,
     city: "Puebla",
     country: "Mexico",
-    lat: "19°03′",
-    lon: "-98°12′"
+    lat: "19.050",
+    lng: "-98.200"
 }, {
     id: 45,
     city: "Austin",
     country: "United States",
-    lat: "30°16′",
-    lon: "-97°46′"
+    lat: "30.267",
+    lng: "-97.767"
 }, {
     id: 46,
     city: "Oklahoma City",
     country: "United States",
-    lat: "35°28′",
-    lon: "-97°32′"
+    lat: "35.467",
+    lng: "-97.533"
 }, {
     id: 47,
     city: "Wichita",
     country: "United States",
-    lat: "37°41′",
-    lon: "-97°20′"
+    lat: "37.683",
+    lng: "-97.333"
 }, {
     id: 48,
     city: "Winnipeg",
     country: "Canada",
-    lat: "49°54′",
-    lon: "-97°08′"
+    lat: "49.900",
+    lng: "-97.133"
 }, {
     id: 49,
     city: "Dallas",
     country: "United States",
-    lat: "32°46′",
-    lon: "-96°48′"
+    lat: "32.767",
+    lng: "-96.800"
 }, {
     id: 50,
     city: "Veracruz",
     country: "Mexico",
-    lat: "19°11′",
-    lon: "-96°08′"
+    lat: "19.183",
+    lng: "-96.133"
 }, {
     id: 51,
     city: "Houston",
     country: "United States",
-    lat: "29°45′",
-    lon: "-95°22′"
+    lat: "29.750",
+    lng: "-95.367"
 }, {
     id: 52,
     city: "Kansas City",
     country: "United States",
-    lat: "39°06′",
-    lon: "-94°34′"
+    lat: "39.100",
+    lng: "-94.567"
 }, {
     id: 53,
     city: "Minneapolis",
     country: "United States",
-    lat: "44°58′",
-    lon: "-93°15′"
+    lat: "44.967",
+    lng: "-93.250"
 }, {
     id: 54,
     city: "Quetzaltenango",
     country: "Guatemala",
-    lat: "14°50′",
-    lon: "-91°31′"
+    lat: "14.833",
+    lng: "-91.517"
 }, {
     id: 55,
     city: "Guatemala City",
     country: "Guatemala",
-    lat: "14°38′",
-    lon: "-90°33′"
+    lat: "14.633",
+    lng: "-90.550"
 }, {
     id: 56,
     city: "New Orleans",
     country: "United States",
-    lat: "29°58′",
-    lon: "-90°04′"
+    lat: "29.967",
+    lng: "-90.067"
 }, {
     id: 57,
     city: "Memphis",
     country: "United States",
-    lat: "35°07′",
-    lon: "-89°58′"
+    lat: "35.117",
+    lng: "-89.967"
 }, {
     id: 58,
     city: "Mérida",
     country: "Mexico",
-    lat: "20°58′",
-    lon: "-89°37′"
+    lat: "20.967",
+    lng: "-89.617"
 }, {
     id: 59,
     city: "San Salvador",
     country: "El Salvador",
-    lat: "13°41′",
-    lon: "-89°11′"
+    lat: "13.683",
+    lng: "-89.183"
 }, {
     id: 60,
     city: "Belmopan",
     country: "Belize",
-    lat: "17°15′",
-    lon: "-88°46′"
+    lat: "17.250",
+    lng: "-88.767"
 }, {
     id: 61,
     city: "Belize City",
     country: "Belize",
-    lat: "17°29′",
-    lon: "-88°11′"
+    lat: "17.483",
+    lng: "-88.183"
 }, {
     id: 62,
     city: "Milwaukee",
     country: "United States",
-    lat: "47°03′",
-    lon: "-87°57′"
+    lat: "47.050",
+    lng: "-87.950"
 }, {
     id: 63,
     city: "Chicago",
     country: "United States",
-    lat: "41°52′",
-    lon: "-87°37′"
+    lat: "41.867",
+    lng: "-87.617"
 }, {
     id: 64,
     city: "Tegucigalpa",
     country: "Honduras",
-    lat: "14°05′",
-    lon: "-87°13′"
+    lat: "14.083",
+    lng: "-87.217"
 }, {
     id: 65,
     city: "Nashville",
     country: "United States",
-    lat: "36°10′",
-    lon: "-86°47′"
+    lat: "36.167",
+    lng: "-86.783"
 }, {
     id: 66,
     city: "Managua",
     country: "Nicaragua",
-    lat: "12°08′",
-    lon: "-86°15′"
+    lat: "12.133",
+    lng: "-86.250"
 }, {
     id: 67,
     city: "Indianapolis",
     country: "United States",
-    lat: "39°47′",
-    lon: "-86°09′"
+    lat: "39.783",
+    lng: "-86.150"
 }, {
     id: 68,
     city: "Louisville",
     country: "United States",
-    lat: "38°15′",
-    lon: "-85°45′"
+    lat: "38.250",
+    lng: "-85.750"
 }, {
     id: 69,
     city: "Cincinnati",
     country: "United States",
-    lat: "39°08′",
-    lon: "-84°30′"
+    lat: "39.133",
+    lng: "-84.500"
 }, {
     id: 70,
     city: "Atlanta",
     country: "United States",
-    lat: "33°45′",
-    lon: "-84°23′"
+    lat: "33.750",
+    lng: "-84.383"
 }, {
     id: 71,
     city: "San José",
     country: "Costa Rica",
-    lat: "9°56′",
-    lon: "-84°05′"
+    lat: "9.933",
+    lng: "-84.083"
 }, {
     id: 72,
     city: "Detroit",
     country: "United States",
-    lat: "42°20′",
-    lon: "-83°03′"
+    lat: "42.333",
+    lng: "-83.050"
 }, {
     id: 73,
     city: "Columbus",
     country: "United States",
-    lat: "39°59′",
-    lon: "-82°59′"
+    lat: "39.983",
+    lng: "-82.983"
 }, {
     id: 74,
     city: "Tampa",
     country: "United States",
-    lat: "27°58′",
-    lon: "-82°28′"
+    lat: "27.967",
+    lng: "-82.467"
 }, {
     id: 75,
     city: "Havana",
     country: "Cuba",
-    lat: "23°08′",
-    lon: "-82°23′"
+    lat: "23.133",
+    lng: "-82.383"
 }, {
     id: 76,
     city: "Cleveland",
     country: "United States",
-    lat: "41°29′",
-    lon: "-81°40′"
+    lat: "41.483",
+    lng: "-81.667"
 }, {
     id: 77,
     city: "Jacksonville",
     country: "United States",
-    lat: "30°19′",
-    lon: "-81°39′"
+    lat: "30.317",
+    lng: "-81.650"
 }, {
     id: 78,
     city: "George Town",
     country: "Malaysia",
-    lat: "19°18′",
-    lon: "-81°23′"
+    lat: "19.300",
+    lng: "-81.383"
 }, {
     id: 79,
     city: "Charlotte",
     country: "United States",
-    lat: "35°12′",
-    lon: "-80°49′"
+    lat: "35.200",
+    lng: "-80.817"
 }, {
     id: 80,
     city: "Miami",
     country: "United States",
-    lat: "25°47′",
-    lon: "-80°13′"
+    lat: "25.783",
+    lng: "-80.217"
 }, {
     id: 81,
     city: "Pittsburgh",
     country: "United States",
-    lat: "40°26′",
-    lon: "-79°58′"
+    lat: "40.433",
+    lng: "-79.967"
 }, {
     id: 82,
     city: "Guayaquil",
     country: "Ecuador",
-    lat: "2°11′",
-    lon: "-79°53′"
+    lat: "2.183",
+    lng: "-79.883"
 }, {
     id: 83,
     city: "Panama City",
     country: "Panama",
-    lat: "8°59′",
-    lon: "-79°31′"
+    lat: "8.983",
+    lng: "-79.517"
 }, {
     id: 84,
     city: "Toronto",
     country: "Canada",
-    lat: "43°39′",
-    lon: "-79°23′"
+    lat: "43.650",
+    lng: "-79.383"
 }, {
     id: 85,
     city: "Buffalo",
     country: "United States",
-    lat: "42°54′",
-    lon: "-78°51′"
+    lat: "42.900",
+    lng: "-78.850"
 }, {
     id: 86,
     city: "Raleigh",
     country: "United States",
-    lat: "35°49′",
-    lon: "-78°38′"
+    lat: "35.817",
+    lng: "-78.633"
 }, {
     id: 87,
     city: "Quito",
     country: "Ecuador",
-    lat: "00°15′",
-    lon: "-78°35′"
+    lat: "0.250",
+    lng: "-78.583"
 }, {
     id: 88,
     city: "Rochester",
     country: "United States",
-    lat: "43°09′",
-    lon: "-77°36′"
+    lat: "43.150",
+    lng: "-77.600"
 }, {
     id: 89,
     city: "Nassau",
     country: "The Bahamas",
-    lat: "25°03′",
-    lon: "-77°20′"
+    lat: "25.050",
+    lng: "-77.333"
 }, {
     id: 90,
     city: "Washington",
     country: "United States",
-    lat: "38°53′",
-    lon: "-77°02′"
+    lat: "38.883",
+    lng: "-77.033"
 }, {
     id: 91,
     city: "Lima",
     country: "Peru",
-    lat: "-12°02′",
-    lon: "-77°01′"
+    lat: "-12.033",
+    lng: "-77.017"
 }, {
     id: 92,
     city: "Kingston",
     country: "Jamaica",
-    lat: "17°59′",
-    lon: "-76°48′"
+    lat: "17.983",
+    lng: "-76.800"
 }, {
     id: 93,
     city: "Baltimore",
     country: "United States",
-    lat: "39°17′",
-    lon: "-76°37′"
+    lat: "39.283",
+    lng: "-76.617"
 }, {
     id: 94,
     city: "Cali",
     country: "Colombia",
-    lat: "38°33′",
-    lon: "-121°28′"
+    lat: "38.550",
+    lng: "-121.467"
 }, {
     id: 95,
     city: "Virginia Beach",
     country: "United States",
-    lat: "36°51′",
-    lon: "-75°59′"
+    lat: "36.850",
+    lng: "-75.983"
 }, {
     id: 96,
     city: "Ottawa",
     country: "Canada",
-    lat: "45°25′",
-    lon: "-75°41′"
+    lat: "45.417",
+    lng: "-75.683"
 }, {
     id: 97,
     city: "Medellín",
     country: "Colombia",
-    lat: "6°14′",
-    lon: "-75°34′"
+    lat: "6.233",
+    lng: "-75.567"
 }, {
     id: 98,
     city: "Cartagena",
     country: "Colombia",
-    lat: "10°24′",
-    lon: "-75°30′"
+    lat: "10.400",
+    lng: "-75.500"
 }, {
     id: 99,
     city: "Philadelphia",
     country: "United States",
-    lat: "39°57′",
-    lon: "-75°10′"
+    lat: "39.950",
+    lng: "-75.167"
 }, {
     id: 100,
     city: "Barranquilla",
     country: "Colombia",
-    lat: "undefined",
-    lon: "undefined"
+    lat: "10.950",
+    lng: "-74.783"
 }, {
     id: 101,
     city: "Forked River",
     country: "United States",
-    lat: "39*49'",
-    lon: "-74°11'"
+    lat: "39.817",
+    lng: "-74.183"
 }, {
     id: 102,
     city: "Jersey City",
     country: "United States",
-    lat: "41°26′",
-    lon: "-74°08′"
+    lat: "41.433",
+    lng: "-74.133"
 }, {
     id: 103,
     city: "Bogotá",
     country: "Colombia",
-    lat: "4°36′",
-    lon: "-74°04′"
+    lat: "4.600",
+    lng: "-74.067"
 }, {
     id: 104,
     city: "Montreal",
     country: "Canada",
-    lat: "45°30′",
-    lon: "-73°33′"
+    lat: "45.500",
+    lng: "-73.550"
 }, {
     id: 105,
     city: "Iquitos",
     country: "Peru",
-    lat: "-3°44′",
-    lon: "-73°15′"
+    lat: "-3.733",
+    lng: "-73.250"
 }, {
     id: 106,
     city: "Valdivia",
     country: "Chile",
-    lat: "-39°49′",
-    lon: "-73°14′"
+    lat: "-39.817",
+    lng: "-73.233"
 }, {
     id: 107,
     city: "Concepción",
     country: "Chile",
-    lat: "-36°50′",
-    lon: "-73°03′"
+    lat: "-36.833",
+    lng: "-73.050"
 }, {
     id: 108,
     city: "Cusco",
     country: "Peru",
-    lat: "-13°30′",
-    lon: "-71°58′"
+    lat: "-13.500",
+    lng: "-71.967"
 }, {
     id: 109,
     city: "Maracaibo",
     country: "Venezuela",
-    lat: "-10°39′",
-    lon: "-71°38′"
+    lat: "-10.650",
+    lng: "-71.633"
 }, {
     id: 110,
     city: "Valparaíso",
     country: "Chile",
-    lat: "-33°03′",
-    lon: "-71°37′"
+    lat: "-33.050",
+    lng: "-71.617"
 }, {
     id: 111,
     city: "Arequipa",
     country: "Peru",
-    lat: "-16°24′",
-    lon: "-71°32′"
+    lat: "-16.400",
+    lng: "-71.533"
 }, {
     id: 112,
     city: "Providence",
     country: "United States",
-    lat: "41°49′",
-    lon: "-71°25′"
+    lat: "41.817",
+    lng: "-71.417"
 }, {
     id: 113,
     city: "La Serena",
     country: "Chile",
-    lat: "-29°54′",
-    lon: "-71°15′"
+    lat: "-29.900",
+    lng: "-71.250"
 }, {
     id: 114,
     city: "Cockburn Town",
     country: "Turks and Caicos Islands",
-    lat: "21°27′",
-    lon: "-71°08′"
+    lat: "21.450",
+    lng: "-71.133"
 }, {
     id: 115,
     city: "Boston",
     country: "United States",
-    lat: "42°21′",
-    lon: "-71°03′"
+    lat: "42.350",
+    lng: "-71.050"
 }, {
     id: 116,
     city: "Punta Arenas",
     country: "Chile",
-    lat: "-53°10′",
-    lon: "-70°56′"
+    lat: "-53.167",
+    lng: "-70.933"
 }, {
     id: 117,
     city: "Santiago",
     country: "Chile",
-    lat: "20°01′",
-    lon: "-75°48′"
+    lat: "20.017",
+    lng: "-75.800"
 }, {
     id: 118,
     city: "Antofagasta",
     country: "Chile",
-    lat: "-23°39′",
-    lon: "-70°24′"
+    lat: "-23.650",
+    lng: "-70.400"
 }, {
     id: 119,
     city: "Iquique",
     country: "Chile",
-    lat: "-20°13′",
-    lon: "-70°09′"
+    lat: "-20.217",
+    lng: "-70.150"
 }, {
     id: 120,
     city: "Oranjestad",
     country: "Aruba",
-    lat: "12°31′",
-    lon: "-70°02′"
+    lat: "12.517",
+    lng: "-70.033"
 }, {
     id: 121,
     city: "Santo Domingo",
     country: "Dominican Republic",
-    lat: "18°29′",
-    lon: "-69°55′"
+    lat: "18.483",
+    lng: "-69.917"
 }, {
     id: 122,
     city: "Rio Branco",
     country: "Brazil",
-    lat: "-10°07'",
-    lon: "-69°21'"
+    lat: "-10.117",
+    lng: "-69.350"
 }, {
     id: 123,
     city: "Willemstad",
     country: "Netherlands Antilles",
-    lat: "12°07′",
-    lon: "-68°56′"
+    lat: "12.117",
+    lng: "-68.933"
 }, {
     id: 124,
     city: "Calama",
     country: "Chile",
-    lat: "-22°28′",
-    lon: "-68°56′"
+    lat: "-22.467",
+    lng: "-68.933"
 }, {
     id: 125,
     city: "Mendoza",
     country: "Argentina",
-    lat: "-32°53′",
-    lon: "-68°49′"
+    lat: "-32.883",
+    lng: "-68.817"
 }, {
     id: 126,
     city: "Iqaluit",
     country: "Canada",
-    lat: "63°45′",
-    lon: "-68°31′"
+    lat: "63.750",
+    lng: "-68.517"
 }, {
     id: 127,
     city: "Ushuaia",
     country: "Argentina",
-    lat: "-54°48′",
-    lon: "-68°18′"
+    lat: "-54.800",
+    lng: "-68.300"
 }, {
     id: 128,
     city: "La Paz",
     country: "Bolivia",
-    lat: "-16°30′",
-    lon: "-68°09′"
+    lat: "-16.500",
+    lng: "-68.150"
 }, {
     id: 129,
     city: "Puerto Williams",
     country: "Chile",
-    lat: "54°56′",
-    lon: "-67°37′"
+    lat: "54.933",
+    lng: "-67.617"
 }, {
     id: 130,
     city: "Caracas",
     country: "Venezuela",
-    lat: "10°30′",
-    lon: "-66°55′"
+    lat: "10.500",
+    lng: "-66.917"
 }, {
     id: 131,
     city: "Fredericton",
     country: "Canada",
-    lat: "45°57′",
-    lon: "-66°40′"
+    lat: "45.950",
+    lng: "-66.667"
 }, {
     id: 132,
     city: "San Juan",
     country: "Puerto Rico",
-    lat: "18°27′",
-    lon: "-66°04′"
+    lat: "18.450",
+    lng: "-66.067"
 }, {
     id: 133,
     city: "Saint John",
     country: "Grenada",
-    lat: "45°16′",
-    lon: "-66°03′"
+    lat: "45.267",
+    lng: "-66.050"
 }, {
     id: 134,
     city: "Sucre",
     country: "Bolivia",
-    lat: "-19°02′",
-    lon: "-65°15′"
+    lat: "-19.033",
+    lng: "-65.250"
 }, {
     id: 135,
     city: "Charlotte Amalie",
     country: "United States",
-    lat: "-18°21′",
-    lon: "-64°57′"
+    lat: "-18.350",
+    lng: "-64.950"
 }, {
     id: 136,
     city: "Hamilton",
     country: "Bermuda",
-    lat: "32°17′",
-    lon: "-64°47′"
+    lat: "32.283",
+    lng: "-64.783"
 }, {
     id: 137,
     city: "Road Town",
     country: "British Virgin Islands",
-    lat: "18°26′",
-    lon: "-64°37′"
+    lat: "18.433",
+    lng: "-64.617"
 }, {
     id: 138,
     city: "Córdoba",
     country: "Argentina",
-    lat: "-31°24′",
-    lon: "-64°11′"
+    lat: "-31.400",
+    lng: "-64.183"
 }, {
     id: 139,
     city: "Porto Velho",
     country: "Brazil",
-    lat: "-8°45'",
-    lon: "-63°54'"
+    lat: "-8.750",
+    lng: "-63.900"
 }, {
     id: 140,
     city: "Charlottetown",
     country: "Canada",
-    lat: "46°14′",
-    lon: "-63°08′"
+    lat: "46.233",
+    lng: "-63.133"
 }, {
     id: 141,
     city: "The Valley",
     country: "Anguilla",
-    lat: "18°13′",
-    lon: "-63°03′"
+    lat: "18.217",
+    lng: "-63.050"
 }, {
     id: 142,
     city: "Basse-Terre",
     country: "Guadeloupe",
-    lat: "15°59′",
-    lon: "-61°43′"
+    lat: "15.983",
+    lng: "-61.717"
 }, {
     id: 143,
     city: "Bahía Blanca",
     country: "Argentina",
-    lat: "-38°43′",
-    lon: "-62°16′"
+    lat: "-38.717",
+    lng: "-62.267"
 }, {
     id: 144,
     city: "St. John's",
     country: "Canada",
-    lat: "17°07′",
-    lon: "-61°51′"
+    lat: "17.117",
+    lng: "-61.850"
 }, {
     id: 145,
     city: "San Fernando",
     country: "Trinidad and Tobago",
-    lat: "10°17′",
-    lon: "-61°28′"
+    lat: "10.283",
+    lng: "-61.467"
 }, {
     id: 146,
     city: "Roseau",
     country: "Dominica",
-    lat: "15°18′",
-    lon: "-61°23′"
+    lat: "15.300",
+    lng: "-61.383"
 }, {
     id: 147,
     city: "Chaguanas",
     country: "Trinidad and Tobago",
-    lat: "10°30′",
-    lon: "-61°23′"
+    lat: "10.500",
+    lng: "-61.383"
 }, {
     id: 148,
     city: "Kingstown",
     country: "Saint Vincent and the Grenadines",
-    lat: "13°10′",
-    lon: "-61°14′"
+    lat: "13.167",
+    lng: "-61.233"
 }, {
     id: 149,
     city: "Castries",
     country: "St. Lucia",
-    lat: "14°01′",
-    lon: "-60°59′"
+    lat: "14.017",
+    lng: "-60.983"
 }, {
     id: 150,
     city: "Rosario",
     country: "Argentina",
-    lat: "-32°57′",
-    lon: "-60°40′"
+    lat: "-32.950",
+    lng: "-60.667"
 }, {
     id: 151,
     city: "Boa Vista",
     country: "Brazil",
-    lat: "2°49'",
-    lon: "-60°39'"
+    lat: "2.817",
+    lng: "-60.650"
 }, {
     id: 152,
     city: "Manaus",
     country: "Brazil",
-    lat: "-3°06′",
-    lon: "-60°01′"
+    lat: "-3.100",
+    lng: "-60.017"
 }, {
     id: 153,
     city: "Bridgetown",
     country: "Barbados",
-    lat: "13°05′",
-    lon: "-59°37′"
+    lat: "13.083",
+    lng: "-59.617"
 }, {
     id: 154,
     city: "Buenos Aires",
     country: "Argentina",
-    lat: "-34°36′",
-    lon: "-58°22′"
+    lat: "-34.600",
+    lng: "-58.367"
 }, {
     id: 155,
     city: "Stanley",
     country: "Hong Kong",
-    lat: "51°41′",
-    lon: "-57°51′"
+    lat: "51.683",
+    lng: "-57.850"
 }, {
     id: 156,
     city: "Asunción",
     country: "Paraguay",
-    lat: "-25°16′",
-    lon: "-57°40′"
+    lat: "-25.267",
+    lng: "-57.667"
 }, {
     id: 157,
     city: "Saint-Pierre",
     country: "Réunion",
-    lat: "46°46′",
-    lon: "-56°10′"
+    lat: "46.767",
+    lng: "-56.167"
 }, {
     id: 158,
     city: "Montevideo",
     country: "Uruguay",
-    lat: "-34°55′",
-    lon: "-56°10′"
+    lat: "-34.917",
+    lng: "-56.167"
 }, {
     id: 159,
     city: "Cuiabá",
     country: "Brazil",
-    lat: "-15°35'",
-    lon: "-56°05'"
+    lat: "-15.583",
+    lng: "-56.083"
 }, {
     id: 160,
     city: "Paramaribo",
     country: "Suriname",
-    lat: "5°52′",
-    lon: "-55°10′"
+    lat: "5.867",
+    lng: "-55.167"
 }, {
     id: 161,
     city: "Campo Grande",
     country: "Brazil",
-    lat: "-20°26'",
-    lon: "-54°38'"
+    lat: "-20.433",
+    lng: "-54.633"
 }, {
     id: 162,
     city: "Chuí",
     country: "Brazil",
-    lat: "-33°41′",
-    lon: "-53°27′"
+    lat: "-33.683",
+    lng: "-53.450"
 }, {
     id: 163,
     city: "Pelotas",
     country: "Brazil",
-    lat: "-31°46′",
-    lon: "-52°20′"
+    lat: "-31.767",
+    lng: "-52.333"
 }, {
     id: 164,
     city: "Cayenne",
     country: "French Guiana",
-    lat: "4°55′",
-    lon: "-52°19′"
+    lat: "4.917",
+    lng: "-52.317"
 }, {
     id: 165,
     city: "Nuuk",
     country: "Greenland",
-    lat: "64°10′",
-    lon: "-51°45′"
+    lat: "64.167",
+    lng: "-51.750"
 }, {
     id: 166,
     city: "Porto Alegre",
     country: "Brazil",
-    lat: "30°02′",
-    lon: "-51°13′"
+    lat: "30.033",
+    lng: "-51.217"
 }, {
     id: 167,
     city: "Macapá",
     country: "Brazil",
-    lat: "0°02'",
-    lon: "-51°03'"
+    lat: "0.033",
+    lng: "-51.050"
 }, {
     id: 168,
     city: "Assis",
     country: "Italy",
-    lat: "-22°39′",
-    lon: "-50°24′"
+    lat: "-22.650",
+    lng: "-50.400"
 }, {
     id: 169,
     city: "Curitiba",
     country: "Brazil",
-    lat: "-25°25′",
-    lon: "-49°15′"
+    lat: "-25.417",
+    lng: "-49.250"
 }, {
     id: 170,
     city: "Belém",
     country: "Brazil",
-    lat: "1°28′",
-    lon: "-48°29′"
+    lat: "1.467",
+    lng: "-48.483"
 }, {
     id: 171,
     city: "Brasília",
     country: "Brazil",
-    lat: "-15°48′",
-    lon: "-47°54′"
+    lat: "-15.800",
+    lng: "-47.900"
 }, {
     id: 172,
     city: "Campinas",
     country: "Brazil",
-    lat: "-22°54′",
-    lon: "-47°03′"
+    lat: "-22.900",
+    lng: "-47.050"
 }, {
     id: 173,
     city: "São Paulo",
     country: "Brazil",
-    lat: "-23°33′",
-    lon: "-46°38′"
+    lat: "-23.550",
+    lng: "-46.633"
 }, {
     id: 174,
     city: "Vitória",
     country: "Brazil",
-    lat: "-20°19′",
-    lon: "-40°20′"
+    lat: "-20.317",
+    lng: "-40.333"
 }, {
     id: 175,
     city: "Ilhéus",
     country: "Brazil",
-    lat: "-14º47′",
-    lon: "-39º03′"
+    lat: "-14.783",
+    lng: "-39.050"
 }, {
     id: 176,
     city: "Fortaleza",
     country: "Brazil",
-    lat: "-3º46′",
-    lon: "-38º34′"
+    lat: "-3.767",
+    lng: "-38.567"
 }, {
     id: 177,
     city: "Maceió",
     country: "Brazil",
-    lat: "-9º39′",
-    lon: "-35º43′"
+    lat: "-9.650",
+    lng: "-35.717"
 }, {
     id: 178,
     city: "Recife",
     country: "Brazil",
-    lat: "-8°04′",
-    lon: "-34°52′"
+    lat: "-8.067",
+    lng: "-34.867"
 }, {
     id: 179,
     city: "Ponta Delgada",
     country: "Portugal",
-    lat: "37º44′",
-    lon: "-25º40′"
+    lat: "37.733",
+    lng: "-25.667"
 }, {
     id: 180,
     city: "Praia",
     country: "Brazil",
-    lat: "14°55′",
-    lon: "-23°31′"
+    lat: "14.917",
+    lng: "-23.517"
 }, {
     id: 181,
     city: "Reykjavík",
     country: "Iceland",
-    lat: "64º08′",
-    lon: "-21º56′"
+    lat: "64.133",
+    lng: "-21.933"
 }, {
     id: 182,
     city: "Dakar",
     country: "Senegal",
-    lat: "14º41′",
-    lon: "-17º26′"
+    lat: "14.683",
+    lng: "-17.433"
 }, {
     id: 183,
     city: "Thiès",
     country: "Senegal",
-    lat: "14º50′",
-    lon: "-17º06′"
+    lat: "14.833",
+    lng: "-17.100"
 }, {
     id: 184,
     city: "Serekunda",
     country: "The Gambia",
-    lat: "13º26′",
-    lon: "-16º40′"
+    lat: "13.433",
+    lng: "-16.667"
 }, {
     id: 185,
     city: "Brikama",
     country: "The Gambia",
-    lat: "13º16′",
-    lon: "-16º39′"
+    lat: "13.267",
+    lng: "-16.650"
 }, {
     id: 186,
     city: "Banjul",
     country: "The Gambia",
-    lat: "13º27′",
-    lon: "-16º34′"
+    lat: "13.450",
+    lng: "-16.567"
 }, {
     id: 187,
     city: "Nouakchott",
     country: "Mauritania",
-    lat: "18º06′",
-    lon: "-15º57′"
+    lat: "18.100",
+    lng: "-15.950"
 }, {
     id: 188,
     city: "Bissau",
     country: "Guinea-Bissau",
-    lat: "11º51′",
-    lon: "-15º35′"
+    lat: "11.850",
+    lng: "-15.583"
 }, {
     id: 189,
     city: "Conakry",
     country: "Guinea",
-    lat: "9°31′",
-    lon: "-13°42′"
+    lat: "9.517",
+    lng: "-13.700"
 }, {
     id: 190,
     city: "Freetown",
     country: "Sierra Leone",
-    lat: "8°28′",
-    lon: "-13°16′"
+    lat: "8.467",
+    lng: "-13.267"
 }, {
     id: 191,
     city: "El Aaiún",
     country: "Western Sahara",
-    lat: "27º9′",
-    lon: "-13º12′"
+    lat: "27.150",
+    lng: "-13.200"
 }, {
     id: 192,
     city: "Monrovia",
     country: "Liberia",
-    lat: "6º19′",
-    lon: "-10º46′"
+    lat: "6.317",
+    lng: "-10.767"
 }, {
     id: 193,
     city: "Lisbon",
     country: "Portugal",
-    lat: "38º42′",
-    lon: "-9º11′"
+    lat: "38.700",
+    lng: "-9.183"
 }, {
     id: 194,
     city: "Porto",
     country: "Brazil",
-    lat: "-8°45'",
-    lon: "-63°54'"
+    lat: "-8.750",
+    lng: "-63.900"
 }, {
     id: 195,
     city: "Bamako",
     country: "Mali",
-    lat: "12º39′",
-    lon: "-8º0′"
+    lat: "12.650",
+    lng: "-8.000"
 }, {
     id: 196,
     city: "Casablanca",
     country: "Morocco",
-    lat: "33º32′",
-    lon: "-7º35′"
+    lat: "33.533",
+    lng: "-7.583"
 }, {
     id: 197,
     city: "Koulikoro",
     country: "Mali",
-    lat: "12º59′",
-    lon: "-7º34′"
+    lat: "12.983",
+    lng: "-7.567"
 }, {
     id: 198,
     city: "Rabat",
     country: "Morocco",
-    lat: "34º02′",
-    lon: "-6º50′"
+    lat: "34.033",
+    lng: "-6.833"
 }, {
     id: 199,
     city: "Tórshavn",
     country: "Faroe Islands",
-    lat: "62°0′",
-    lon: "-6°47′"
+    lat: "62.000",
+    lng: "-6.783"
 }, {
     id: 200,
     city: "Dublin",
     country: "Ireland",
-    lat: "53º20′",
-    lon: "-6º16′"
+    lat: "53.333",
+    lng: "-6.267"
 }, {
     id: 201,
     city: "Seville",
     country: "Spain",
-    lat: "37º22′",
-    lon: "-5º59′"
+    lat: "37.367",
+    lng: "-5.983"
 }, {
     id: 202,
     city: "Belfast",
     country: "United Kingdom",
-    lat: "54º36′",
-    lon: "-5º55′"
+    lat: "54.600",
+    lng: "-5.917"
 }, {
     id: 203,
     city: "Jamestown",
     country: "United States",
-    lat: "-15°55′",
-    lon: "-5°44′W﻿"
+    lat: "-15.917",
+    lng: "-5.733"
 }, {
     id: 204,
     city: "Gibraltar",
     country: "Gibraltar",
-    lat: "36°08′",
-    lon: "-5°21′"
+    lat: "36.133",
+    lng: "-5.350"
 }, {
     id: 205,
     city: "Yamoussoukro",
     country: "Côte d'Ivoire",
-    lat: "6°49′",
-    lon: "-5°17′"
+    lat: "6.817",
+    lng: "-5.283"
 }, {
     id: 206,
     city: "Douglas",
     country: "Australia",
-    lat: "54°08′",
-    lon: "-4°29′"
+    lat: "54.133",
+    lng: "-4.483"
 }, {
     id: 207,
     city: "Málaga",
     country: "Spain",
-    lat: "36º43′",
-    lon: "-4º25′"
+    lat: "36.717",
+    lng: "-4.417"
 }, {
     id: 208,
     city: "Glasgow",
     country: "United Kingdom",
-    lat: "55º51′",
-    lon: "-4º15′"
+    lat: "55.850",
+    lng: "-4.250"
 }, {
     id: 209,
     city: "Abidjan",
     country: "Côte d'Ivoire",
-    lat: "5º20′",
-    lon: "-4º01′"
+    lat: "5.333",
+    lng: "-4.017"
 }, {
     id: 210,
     city: "Madrid",
     country: "Spain",
-    lat: "40º24′",
-    lon: "-3º41′"
+    lat: "40.400",
+    lng: "-3.683"
 }, {
     id: 211,
     city: "Cardiff",
     country: "United Kingdom",
-    lat: "51º29′",
-    lon: "-3º11′"
+    lat: "51.483",
+    lng: "-3.183"
 }, {
     id: 212,
     city: "Edinburgh",
     country: "United Kingdom",
-    lat: "55º57′",
-    lon: "-3º09′"
+    lat: "55.950",
+    lng: "-3.150"
 }, {
     id: 213,
     city: "Timbuktu",
     country: "Mali",
-    lat: "16°46′",
-    lon: "-3°00′"
+    lat: "16.767",
+    lng: "-3.000"
 }, {
     id: 214,
     city: "Liverpool",
     country: "United Kingdom",
-    lat: "53º24′",
-    lon: "-2º59′"
+    lat: "53.400",
+    lng: "-2.983"
 }, {
     id: 215,
     city: "Bilbao",
     country: "Spain",
-    lat: "43º15′",
-    lon: "-2º55′"
+    lat: "43.250",
+    lng: "-2.917"
 }, {
     id: 216,
     city: "Manchester",
     country: "United Kingdom",
-    lat: "53º28′",
-    lon: "-2º14′"
+    lat: "53.467",
+    lng: "-2.233"
 }, {
     id: 217,
     city: "Aberdeen",
     country: "United Kingdom",
-    lat: "57º09′",
-    lon: "-2º06′"
+    lat: "57.150",
+    lng: "-2.100"
 }, {
     id: 218,
     city: "Birmingham",
     country: "United Kingdom",
-    lat: "52º29′",
-    lon: "-1º53′"
+    lat: "52.483",
+    lng: "-1.883"
 }, {
     id: 219,
     city: "Leeds",
     country: "United Kingdom",
-    lat: "53º48′",
-    lon: "-1º33′"
+    lat: "53.800",
+    lng: "-1.550"
 }, {
     id: 220,
     city: "Nantes",
     country: "France",
-    lat: "47°13′",
-    lon: "-1′33″"
+    lat: "47.217",
+    lng: "-1.550"
 }, {
     id: 221,
     city: "Ouagadougou",
     country: "Burkina Faso",
-    lat: "12º21′",
-    lon: "-1º32′"
+    lat: "12.350",
+    lng: "-1.533"
 }, {
     id: 222,
     city: "Tamale",
     country: "Ghana",
-    lat: "9°24′",
-    lon: "-0°51′"
+    lat: "9.400",
+    lng: "0.850"
 }, {
     id: 223,
     city: "Valencia",
     country: "Spain",
-    lat: "39º29′",
-    lon: "-0º22′"
+    lat: "39.483",
+    lng: "0.367"
 }, {
     id: 224,
     city: "Accra",
     country: "Ghana",
-    lat: "5º33′",
-    lon: "-0º12′"
+    lat: "5.550",
+    lng: "0.200"
 }, {
     id: 225,
     city: "London",
     country: "United Kingdom",
-    lat: "51º30′",
-    lon: "-0º07′"
+    lat: "51.500",
+    lng: "0.117"
 }, {
     id: 226,
     city: "Greenwich",
     country: "United Kingdom",
-    lat: "51º28′",
-    lon: "-0º0′"
+    lat: "51.467",
+    lng: "0.000"
 }, {
     id: 227,
     city: "Lomé",
     country: "Togo",
-    lat: "6°08′",
-    lon: "1°12′"
+    lat: "6.133",
+    lng: "1.200"
 }, {
     id: 228,
     city: "Toulouse",
     country: "France",
-    lat: "43°36′",
-    lon: "1°26′"
+    lat: "43.600",
+    lng: "1.433"
 }, {
     id: 229,
     city: "Ibiza",
     country: "Spain",
-    lat: "38.98°",
-    lon: "1.43°"
+    lat: "38.967",
+    lng: "1.417"
 }, {
     id: 230,
     city: "Niamey",
     country: "Niger",
-    lat: "13°31′",
-    lon: "2°6′"
+    lat: "13.517",
+    lng: "2.100"
 }, {
     id: 231,
     city: "Barcelona",
     country: "Spain",
-    lat: "41°23′",
-    lon: "2°11′"
+    lat: "41.383",
+    lng: "2.183"
 }, {
     id: 232,
     city: "Paris",
     country: "France",
-    lat: "48°52′",
-    lon: "2°20′"
+    lat: "48.867",
+    lng: "2.333"
 }, {
     id: 233,
     city: "Cotonou",
     country: "Benin",
-    lat: "6°21′",
-    lon: "2°25′"
+    lat: "6.350",
+    lng: "2.417"
 }, {
     id: 234,
     city: "Porto-Novo",
     country: "Benin",
-    lat: "6°30′",
-    lon: "2°36′"
+    lat: "6.500",
+    lng: "2.600"
 }, {
     id: 235,
     city: "Palma",
     country: "Spain",
-    lat: "28º8′",
-    lon: "-15º26′"
+    lat: "28.133",
+    lng: "-15.433"
 }, {
     id: 236,
     city: "Algiers",
     country: "Algeria",
-    lat: "36°42′",
-    lon: "3°13′"
+    lat: "36.700",
+    lng: "3.217"
 }, {
     id: 237,
     city: "Lagos",
     country: "Nigeria",
-    lat: "6°27′",
-    lon: "3°23′"
+    lat: "6.450",
+    lng: "3.383"
 }, {
     id: 238,
     city: "Ibadan",
     country: "Nigeria",
-    lat: "7°22′",
-    lon: "3°53′"
+    lat: "7.367",
+    lng: "3.883"
 }, {
     id: 239,
     city: "The Hague",
     country: "Netherlands",
-    lat: "52°4′",
-    lon: "4°18′"
+    lat: "52.067",
+    lng: "4.300"
 }, {
     id: 240,
     city: "Brussels",
     country: "Belgium",
-    lat: "50°50′",
-    lon: "4°21′"
+    lat: "50.833",
+    lng: "4.350"
 }, {
     id: 241,
     city: "Antwerp",
     country: "Belgium",
-    lat: "51°13′",
-    lon: "4°24′"
+    lat: "51.217",
+    lng: "4.400"
 }, {
     id: 242,
     city: "Rotterdam",
     country: "Netherlands",
-    lat: "51°56′",
-    lon: "4°28′"
+    lat: "51.933",
+    lng: "4.467"
 }, {
     id: 243,
     city: "Lyon",
     country: "France",
-    lat: "45°46′",
-    lon: "4°50′"
+    lat: "45.767",
+    lng: "4.833"
 }, {
     id: 244,
     city: "Amsterdam",
     country: "Netherlands",
-    lat: "52°22′",
-    lon: "4°53′"
+    lat: "52.367",
+    lng: "4.883"
 }, {
     id: 245,
     city: "Marseille",
     country: "France",
-    lat: "43°18′",
-    lon: "5°22′"
+    lat: "43.300",
+    lng: "5.367"
 }, {
     id: 246,
     city: "Bergen",
     country: "Norway",
-    lat: "60°22′",
-    lon: "5°24′"
+    lat: "60.367",
+    lng: "5.400"
 }, {
     id: 247,
     city: "Geneva",
     country: "Switzerland",
-    lat: "46°12′",
-    lon: "6°09′"
+    lat: "46.200",
+    lng: "6.150"
 }, {
     id: 248,
     city: "São Tomé",
     country: "Brazil",
-    lat: "0°20′",
-    lon: "6°41′"
+    lat: "0.333",
+    lng: "6.683"
 }, {
     id: 249,
     city: "Düsseldorf",
     country: "Germany",
-    lat: "51°14′",
-    lon: "6°47′"
+    lat: "51.233",
+    lng: "6.783"
 }, {
     id: 250,
     city: "Cologne",
     country: "Germany",
-    lat: "50°57′",
-    lon: "6°58′"
+    lat: "50.950",
+    lng: "6.967"
 }, {
     id: 251,
     city: "Cannes",
     country: "France",
-    lat: "43°33′",
-    lon: "7°00′"
+    lat: "43.550",
+    lng: "7.000"
 }, {
     id: 252,
     city: "Nice",
     country: "France",
-    lat: "43°42′",
-    lon: "7°16′"
+    lat: "43.700",
+    lng: "7.267"
 }, {
     id: 253,
     city: "Monaco",
     country: "Monaco",
-    lat: "43°44′",
-    lon: "7°24′"
+    lat: "43.733",
+    lng: "7.400"
 }, {
     id: 254,
     city: "Bern",
     country: "Brazil",
-    lat: "46°57′",
-    lon: "7°27′"
+    lat: "46.950",
+    lng: "7.450"
 }, {
     id: 255,
     city: "Abuja",
     country: "Nigeria",
-    lat: "9°04′",
-    lon: "7°29′"
+    lat: "9.067",
+    lng: "7.483"
 }, {
     id: 256,
     city: "Enugu",
     country: "Nigeria",
-    lat: "6°27′",
-    lon: "7°30′"
+    lat: "6.450",
+    lng: "7.500"
 }, {
     id: 257,
     city: "Turin",
     country: "Italy",
-    lat: "45°04′",
-    lon: "7°42′"
+    lat: "45.067",
+    lng: "7.700"
 }, {
     id: 258,
     city: "Strasbourg",
     country: "France",
-    lat: "48°35′",
-    lon: "7°45′"
+    lat: "48.583",
+    lng: "7.750"
 }, {
     id: 259,
     city: "Kano",
     country: "Nigeria",
-    lat: "12°00′",
-    lon: "8°31′"
+    lat: "12.000",
+    lng: "8.517"
 }, {
     id: 260,
     city: "Zürich",
     country: "Switzerland",
-    lat: "47°22′",
-    lon: "8°33′"
+    lat: "47.367",
+    lng: "8.550"
 }, {
     id: 261,
     city: "Frankfurt",
     country: "Germany",
-    lat: "50°06′",
-    lon: "8°41′"
+    lat: "50.100",
+    lng: "8.683"
 }, {
     id: 262,
     city: "Malabo",
     country: "Philippines",
-    lat: "3°45′",
-    lon: "8°46′"
+    lat: "3.750",
+    lng: "8.767"
 }, {
     id: 263,
     city: "Stuttgart",
     country: "Germany",
-    lat: "48°46′",
-    lon: "9°10′"
+    lat: "48.767",
+    lng: "9.167"
 }, {
     id: 264,
     city: "Milan",
     country: "Italy",
-    lat: "45°28′",
-    lon: "9°11′"
+    lat: "45.467",
+    lng: "9.183"
 }, {
     id: 265,
     city: "Libreville",
     country: "Gabon",
-    lat: "0°23′",
-    lon: "9°27′"
+    lat: "0.383",
+    lng: "9.450"
 }, {
     id: 266,
     city: "Vaduz",
     country: "Liechtenstein",
-    lat: "47°08′",
-    lon: "9°31′"
+    lat: "47.133",
+    lng: "9.517"
 }, {
     id: 267,
     city: "Douala",
     country: "Cameroon",
-    lat: "4°03′",
-    lon: "9°42′"
+    lat: "4.050",
+    lng: "9.700"
 }, {
     id: 268,
     city: "Hanover",
     country: "Germany",
-    lat: "52°22′",
-    lon: "9°43′"
+    lat: "52.367",
+    lng: "9.717"
 }, {
     id: 269,
     city: "Hamburg",
     country: "Germany",
-    lat: "53°35′",
-    lon: "9°59′"
+    lat: "53.583",
+    lng: "9.983"
 }, {
     id: 270,
     city: "Tunis",
     country: "Tunisia",
-    lat: "36°48′",
-    lon: "10°10′"
+    lat: "36.800",
+    lng: "10.167"
 }, {
     id: 271,
     city: "Aarhus",
     country: "Denmark",
-    lat: "56°9′",
-    lon: "10°12′"
+    lat: "56.150",
+    lng: "10.200"
 }, {
     id: 272,
     city: "Oslo",
     country: "Norway",
-    lat: "59°57′",
-    lon: "10°45′"
+    lat: "59.950",
+    lng: "10.750"
 }, {
     id: 273,
     city: "Innsbruck",
     country: "Austria",
-    lat: "47°16′",
-    lon: "11°23′"
+    lat: "47.267",
+    lng: "11.383"
 }, {
     id: 274,
     city: "Yaoundé",
     country: "Cameroon",
-    lat: "3°52′",
-    lon: "11°31′"
+    lat: "3.867",
+    lng: "11.517"
 }, {
     id: 275,
     city: "Munich",
     country: "Germany",
-    lat: "48°08′",
-    lon: "11°34′"
+    lat: "48.133",
+    lng: "11.567"
 }, {
     id: 276,
     city: "Gothenburg",
     country: "Sweden",
-    lat: "57°42′",
-    lon: "11°58′"
+    lat: "57.700",
+    lng: "11.967"
 }, {
     id: 277,
     city: "Leipzig",
     country: "Germany",
-    lat: "51°20′",
-    lon: "12°23′"
+    lat: "51.333",
+    lng: "12.383"
 }, {
     id: 278,
     city: "Rome",
     country: "Italy",
-    lat: "41°54′",
-    lon: "12°30′"
+    lat: "41.900",
+    lng: "12.500"
 }, {
     id: 279,
     city: "Copenhagen",
     country: "Denmark",
-    lat: "55°40′",
-    lon: "12°34′"
+    lat: "55.667",
+    lng: "12.567"
 }, {
     id: 280,
     city: "Malmö",
     country: "Sweden",
-    lat: "55°35′",
-    lon: "13°02′"
+    lat: "55.583",
+    lng: "13.033"
 }, {
     id: 281,
     city: "Salzburg",
     country: "Austria",
-    lat: "47°48′",
-    lon: "13°02′"
+    lat: "47.800",
+    lng: "13.033"
 }, {
     id: 282,
     city: "Tripoli",
     country: "Libya",
-    lat: "32°54′",
-    lon: "13°11′"
+    lat: "32.900",
+    lng: "13.183"
 }, {
     id: 283,
     city: "Luanda",
     country: "Angola",
-    lat: "-8°50′",
-    lon: "13°14′"
+    lat: "-8.833",
+    lng: "13.233"
 }, {
     id: 284,
     city: "Berlin",
     country: "Germany",
-    lat: "52°31′",
-    lon: "13°25′"
+    lat: "52.517",
+    lng: "13.417"
 }, {
     id: 285,
     city: "Dresden",
     country: "Germany",
-    lat: "51°03′",
-    lon: "13°44′"
+    lat: "51.050",
+    lng: "13.733"
 }, {
     id: 286,
     city: "Naples",
     country: "Italy",
-    lat: "40°50′",
-    lon: "14°15′"
+    lat: "40.833",
+    lng: "14.250"
 }, {
     id: 287,
     city: "Linz",
     country: "Austria",
-    lat: "48°18′",
-    lon: "14°17′"
+    lat: "48.300",
+    lng: "14.283"
 }, {
     id: 288,
     city: "Prague",
     country: "Czech Republic",
-    lat: "50°05′",
-    lon: "14°25′"
+    lat: "50.083",
+    lng: "14.417"
 }, {
     id: 289,
     city: "Sabha",
     country: "Libya",
-    lat: "27°02′",
-    lon: "14°26′"
+    lat: "27.033",
+    lng: "14.433"
 }, {
     id: 290,
     city: "Birkirkara",
     country: "Malta",
-    lat: "35°53′",
-    lon: "14°27′"
+    lat: "35.883",
+    lng: "14.450"
 }, {
     id: 291,
     city: "Ljubljana",
     country: "Slovenia",
-    lat: "46°4′",
-    lon: "14°30′"
+    lat: "46.067",
+    lng: "14.500"
 }, {
     id: 292,
     city: "Valletta",
     country: "Malta",
-    lat: "35°54′",
-    lon: "14°30′"
+    lat: "35.900",
+    lng: "14.500"
 }, {
     id: 293,
     city: "N'Djamena",
     country: "Chad",
-    lat: "12°6′",
-    lon: "15°3′"
+    lat: "12.100",
+    lng: "15.050"
 }, {
     id: 294,
     city: "Brazzaville",
     country: "Republic of the Congo",
-    lat: "-4°16′",
-    lon: "15°17′"
+    lat: "-4.267",
+    lng: "15.283"
 }, {
     id: 295,
     city: "Kinshasa",
     country: "Democratic Republic of the Congo",
-    lat: "-4°19′",
-    lon: "15°19′"
+    lat: "-4.317",
+    lng: "15.317"
 }, {
     id: 296,
     city: "Graz",
     country: "Austria",
-    lat: "47°04′",
-    lon: "15°26′"
+    lat: "47.067",
+    lng: "15.433"
 }, {
     id: 297,
     city: "Longyearbyen",
     country: "Svalbard and Jan Mayen",
-    lat: "78°13′",
-    lon: "15°33′"
+    lat: "78.217",
+    lng: "15.550"
 }, {
     id: 298,
     city: "Zagreb",
     country: "Croatia",
-    lat: "45°49′",
-    lon: "15°59′"
+    lat: "45.817",
+    lng: "15.983"
 }, {
     id: 299,
     city: "Vienna",
     country: "Austria",
-    lat: "48°12′",
-    lon: "16°22′"
+    lat: "48.200",
+    lng: "16.367"
 }, {
     id: 300,
     city: "Bratislava",
     country: "Slovakia",
-    lat: "48°08′",
-    lon: "17°06′"
+    lat: "48.133",
+    lng: "17.100"
 }, {
     id: 301,
     city: "Stockholm",
     country: "Sweden",
-    lat: "59°21′",
-    lon: "18°4′"
+    lat: "59.350",
+    lng: "18.067"
 }, {
     id: 302,
     city: "Sarajevo",
     country: "Bosnia and Herzegovina",
-    lat: "43°51′",
-    lon: "18°21′"
+    lat: "43.850",
+    lng: "18.350"
 }, {
     id: 303,
     city: "Cape Town",
     country: "South Africa",
-    lat: "-33°55′",
-    lon: "18°25′"
+    lat: "-33.917",
+    lng: "18.417"
 }, {
     id: 304,
     city: "Bangui",
     country: "Central African Republic",
-    lat: "4°21′",
-    lon: "18°35′"
+    lat: "4.350",
+    lng: "18.583"
 }, {
     id: 305,
     city: "Budapest",
     country: "Hungary",
-    lat: "47°28′",
-    lon: "19°03′"
+    lat: "47.467",
+    lng: "19.050"
 }, {
     id: 306,
     city: "Podgorica",
     country: "Montenegro",
-    lat: "42°28′",
-    lon: "19°16′"
+    lat: "42.467",
+    lng: "19.267"
 }, {
     id: 307,
     city: "Tirana",
     country: "Albania",
-    lat: "41°19′",
-    lon: "19°49′"
+    lat: "41.317",
+    lng: "19.817"
 }, {
     id: 308,
     city: "Kraków",
     country: "Poland",
-    lat: "50°3′",
-    lon: "19°56′"
+    lat: "50.050",
+    lng: "19.933"
 }, {
     id: 309,
     city: "Belgrade",
     country: "Serbia",
-    lat: "44°49′",
-    lon: "20°27′"
+    lat: "44.817",
+    lng: "20.450"
 }, {
     id: 310,
     city: "Kaliningrad",
     country: "Russia",
-    lat: "54°43′",
-    lon: "20°31′"
+    lat: "54.717",
+    lng: "20.517"
 }, {
     id: 311,
     city: "Warsaw",
     country: "Poland",
-    lat: "52°14′",
-    lon: "21°00′"
+    lat: "52.233",
+    lng: "21.000"
 }, {
     id: 312,
     city: "Pristina",
     country: "Kosovo",
-    lat: "42°40′",
-    lon: "21°10′"
+    lat: "42.667",
+    lng: "21.167"
 }, {
     id: 313,
     city: "Skopje",
     country: "Macedonia",
-    lat: "42°0′",
-    lon: "21°26′"
+    lat: "42.000",
+    lng: "21.433"
 }, {
     id: 314,
     city: "Sofia",
     country: "Bulgaria",
-    lat: "42°42′",
-    lon: "23°20′"
+    lat: "42.700",
+    lng: "23.333"
 }, {
     id: 315,
     city: "Athens",
     country: "Greece",
-    lat: "37°58′",
-    lon: "23°43′"
+    lat: "37.967",
+    lng: "23.717"
 }, {
     id: 316,
     city: "Tampere",
     country: "Finland",
-    lat: "61°30′",
-    lon: "23°45′"
+    lat: "61.500",
+    lng: "23.750"
 }, {
     id: 317,
     city: "Lviv",
     country: "Ukraine",
-    lat: "49°51′",
-    lon: "24°01′"
+    lat: "49.850",
+    lng: "24.017"
 }, {
     id: 318,
     city: "Riga",
     country: "Latvia",
-    lat: "56°58′",
-    lon: "24°08′"
+    lat: "56.967",
+    lng: "24.133"
 }, {
     id: 319,
     city: "Espoo",
     country: "Finland",
-    lat: "60°12′",
-    lon: "24°39′"
+    lat: "60.200",
+    lng: "24.650"
 }, {
     id: 320,
     city: "Tallinn",
     country: "Estonia",
-    lat: "59°26′",
-    lon: "24°45′"
+    lat: "59.433",
+    lng: "24.750"
 }, {
     id: 321,
     city: "Helsinki",
     country: "Finland",
-    lat: "60°10′",
-    lon: "24°56′"
+    lat: "60.167",
+    lng: "24.933"
 }, {
     id: 322,
     city: "Vilnius",
     country: "Lithuania",
-    lat: "54°41′",
-    lon: "25°17′"
+    lat: "54.683",
+    lng: "25.283"
 }, {
     id: 323,
     city: "Port Elizabeth",
     country: "South Africa",
-    lat: "-33°57′",
-    lon: "25°36′"
+    lat: "-33.950",
+    lng: "25.600"
 }, {
     id: 324,
     city: "Livingstone",
     country: "Zambia",
-    lat: "-17°51′",
-    lon: "25°52′"
+    lat: "-17.850",
+    lng: "25.867"
 }, {
     id: 325,
     city: "Gaborone",
     country: "Botswana",
-    lat: "-24°39′",
-    lon: "25°54′"
+    lat: "-24.650",
+    lng: "25.900"
 }, {
     id: 326,
     city: "Bucharest",
     country: "Romania",
-    lat: "44°26′",
-    lon: "26°06′"
+    lat: "44.433",
+    lng: "26.100"
 }, {
     id: 327,
     city: "Bloemfontein",
     country: "South Africa",
-    lat: "-29°06′",
-    lon: "26°13′"
+    lat: "-29.100",
+    lng: "26.217"
 }, {
     id: 328,
     city: "Tartu",
     country: "Syria",
-    lat: "58°23′",
-    lon: "26°43′"
+    lat: "58.383",
+    lng: "26.717"
 }, {
     id: 329,
     city: "Lubumbashi",
     country: "Democratic Republic of the Congo",
-    lat: "-11°40′",
-    lon: "27°28′"
+    lat: "-11.667",
+    lng: "27.467"
 }, {
     id: 330,
     city: "Maseru",
     country: "Lesotho",
-    lat: "-29°18′",
-    lon: "27°28′"
+    lat: "-29.300",
+    lng: "27.467"
 }, {
     id: 331,
     city: "Francistown",
     country: "Botswana",
-    lat: "-21°10′",
-    lon: "27°30′"
+    lat: "-21.167",
+    lng: "27.500"
 }, {
     id: 332,
     city: "Minsk",
     country: "Belarus",
-    lat: "53°54′",
-    lon: "27°34′"
+    lat: "53.900",
+    lng: "27.567"
 }, {
     id: 333,
     city: "Johannesburg",
     country: "South Africa",
-    lat: "-26°12′",
-    lon: "28°02′"
+    lat: "-26.200",
+    lng: "28.033"
 }, {
     id: 334,
     city: "Pretoria",
     country: "South Africa",
-    lat: "-25°44′",
-    lon: "28°11′"
+    lat: "-25.733",
+    lng: "28.183"
 }, {
     id: 335,
     city: "Lusaka",
     country: "Zambia",
-    lat: "-15°25′",
-    lon: "28°17′"
+    lat: "-15.417",
+    lng: "28.283"
 }, {
     id: 336,
     city: "Ndola",
     country: "Zambia",
-    lat: "-12°58′",
-    lon: "28°38′"
+    lat: "-12.967",
+    lng: "28.633"
 }, {
     id: 337,
     city: "Bulawayo",
     country: "Zimbabwe",
-    lat: "-20°10′",
-    lon: "28°34′"
+    lat: "-20.167",
+    lng: "28.567"
 }, {
     id: 338,
     city: "Istanbul",
     country: "Turkey",
-    lat: "41°0′",
-    lon: "28°58′"
+    lat: "41.000",
+    lng: "28.967"
 }, {
     id: 339,
     city: "Bursa",
     country: "Turkey",
-    lat: "40°11′",
-    lon: "29°04′"
+    lat: "40.183",
+    lng: "29.067"
 }, {
     id: 340,
     city: "Bujumbura",
     country: "Burundi",
-    lat: "-3°23′",
-    lon: "29°22′"
+    lat: "-3.383",
+    lng: "29.367"
 }, {
     id: 341,
     city: "Tiraspol",
     country: "Moldova",
-    lat: "46°51′",
-    lon: "29°38′"
+    lat: "46.850",
+    lng: "29.633"
 }, {
     id: 342,
     city: "Alexandria",
     country: "Egypt",
-    lat: "31°12′",
-    lon: "29°55′"
+    lat: "31.200",
+    lng: "29.917"
 }, {
     id: 343,
     city: "Kigali",
     country: "Rwanda",
-    lat: "-1°56′",
-    lon: "30°03′"
+    lat: "-1.933",
+    lng: "30.050"
 }, {
     id: 344,
     city: "Saint Petersburg",
     country: "Russia",
-    lat: "59°56′",
-    lon: "30°20′"
+    lat: "59.933",
+    lng: "30.333"
 }, {
     id: 345,
     city: "Odessa",
     country: "Ukraine",
-    lat: "46°28′",
-    lon: "30°44′"
+    lat: "46.467",
+    lng: "30.733"
 }, {
     id: 346,
     city: "Harare",
     country: "Zimbabwe",
-    lat: "-17°49′",
-    lon: "31°03′"
+    lat: "-17.817",
+    lng: "31.050"
 }, {
     id: 347,
     city: "Durban",
     country: "South Africa",
-    lat: "-29°53′",
-    lon: "31°03′"
+    lat: "-29.883",
+    lng: "31.050"
 }, {
     id: 348,
     city: "Mbabane",
     country: "Swaziland",
-    lat: "-26°19′",
-    lon: "31°08′"
+    lat: "-26.317",
+    lng: "31.133"
 }, {
     id: 349,
     city: "Lobamba",
     country: "Swaziland",
-    lat: "-26°28′",
-    lon: "31°12′"
+    lat: "-26.467",
+    lng: "31.200"
 }, {
     id: 350,
     city: "Cairo",
     country: "Egypt",
-    lat: "30°03′",
-    lon: "31°13′"
+    lat: "30.050",
+    lng: "31.217"
 }, {
     id: 351,
     city: "Manzini",
     country: "Swaziland",
-    lat: "-26°29′",
-    lon: "31°22′"
+    lat: "-26.483",
+    lng: "31.367"
 }, {
     id: 352,
     city: "Port Said",
     country: "Egypt",
-    lat: "31°15′",
-    lon: "32°17′"
+    lat: "31.250",
+    lng: "32.283"
 }, {
     id: 353,
     city: "Konya",
     country: "Turkey",
-    lat: "37°52′",
-    lon: "32°29′"
+    lat: "37.867",
+    lng: "32.483"
 }, {
     id: 354,
     city: "Omdurman",
     country: "Sudan",
-    lat: "15°39′",
-    lon: "32°29′"
+    lat: "15.650",
+    lng: "32.483"
 }, {
     id: 355,
     city: "Khartoum",
     country: "Sudan",
-    lat: "15°38′",
-    lon: "32°32′"
+    lat: "15.633",
+    lng: "32.533"
 }, {
     id: 356,
     city: "Suez",
     country: "Egypt",
-    lat: "29°58′",
-    lon: "32°33′"
+    lat: "29.967",
+    lng: "32.550"
 }, {
     id: 357,
     city: "Maputo",
     country: "Mozambique",
-    lat: "-25°58′",
-    lon: "32°35′"
+    lat: "-25.967",
+    lng: "32.583"
 }, {
     id: 358,
     city: "Luxor",
     country: "Egypt",
-    lat: "25°41′",
-    lon: "32°39′"
+    lat: "25.683",
+    lng: "32.650"
 }, {
     id: 359,
     city: "Ankara",
     country: "Turkey",
-    lat: "39°52′",
-    lon: "32°50′"
+    lat: "39.867",
+    lng: "32.833"
 }, {
     id: 360,
     city: "Mwanza",
     country: "Tanzania",
-    lat: "-2°31′",
-    lon: "32°54′"
+    lat: "-2.517",
+    lng: "32.900"
 }, {
     id: 361,
     city: "Murmansk",
     country: "Russia",
-    lat: "68°58′",
-    lon: "33°05′"
+    lat: "68.967",
+    lng: "33.083"
 }, {
     id: 362,
     city: "Nicosia",
     country: "Cyprus",
-    lat: "35°10′",
-    lon: "33°21′"
+    lat: "35.167",
+    lng: "33.350"
 }, {
     id: 363,
     city: "Lilongwe",
     country: "Malawi",
-    lat: "-13°59′",
-    lon: "33°47′"
+    lat: "-13.983",
+    lng: "33.783"
 }, {
     id: 364,
     city: "Simferopol",
     country: "Ukraine",
-    lat: "44°57′",
-    lon: "34°06′"
+    lat: "44.950",
+    lng: "34.100"
 }, {
     id: 365,
     city: "Gaza",
     country: "Palestine",
-    lat: "31°31′",
-    lon: "34°27′"
+    lat: "31.517",
+    lng: "34.450"
 }, {
     id: 366,
     city: "Mersin",
     country: "Turkey",
-    lat: "36°48′",
-    lon: "34°38′"
+    lat: "36.800",
+    lng: "34.633"
 }, {
     id: 367,
     city: "Tel Aviv",
     country: "Israel",
-    lat: "32°05′",
-    lon: "34°48′"
+    lat: "32.083",
+    lng: "34.800"
 }, {
     id: 368,
     city: "Blantyre",
     country: "Malawi",
-    lat: "-15°47′",
-    lon: "35°0′"
+    lat: "-15.783",
+    lng: "35.000"
 }, {
     id: 369,
     city: "Jerusalem",
     country: "Israel",
-    lat: "31°47′",
-    lon: "35°13′"
+    lat: "31.783",
+    lng: "35.217"
 }, {
     id: 370,
     city: "Adana",
     country: "Turkey",
-    lat: "37°0′",
-    lon: "35°19′"
+    lat: "37.000",
+    lng: "35.317"
 }, {
     id: 371,
     city: "Beirut",
     country: "Lebanon",
-    lat: "33°53′",
-    lon: "35°30′"
+    lat: "33.883",
+    lng: "35.500"
 }, {
     id: 372,
     city: "Dodoma",
     country: "Tanzania",
-    lat: "-6°10′",
-    lon: "35°44′"
+    lat: "-6.167",
+    lng: "35.733"
 }, {
     id: 373,
     city: "Amman",
     country: "Jordan",
-    lat: "31°57′",
-    lon: "35°56′"
+    lat: "31.950",
+    lng: "35.933"
 }, {
     id: 374,
     city: "Damascus",
     country: "Syria",
-    lat: "33°30′",
-    lon: "36°17′"
+    lat: "33.500",
+    lng: "36.283"
 }, {
     id: 375,
     city: "Kharkiv",
     country: "Ukraine",
-    lat: "49°55′",
-    lon: "36°19′"
+    lat: "49.917",
+    lng: "36.317"
 }, {
     id: 376,
     city: "Nairobi",
     country: "Kenya",
-    lat: "-1°17′",
-    lon: "36°49′"
+    lat: "-1.283",
+    lng: "36.817"
 }, {
     id: 377,
     city: "Gaziantep",
     country: "Turkey",
-    lat: "37°04′",
-    lon: "37°23′"
+    lat: "37.067",
+    lng: "37.383"
 }, {
     id: 378,
     city: "Moscow",
     country: "Russia",
-    lat: "55°45′",
-    lon: "37°36′"
+    lat: "55.750",
+    lng: "37.600"
 }, {
     id: 379,
     city: "Addis Ababa",
     country: "Ethiopia",
-    lat: "9°01′",
-    lon: "38°44′"
+    lat: "9.017",
+    lng: "38.733"
 }, {
     id: 380,
     city: "Asmara",
     country: "Eritrea",
-    lat: "15°20′",
-    lon: "38°56′"
+    lat: "15.333",
+    lng: "38.933"
 }, {
     id: 381,
     city: "Jeddah",
     country: "Saudi Arabia",
-    lat: "21°32′",
-    lon: "39°10′"
+    lat: "21.533",
+    lng: "39.167"
 }, {
     id: 382,
     city: "Zanzibar City",
     country: "Tanzania",
-    lat: "-6°10′",
-    lon: "39°12′"
+    lat: "-6.167",
+    lng: "39.200"
 }, {
     id: 383,
     city: "Medina",
     country: "Saudi Arabia",
-    lat: "24°28′",
-    lon: "39°36′"
+    lat: "24.467",
+    lng: "39.600"
 }, {
     id: 384,
     city: "Mecca",
     country: "Saudi Arabia",
-    lat: "21°25′",
-    lon: "39°49′"
+    lat: "21.417",
+    lng: "39.817"
 }, {
     id: 385,
     city: "Sukhumi",
     country: "Georgia",
-    lat: "43°00′",
-    lon: "41°01′"
+    lat: "43.000",
+    lng: "41.017"
 }, {
     id: 386,
     city: "Moroni",
     country: "Comoros",
-    lat: "-11°45′",
-    lon: "43°12′"
+    lat: "-11.750",
+    lng: "43.200"
 }, {
     id: 387,
     city: "Baghdad",
     country: "Iraq",
-    lat: "33°19′",
-    lon: "44°25′"
+    lat: "33.317",
+    lng: "44.417"
 }, {
     id: 388,
     city: "Hargeisa",
     country: "Somalia",
-    lat: "9°30′",
-    lon: "44°0′"
+    lat: "9.500",
+    lng: "44.000"
 }, {
     id: 389,
     city: "Yerevan",
     country: "Armenia",
-    lat: "40°11′",
-    lon: "44°31′"
+    lat: "40.183",
+    lng: "44.517"
 }, {
     id: 390,
     city: "Tbilisi",
     country: "Georgia",
-    lat: "41°43′",
-    lon: "44°47′"
+    lat: "41.717",
+    lng: "44.783"
 }, {
     id: 391,
     city: "Mamoudzou",
     country: "Mayotte",
-    lat: "-12°47′",
-    lon: "45°13′"
+    lat: "-12.783",
+    lng: "45.217"
 }, {
     id: 392,
     city: "Mogadishu",
     country: "Somalia",
-    lat: "2°02′",
-    lon: "45°21′"
+    lat: "2.033",
+    lng: "45.350"
 }, {
     id: 393,
     city: "Tabriz",
     country: "Iran",
-    lat: "38°05′",
-    lon: "46°17′"
+    lat: "38.083",
+    lng: "46.283"
 }, {
     id: 394,
     city: "Riyadh",
     country: "Saudi Arabia",
-    lat: "24°42′",
-    lon: "46°43′"
+    lat: "24.700",
+    lng: "46.717"
 }, {
     id: 395,
     city: "Stepanakert",
     country: "Azerbaijan",
-    lat: "39°49′",
-    lon: "46°45′"
+    lat: "39.817",
+    lng: "46.750"
 }, {
     id: 396,
     city: "Antananarivo",
     country: "Madagascar",
-    lat: "-18°56′",
-    lon: "47°31′"
+    lat: "-18.933",
+    lng: "47.517"
 }, {
     id: 397,
     city: "Basra",
     country: "Iraq",
-    lat: "30°30′",
-    lon: "47°49′"
+    lat: "30.500",
+    lng: "47.817"
 }, {
     id: 398,
     city: "Baku",
     country: "Azerbaijan",
-    lat: "40°22′",
-    lon: "49°53′"
+    lat: "40.367",
+    lng: "49.883"
 }, {
     id: 399,
     city: "Dammam",
     country: "Saudi Arabia",
-    lat: "26°26′",
-    lon: "50°07′"
+    lat: "26.433",
+    lng: "50.117"
 }, {
     id: 400,
     city: "Samara",
     country: "Russia",
-    lat: "53°14′",
-    lon: "50°10′"
+    lat: "53.233",
+    lng: "50.167"
 }, {
     id: 401,
     city: "Manama",
     country: "Bahrain",
-    lat: "26°13′",
-    lon: "50°35′"
+    lat: "26.217",
+    lng: "50.583"
 }, {
     id: 402,
     city: "Tehran",
     country: "Iran",
-    lat: "35°41′",
-    lon: "51°25′"
+    lat: "35.683",
+    lng: "51.417"
 }, {
     id: 403,
     city: "Doha",
     country: "Qatar",
-    lat: "25°17′",
-    lon: "51°32′"
+    lat: "25.283",
+    lng: "51.533"
 }, {
     id: 404,
     city: "Abu Dhabi",
     country: "United Arab Emirates",
-    lat: "24°28′",
-    lon: "54°22′"
+    lat: "24.467",
+    lng: "54.367"
 }, {
     id: 405,
     city: "Dubai",
     country: "United Arab Emirates",
-    lat: "25°16′",
-    lon: "55°18′"
+    lat: "25.267",
+    lng: "55.300"
 }, {
     id: 406,
     city: "Saint-Denis",
     country: "Réunion",
-    lat: "-20°52′",
-    lon: "55°27′"
+    lat: "-20.867",
+    lng: "55.450"
 }, {
     id: 407,
     city: "Perm",
     country: "Russia",
-    lat: "58°0′",
-    lon: "56°19′"
+    lat: "58.000",
+    lng: "56.317"
 }, {
     id: 408,
     city: "Port Louis",
     country: "Mauritius",
-    lat: "-20°10′",
-    lon: "57°30′"
+    lat: "-20.167",
+    lng: "57.500"
 }, {
     id: 409,
     city: "Ashgabat",
     country: "Turkmenistan",
-    lat: "37°58′",
-    lon: "58°20′"
+    lat: "37.967",
+    lng: "58.333"
 }, {
     id: 410,
     city: "Muscat",
     country: "Oman",
-    lat: "23°36′",
-    lon: "58°32′"
+    lat: "23.600",
+    lng: "58.533"
 }, {
     id: 411,
     city: "Nukus",
     country: "Uzbekistan",
-    lat: "42°28′",
-    lon: "59°36′"
+    lat: "42.467",
+    lng: "59.600"
 }, {
     id: 412,
     city: "Mashhad",
     country: "Iran",
-    lat: "36°18′",
-    lon: "59°36′"
+    lat: "36.300",
+    lng: "59.600"
 }, {
     id: 413,
     city: "Yekaterinburg",
     country: "Russia",
-    lat: "56°50′",
-    lon: "60°35′"
+    lat: "56.833",
+    lng: "60.583"
 }, {
     id: 414,
     city: "Kandahar",
     country: "Afghanistan",
-    lat: "31°37′",
-    lon: "65°43′"
+    lat: "31.617",
+    lng: "65.717"
 }, {
     id: 415,
     city: "Karachi",
     country: "Pakistan",
-    lat: "24°51′",
-    lon: "67°00′"
+    lat: "24.850",
+    lng: "67.000"
 }, {
     id: 416,
     city: "Hyderabad",
     country: "India",
-    lat: "25°22′",
-    lon: "68°22′"
+    lat: "25.367",
+    lng: "68.367"
 }, {
     id: 417,
     city: "Dushanbe",
     country: "Tajikistan",
-    lat: "38°32′",
-    lon: "68°46′"
+    lat: "38.533",
+    lng: "68.767"
 }, {
     id: 418,
     city: "Kabul",
     country: "Afghanistan",
-    lat: "34°32′",
-    lon: "69°10′"
+    lat: "34.533",
+    lng: "69.167"
 }, {
     id: 419,
     city: "Tashkent",
     country: "Uzbekistan",
-    lat: "41°16′",
-    lon: "69°13′"
+    lat: "41.267",
+    lng: "69.217"
 }, {
     id: 420,
     city: "Astana",
     country: "Kazakhstan",
-    lat: "51°11′",
-    lon: "71°27′"
+    lat: "51.183",
+    lng: "71.450"
 }, {
     id: 421,
     city: "Multan",
     country: "Pakistan",
-    lat: "30°12′",
-    lon: "71°27′"
+    lat: "30.200",
+    lng: "71.450"
 }, {
     id: 422,
     city: "Peshawar",
     country: "Pakistan",
-    lat: "34°00′",
-    lon: "71°30′"
+    lat: "34.000",
+    lng: "71.500"
 }, {
     id: 423,
     city: "Namangan",
     country: "Uzbekistan",
-    lat: "40°98′",
-    lon: "71°58′"
+    lat: "41.633",
+    lng: "71.967"
 }, {
     id: 424,
     city: "Ahmedabad",
     country: "India",
-    lat: "23°01′",
-    lon: "72°34′"
+    lat: "23.017",
+    lng: "72.567"
 }, {
     id: 425,
     city: "Mumbai",
     country: "India",
-    lat: "18°57′",
-    lon: "72°49′"
+    lat: "18.950",
+    lng: "72.817"
 }, {
     id: 426,
     city: "Surat",
     country: "India",
-    lat: "21°10′",
-    lon: "72°49′"
+    lat: "21.167",
+    lng: "72.817"
 }, {
     id: 427,
     city: "Faisalabad",
     country: "Pakistan",
-    lat: "31°22′",
-    lon: "72°59′"
+    lat: "31.367",
+    lng: "72.983"
 }, {
     id: 428,
     city: "Rawalpindi",
     country: "Pakistan",
-    lat: "33°36′",
-    lon: "73°02′"
+    lat: "33.600",
+    lng: "73.033"
 }, {
     id: 429,
     city: "Islamabad",
     country: "Pakistan",
-    lat: "33°43′",
-    lon: "73°04′"
+    lat: "33.717",
+    lng: "73.067"
 }, {
     id: 430,
     city: "Omsk",
     country: "Russia",
-    lat: "54°59′",
-    lon: "73°22′"
+    lat: "54.983",
+    lng: "73.367"
 }, {
     id: 431,
     city: "Pune",
     country: "India",
-    lat: "18°31′",
-    lon: "73°51′"
+    lat: "18.517",
+    lng: "73.850"
 }, {
     id: 432,
     city: "Lahore",
     country: "Pakistan",
-    lat: "31°33′",
-    lon: "74°20′"
+    lat: "31.550",
+    lng: "74.333"
 }, {
     id: 433,
     city: "Bishkek",
     country: "Kyrgyzstan",
-    lat: "42°52′",
-    lon: "74°36′"
+    lat: "42.867",
+    lng: "74.600"
 }, {
     id: 434,
     city: "Srinagar",
     country: "India",
-    lat: "34°05′",
-    lon: "74°47′"
+    lat: "34.083",
+    lng: "74.783"
 }, {
     id: 435,
     city: "Amritsar",
     country: "India",
-    lat: "31°38′",
-    lon: "74°51′"
+    lat: "31.633",
+    lng: "74.850"
 }, {
     id: 436,
     city: "Jaipur",
     country: "India",
-    lat: "26°55′",
-    lon: "75°49′"
+    lat: "26.917",
+    lng: "75.817"
 }, {
     id: 437,
     city: "Ludhiana",
     country: "India",
-    lat: "30°54′",
-    lon: "75°51′"
+    lat: "30.900",
+    lng: "75.850"
 }, {
     id: 438,
     city: "Almaty",
     country: "Kazakhstan",
-    lat: "43°16′",
-    lon: "76°53′"
+    lat: "43.267",
+    lng: "76.883"
 }, {
     id: 439,
     city: "New Delhi",
     country: "India",
-    lat: "28°37′",
-    lon: "77°12′"
+    lat: "28.617",
+    lng: "77.200"
 }, {
     id: 440,
     city: "Bangalore",
     country: "India",
-    lat: "12°58′",
-    lon: "77°34′"
+    lat: "12.967",
+    lng: "77.567"
 }, {
     id: 441,
     city: "Nagpur",
     country: "India",
-    lat: "21°04′",
-    lon: "79°01′"
+    lat: "21.067",
+    lng: "79.017"
 }, {
     id: 442,
     city: "Colombo",
     country: "Sri Lanka",
-    lat: "6°53′",
-    lon: "79°52′"
+    lat: "6.883",
+    lng: "79.867"
 }, {
     id: 443,
     city: "Chennai",
     country: "India",
-    lat: "13°05′",
-    lon: "80°16′"
+    lat: "13.083",
+    lng: "80.267"
 }, {
     id: 444,
     city: "Kanpur",
     country: "India",
-    lat: "26°27′",
-    lon: "80°20′"
+    lat: "26.450",
+    lng: "80.333"
 }, {
     id: 445,
     city: "Kandy",
     country: "Sri Lanka",
-    lat: "7°17′",
-    lon: "80°38′"
+    lat: "7.283",
+    lng: "80.633"
 }, {
     id: 446,
     city: "Lucknow",
     country: "India",
-    lat: "26°51′",
-    lon: "80°55′"
+    lat: "26.850",
+    lng: "80.917"
 }, {
     id: 447,
     city: "Batticaloa",
     country: "Sri Lanka",
-    lat: "7°43′",
-    lon: "81°42′"
+    lat: "7.717",
+    lng: "81.700"
 }, {
     id: 448,
     city: "Novosibirsk",
     country: "Russia",
-    lat: "55°01′",
-    lon: "82°56′"
+    lat: "55.017",
+    lng: "82.933"
 }, {
     id: 449,
     city: "Patna",
     country: "India",
-    lat: "25°36′",
-    lon: "85°08′"
+    lat: "25.600",
+    lng: "85.133"
 }, {
     id: 450,
     city: "Kathmandu",
     country: "Nepal",
-    lat: "27°42′",
-    lon: "85°20′"
+    lat: "27.700",
+    lng: "85.333"
 }, {
     id: 451,
     city: "Ürümqi",
     country: "China",
-    lat: "43°48′",
-    lon: "87°35′"
+    lat: "43.800",
+    lng: "87.583"
 }, {
     id: 452,
     city: "Norilsk",
     country: "Russia",
-    lat: "69°21′",
-    lon: "88°12′"
+    lat: "69.350",
+    lng: "88.200"
 }, {
     id: 453,
     city: "Gangtok",
     country: "India",
-    lat: "27°19′",
-    lon: "88°37′"
+    lat: "27.317",
+    lng: "88.617"
 }, {
     id: 454,
     city: "Shigatse",
     country: "China",
-    lat: "29°16′",
-    lon: "88°52′"
+    lat: "29.267",
+    lng: "88.867"
 }, {
     id: 455,
     city: "Thimphu",
     country: "Bhutan",
-    lat: "27°28′",
-    lon: "89°38′"
+    lat: "27.467",
+    lng: "89.633"
 }, {
     id: 456,
     city: "Dhaka",
     country: "Bangladesh",
-    lat: "23°42′",
-    lon: "90°22′"
+    lat: "23.700",
+    lng: "90.367"
 }, {
     id: 457,
     city: "Lhasa",
     country: "China",
-    lat: "29°39′",
-    lon: "91°07′"
+    lat: "29.650",
+    lng: "91.117"
 }, {
     id: 458,
     city: "Agartala",
     country: "India",
-    lat: "23°30′",
-    lon: "91°12′"
+    lat: "23.500",
+    lng: "91.200"
 }, {
     id: 459,
     city: "Guwahati",
     country: "India",
-    lat: "26°10′",
-    lon: "91°46′"
+    lat: "26.167",
+    lng: "91.767"
 }, {
     id: 460,
     city: "Chittagong",
     country: "Bangladesh",
-    lat: "22°22′",
-    lon: "91°48′"
+    lat: "22.367",
+    lng: "91.800"
 }, {
     id: 461,
     city: "Shillong",
     country: "India",
-    lat: "25°34′",
-    lon: "91°53′"
+    lat: "25.567",
+    lng: "91.883"
 }, {
     id: 462,
     city: "Port Blair",
     country: "India",
-    lat: "11°40′",
-    lon: "92°45′"
+    lat: "11.667",
+    lng: "92.750"
 }, {
     id: 463,
     city: "Dibrugarh",
     country: "India",
-    lat: "27°28′",
-    lon: "94°54′"
+    lat: "27.467",
+    lng: "94.900"
 }, {
     id: 464,
     city: "Banda Aceh",
     country: "Indonesia",
-    lat: "5°33′",
-    lon: "95°19′"
+    lat: "5.550",
+    lng: "95.317"
 }, {
     id: 465,
     city: "Yangon",
     country: "Myanmar",
-    lat: "16°48′",
-    lon: "96°10′"
+    lat: "16.800",
+    lng: "96.167"
 }, {
     id: 466,
     city: "Medan",
     country: "Indonesia",
-    lat: "3°35′",
-    lon: "98°40′"
+    lat: "3.583",
+    lng: "98.667"
 }, {
     id: 467,
     city: "Chiang Mai",
     country: "Thailand",
-    lat: "18°47′",
-    lon: "98°59′"
+    lat: "18.783",
+    lng: "98.983"
 }, {
     id: 468,
     city: "Surat Thani",
     country: "Thailand",
-    lat: "9°08′",
-    lon: "99°20′"
+    lat: "9.133",
+    lng: "99.333"
 }, {
     id: 469,
     city: "Padang",
     country: "Indonesia",
-    lat: "-0°57′",
-    lon: "100°21′"
+    lat: "0.950",
+    lng: "100.350"
 }, {
     id: 470,
     city: "Hat Yai",
     country: "Thailand",
-    lat: "7°01′",
-    lon: "100°28′"
+    lat: "7.017",
+    lng: "100.467"
 }, {
     id: 471,
     city: "Bangkok",
     country: "Thailand",
-    lat: "13°45′",
-    lon: "100°29′"
+    lat: "13.750",
+    lng: "100.483"
 }, {
     id: 472,
     city: "Pattaya",
     country: "Thailand",
-    lat: "12°55′",
-    lon: "100°52′"
+    lat: "12.917",
+    lng: "100.867"
 }, {
     id: 473,
     city: "Ipoh",
     country: "Malaysia",
-    lat: "4°36′",
-    lon: "101°04′"
+    lat: "4.600",
+    lng: "101.067"
 }, {
     id: 474,
     city: "Pekanbaru",
     country: "Indonesia",
-    lat: "0°32′",
-    lon: "101°27′"
+    lat: "0.533",
+    lng: "101.450"
 }, {
     id: 475,
     city: "Bratsk",
     country: "Russia",
-    lat: "56°10′",
-    lon: "101°37′"
+    lat: "56.167",
+    lng: "101.617"
 }, {
     id: 476,
     city: "Kuala Lumpur",
     country: "Malaysia",
-    lat: "3°08′",
-    lon: "101°41′"
+    lat: "3.133",
+    lng: "101.683"
 }, {
     id: 477,
     city: "Xining",
     country: "China",
-    lat: "36°38′",
-    lon: "101°46′"
+    lat: "36.633",
+    lng: "101.767"
 }, {
     id: 478,
     city: "Nakhon Ratchasima",
     country: "Thailand",
-    lat: "14°58′",
-    lon: "102°06′"
+    lat: "14.967",
+    lng: "102.100"
 }, {
     id: 479,
     city: "Kota Bharu",
     country: "Malaysia",
-    lat: "6°08′",
-    lon: "102°15′"
+    lat: "6.133",
+    lng: "102.250"
 }, {
     id: 480,
     city: "Vientiane",
     country: "Laos",
-    lat: "17°57′",
-    lon: "102°37′"
+    lat: "17.950",
+    lng: "102.617"
 }, {
     id: 481,
     city: "Kunming",
     country: "China",
-    lat: "25°04′",
-    lon: "102°41′"
+    lat: "25.067",
+    lng: "102.683"
 }, {
     id: 482,
     city: "Udon Thani",
     country: "Thailand",
-    lat: "17°25′",
-    lon: "102°45′"
+    lat: "17.417",
+    lng: "102.750"
 }, {
     id: 483,
     city: "Johor Bahru",
     country: "Malaysia",
-    lat: "1°29′",
-    lon: "103°44′"
+    lat: "1.483",
+    lng: "103.733"
 }, {
     id: 484,
     city: "Lanzhou",
     country: "China",
-    lat: "36°02′",
-    lon: "103°48′"
+    lat: "36.033",
+    lng: "103.800"
 }, {
     id: 485,
     city: "Singapore",
     country: "Singapore",
-    lat: "1°22′",
-    lon: "103°48′"
+    lat: "1.367",
+    lng: "103.800"
 }, {
     id: 486,
     city: "Siem Reap",
     country: "Cambodia",
-    lat: "13°21′",
-    lon: "103°51′"
+    lat: "13.350",
+    lng: "103.850"
 }, {
     id: 487,
     city: "Chengdu",
     country: "China",
-    lat: "30°39′",
-    lon: "104°04′"
+    lat: "30.650",
+    lng: "104.067"
 }, {
     id: 488,
     city: "Palembang",
     country: "Indonesia",
-    lat: "-2°59′",
-    lon: "104°45′"
+    lat: "-2.983",
+    lng: "104.750"
 }, {
     id: 489,
     city: "Phnom Penh",
     country: "Cambodia",
-    lat: "11°33′",
-    lon: "104°55′"
+    lat: "11.550",
+    lng: "104.917"
 }, {
     id: 490,
     city: "Hanoi",
     country: "Vietnam",
-    lat: "21°02′",
-    lon: "105°51′"
+    lat: "21.033",
+    lng: "105.850"
 }, {
     id: 491,
     city: "Chongqing",
     country: "China",
-    lat: "29°33′",
-    lon: "106°30′"
+    lat: "29.550",
+    lng: "106.500"
 }, {
     id: 492,
     city: "Hai Phong",
     country: "Vietnam",
-    lat: "20°51′",
-    lon: "106°41′"
+    lat: "20.850",
+    lng: "106.683"
 }, {
     id: 493,
     city: "Ho Chi Minh City",
     country: "Vietnam",
-    lat: "10°46′",
-    lon: "106°41′"
+    lat: "10.767",
+    lng: "106.683"
 }, {
     id: 494,
     city: "Jakarta",
     country: "Indonesia",
-    lat: "-6°08′",
-    lon: "106°45′"
+    lat: "-6.133",
+    lng: "106.750"
 }, {
     id: 495,
     city: "Bogor",
     country: "Indonesia",
-    lat: "-6°36′",
-    lon: "106°48′"
+    lat: "-6.600",
+    lng: "106.800"
 }, {
     id: 496,
     city: "Ulan Bator",
     country: "Mongolia",
-    lat: "47°55′",
-    lon: "106°55′"
+    lat: "47.917",
+    lng: "106.917"
 }, {
     id: 497,
     city: "Bandung",
     country: "Indonesia",
-    lat: "-6°57′",
-    lon: "107°34′"
+    lat: "-6.950",
+    lng: "107.567"
 }, {
     id: 498,
     city: "Da Nang",
     country: "Vietnam",
-    lat: "16°04′",
-    lon: "108°14′"
+    lat: "16.067",
+    lng: "108.233"
 }, {
     id: 499,
     city: "Nanning",
     country: "China",
-    lat: "22°49′",
-    lon: "108°19′"
+    lat: "22.817",
+    lng: "108.317"
 }, {
     id: 500,
     city: "Pontianak",
     country: "Indonesia",
-    lat: "0°0′",
-    lon: "109°20′"
+    lat: "0.000",
+    lng: "109.333"
 }, {
     id: 501,
     city: "Kuching",
     country: "Malaysia",
-    lat: "1°33′",
-    lon: "110°21′"
+    lat: "1.550",
+    lng: "110.350"
 }, {
     id: 502,
     city: "Semarang",
     country: "Indonesia",
-    lat: "-6°58′",
-    lon: "110°25′"
+    lat: "-6.967",
+    lng: "110.417"
 }, {
     id: 503,
     city: "Taiyuan",
     country: "China",
-    lat: "37°52′",
-    lon: "112°33′"
+    lat: "37.867",
+    lng: "112.550"
 }, {
     id: 504,
     city: "Malang",
     country: "Indonesia",
-    lat: "-7°58′",
-    lon: "112°37′"
+    lat: "-7.967",
+    lng: "112.617"
 }, {
     id: 505,
     city: "Surabaya",
     country: "Indonesia",
-    lat: "-7°14′",
-    lon: "112°44′"
+    lat: "-7.233",
+    lng: "112.733"
 }, {
     id: 506,
     city: "Guangzhou",
     country: "China",
-    lat: "23°06′",
-    lon: "113°16′"
+    lat: "23.100",
+    lng: "113.267"
 }, {
     id: 507,
     city: "Macau",
     country: "Macau",
-    lat: "22°10′",
-    lon: "113°33′"
+    lat: "22.167",
+    lng: "113.550"
 }, {
     id: 508,
     city: "Zhengzhou",
     country: "China",
-    lat: "34°45′",
-    lon: "113°38′"
+    lat: "34.750",
+    lng: "113.633"
 }, {
     id: 509,
     city: "Dongguan",
     country: "China",
-    lat: "23°02′",
-    lon: "113°43′"
+    lat: "23.033",
+    lng: "113.717"
 }, {
     id: 510,
     city: "Miri",
     country: "Malaysia",
-    lat: "4°23′",
-    lon: "113°58′"
+    lat: "4.383",
+    lng: "113.967"
 }, {
     id: 511,
     city: "Shenzhen",
     country: "China",
-    lat: "22°33′",
-    lon: "114°06′"
+    lat: "22.550",
+    lng: "114.100"
 }, {
     id: 512,
     city: "Hong Kong",
     country: "Hong Kong",
-    lat: "undefined",
-    lon: "undefined"
+    lat: "22.300",
+    lng: "114.200"
 }, {
     id: 513,
     city: "Wuhan",
     country: "China",
-    lat: "30°34′",
-    lon: "114°16′"
+    lat: "30.567",
+    lng: "114.267"
 }, {
     id: 514,
     city: "Handan",
     country: "China",
-    lat: "36°36′",
-    lon: "114°29′"
+    lat: "36.600",
+    lng: "114.483"
 }, {
     id: 515,
     city: "Shijiazhuang",
     country: "China",
-    lat: "38°02′",
-    lon: "114°30′"
+    lat: "38.033",
+    lng: "114.500"
 }, {
     id: 516,
     city: "Bandar Seri Begawan",
     country: "Brunei",
-    lat: "4°53′",
-    lon: "114°56′"
+    lat: "4.883",
+    lng: "114.933"
 }, {
     id: 517,
     city: "Denpasar",
     country: "Indonesia",
-    lat: "-8°39′",
-    lon: "115°13′"
+    lat: "-8.650",
+    lng: "115.217"
 }, {
     id: 518,
     city: "Mandurah",
     country: "Australia",
-    lat: "-32°31′",
-    lon: "115°43′"
+    lat: "-32.517",
+    lng: "115.717"
 }, {
     id: 519,
     city: "Perth",
     country: "Australia",
-    lat: "-31°57′",
-    lon: "115°51′"
+    lat: "-31.950",
+    lng: "115.850"
 }, {
     id: 520,
     city: "Kota Kinabalu",
     country: "Malaysia",
-    lat: "5°58′",
-    lon: "116°05′"
+    lat: "5.967",
+    lng: "116.083"
 }, {
     id: 521,
     city: "Beijing",
     country: "China",
-    lat: "39°54′",
-    lon: "116°24′"
+    lat: "39.900",
+    lng: "116.400"
 }, {
     id: 522,
     city: "Balikpapan",
     country: "Indonesia",
-    lat: "-1°15′",
-    lon: "116°49′"
+    lat: "-1.250",
+    lng: "116.817"
 }, {
     id: 523,
     city: "Jinan",
     country: "China",
-    lat: "36°40′",
-    lon: "116°59′"
+    lat: "36.667",
+    lng: "116.983"
 }, {
     id: 524,
     city: "Tianjin",
     country: "China",
-    lat: "39°08′",
-    lon: "117°11′"
+    lat: "39.133",
+    lng: "117.183"
 }, {
     id: 525,
     city: "Port Hedland",
     country: "Australia",
-    lat: "-20°18′",
-    lon: "118°36′"
+    lat: "-20.300",
+    lng: "118.600"
 }, {
     id: 526,
     city: "Nanjing",
     country: "China",
-    lat: "32°03′",
-    lon: "118°46′"
+    lat: "32.050",
+    lng: "118.767"
 }, {
     id: 527,
     city: "Makassar",
     country: "Indonesia",
-    lat: "-5°8′",
-    lon: "119°25′"
+    lat: "-5.133",
+    lng: "119.417"
 }, {
     id: 528,
     city: "Hangzhou",
     country: "China",
-    lat: "30°15′",
-    lon: "120°10′"
+    lat: "30.250",
+    lng: "120.167"
 }, {
     id: 529,
     city: "Kaohsiung",
     country: "Taiwan",
-    lat: "22°38′",
-    lon: "120°16′"
+    lat: "22.633",
+    lng: "120.267"
 }, {
     id: 530,
     city: "Qingdao",
     country: "China",
-    lat: "36°05′",
-    lon: "120°20′"
+    lat: "36.083",
+    lng: "120.333"
 }, {
     id: 531,
     city: "Taichung",
     country: "Taiwan",
-    lat: "24°09′",
-    lon: "120°40′"
+    lat: "24.150",
+    lng: "120.667"
 }, {
     id: 532,
     city: "Manila",
     country: "Philippines",
-    lat: "14°35′",
-    lon: "120°58′"
+    lat: "14.583",
+    lng: "120.967"
 }, {
     id: 533,
     city: "Quezon City",
     country: "Philippines",
-    lat: "14°38′",
-    lon: "121°02′"
+    lat: "14.633",
+    lng: "121.033"
 }, {
     id: 534,
     city: "Shanghai",
     country: "China",
-    lat: "31°12′",
-    lon: "121°30′"
+    lat: "31.200",
+    lng: "121.500"
 }, {
     id: 535,
     city: "Taipei",
     country: "Taiwan",
-    lat: "25°02′",
-    lon: "121°38′"
+    lat: "25.033",
+    lng: "121.633"
 }, {
     id: 536,
     city: "Dalian",
     country: "China",
-    lat: "39°02′",
-    lon: "121°46′"
+    lat: "39.033",
+    lng: "121.767"
 }, {
     id: 537,
     city: "Iloilo City",
     country: "Philippines",
-    lat: "10°41′",
-    lon: "122°33′"
+    lat: "10.683",
+    lng: "122.550"
 }, {
     id: 538,
     city: "Zamboanga City",
     country: "Philippines",
-    lat: "6°54′",
-    lon: "122°4′"
+    lat: "6.900",
+    lng: "122.067"
 }, {
     id: 539,
     city: "Shenyang",
     country: "China",
-    lat: "41°47′",
-    lon: "123°27′"
+    lat: "41.783",
+    lng: "123.450"
 }, {
     id: 540,
     city: "Tagbilaran",
     country: "Philippines",
-    lat: "9°39'",
-    lon: "123°51'"
+    lat: "9.650",
+    lng: "123.850"
 }, {
     id: 541,
     city: "Cebu City",
     country: "Philippines",
-    lat: "10°17′",
-    lon: "123°54′"
+    lat: "10.283",
+    lng: "123.900"
 }, {
     id: 542,
     city: "Changchun",
     country: "China",
-    lat: "43°53′",
-    lon: "125°19′"
+    lat: "43.883",
+    lng: "125.317"
 }, {
     id: 543,
     city: "Dili",
     country: "Mali",
-    lat: "-8°33′",
-    lon: "125°35′"
+    lat: "-8.550",
+    lng: "125.583"
 }, {
     id: 544,
     city: "Pyongyang",
     country: "North Korea",
-    lat: "39°02′",
-    lon: "125°45′"
+    lat: "39.033",
+    lng: "125.750"
 }, {
     id: 545,
     city: "Davao City",
     country: "Philippines",
-    lat: "7°30′",
-    lon: "126°0′"
+    lat: "7.500",
+    lng: "126.000"
 }, {
     id: 546,
     city: "Kaesong",
     country: "North Korea",
-    lat: "37°58′",
-    lon: "126°33′"
+    lat: "37.967",
+    lng: "126.550"
 }, {
     id: 547,
     city: "Harbin",
     country: "China",
-    lat: "45°45′",
-    lon: "126°38′"
+    lat: "45.750",
+    lng: "126.633"
 }, {
     id: 548,
     city: "Incheon",
     country: "South Korea",
-    lat: "37°29′",
-    lon: "126°38′"
+    lat: "37.483",
+    lng: "126.633"
 }, {
     id: 549,
     city: "Seoul",
     country: "South Korea",
-    lat: "37°33′",
-    lon: "126°59′"
+    lat: "37.550",
+    lng: "126.983"
 }, {
     id: 550,
     city: "Wonsan",
     country: "North Korea",
-    lat: "39°09′",
-    lon: "127°26′"
+    lat: "39.150",
+    lng: "127.433"
 }, {
     id: 551,
     city: "Okinawa",
     country: "Japan",
-    lat: "26°20′",
-    lon: "127°48′"
+    lat: "26.333",
+    lng: "127.800"
 }, {
     id: 552,
     city: "Ambon",
     country: "Indonesia",
-    lat: "-3°42′",
-    lon: "128°10′"
+    lat: "-3.700",
+    lng: "128.167"
 }, {
     id: 553,
     city: "Daegu",
     country: "South Korea",
-    lat: "35°52′",
-    lon: "128°36′"
+    lat: "35.867",
+    lng: "128.600"
 }, {
     id: 554,
     city: "Busan",
     country: "South Korea",
-    lat: "35°06′",
-    lon: "129°02′"
+    lat: "35.100",
+    lng: "129.033"
 }, {
     id: 555,
     city: "Yakutsk",
     country: "Russia",
-    lat: "62°02′",
-    lon: "129°44′"
+    lat: "62.033",
+    lng: "129.733"
 }, {
     id: 556,
     city: "Chongjin",
     country: "North Korea",
-    lat: "41°48′",
-    lon: "129°47′"
+    lat: "41.800",
+    lng: "129.783"
 }, {
     id: 557,
     city: "Fukuoka",
     country: "Japan",
-    lat: "33°35′",
-    lon: "130°24′"
+    lat: "33.583",
+    lng: "130.400"
 }, {
     id: 558,
     city: "Darwin",
     country: "Australia",
-    lat: "-12°27′",
-    lon: "130°50′"
+    lat: "-12.450",
+    lng: "130.833"
 }, {
     id: 559,
     city: "Vladivostok",
     country: "Russia",
-    lat: "43°08′",
-    lon: "131°54′"
+    lat: "43.133",
+    lng: "131.900"
 }, {
     id: 560,
     city: "Hiroshima",
     country: "Japan",
-    lat: "34°23′",
-    lon: "132°27′"
+    lat: "34.383",
+    lng: "132.450"
 }, {
     id: 561,
     city: "Melekeok",
     country: "Palau",
-    lat: "7°30′",
-    lon: "134°37′"
+    lat: "7.500",
+    lng: "134.617"
 }, {
     id: 562,
     city: "Kobe",
     country: "Japan",
-    lat: "34°41′",
-    lon: "135°12′"
+    lat: "34.683",
+    lng: "135.200"
 }, {
     id: 563,
     city: "Osaka",
     country: "Japan",
-    lat: "34°41′",
-    lon: "135°30′"
+    lat: "34.683",
+    lng: "135.500"
 }, {
     id: 564,
     city: "Kyoto",
     country: "Japan",
-    lat: "35°01′",
-    lon: "135°46′"
+    lat: "35.017",
+    lng: "135.767"
 }, {
     id: 565,
     city: "Nagoya",
     country: "Japan",
-    lat: "35°11′",
-    lon: "136°54′"
+    lat: "35.183",
+    lng: "136.900"
 }, {
     id: 566,
     city: "Adelaide",
     country: "Australia",
-    lat: "-34°55′",
-    lon: "138°36′"
+    lat: "-34.917",
+    lng: "138.600"
 }, {
     id: 567,
     city: "Yokohama",
     country: "Japan",
-    lat: "35°27′",
-    lon: "139°38′"
+    lat: "35.450",
+    lng: "139.633"
 }, {
     id: 568,
     city: "Kawasaki",
     country: "Japan",
-    lat: "35°31′",
-    lon: "139°42′"
+    lat: "35.517",
+    lng: "139.700"
 }, {
     id: 569,
     city: "Jayapura",
     country: "Indonesia",
-    lat: "-2°32′",
-    lon: "140°43′"
+    lat: "-2.533",
+    lng: "140.717"
 }, {
     id: 570,
     city: "Sapporo",
     country: "Japan",
-    lat: "43°04′",
-    lon: "141°21′"
+    lat: "43.067",
+    lng: "141.350"
 }, {
     id: 571,
     city: "Geelong",
     country: "Australia",
-    lat: "-38°09′",
-    lon: "144°21′"
+    lat: "-38.150",
+    lng: "144.350"
 }, {
     id: 572,
     city: "Hagåtña",
     country: "United States",
-    lat: "13°29′",
-    lon: "144°45′"
+    lat: "13.483",
+    lng: "144.750"
 }, {
     id: 573,
     city: "Dededo",
     country: "United States",
-    lat: "13°31′",
-    lon: "144°50′"
+    lat: "13.517",
+    lng: "144.833"
 }, {
     id: 574,
     city: "Melbourne",
     country: "Australia",
-    lat: "-37°48′",
-    lon: "144°57′"
+    lat: "-37.800",
+    lng: "144.950"
 }, {
     id: 575,
     city: "Saipan",
     country: "United States",
-    lat: "15°11′",
-    lon: "145°45′"
+    lat: "15.183",
+    lng: "145.750"
 }, {
     id: 576,
     city: "Cairns",
     country: "Australia",
-    lat: "-16°55′",
-    lon: "145°46′"
+    lat: "-16.917",
+    lng: "145.767"
 }, {
     id: 577,
     city: "Townsville",
     country: "Australia",
-    lat: "-19°15′",
-    lon: "146°49′"
+    lat: "-19.250",
+    lng: "146.817"
 }, {
     id: 578,
     city: "Port Moresby",
     country: "Papua New Guinea",
-    lat: "-9°28′",
-    lon: "147°10′"
+    lat: "-9.467",
+    lng: "147.167"
 }, {
     id: 579,
     city: "Hobart",
     country: "Australia",
-    lat: "-42°53′",
-    lon: "147°19′"
+    lat: "-42.883",
+    lng: "147.317"
 }, {
     id: 580,
     city: "Canberra",
     country: "Australia",
-    lat: "-35°18′",
-    lon: "149°07′"
+    lat: "-35.300",
+    lng: "149.117"
 }, {
     id: 581,
     city: "Rockhampton",
     country: "Australia",
-    lat: "-23°22′",
-    lon: "150°30′"
+    lat: "-23.367",
+    lng: "150.500"
 }, {
     id: 582,
     city: "Magadan",
     country: "Russia",
-    lat: "59°34′",
-    lon: "150°48′"
+    lat: "59.567",
+    lng: "150.800"
 }, {
     id: 583,
     city: "Wollongong",
     country: "Australia",
-    lat: "-34°26′",
-    lon: "150°53′"
+    lat: "-34.433",
+    lng: "150.883"
 }, {
     id: 584,
     city: "Sydney",
     country: "Australia",
-    lat: "-33°51′",
-    lon: "151°12′"
+    lat: "-33.850",
+    lng: "151.200"
 }, {
     id: 585,
     city: "Newcastle",
     country: "United Kingdom",
-    lat: "-32°55′",
-    lon: "151°45′"
+    lat: "-32.917",
+    lng: "151.750"
 }, {
     id: 586,
     city: "Weno",
     country: "Federated States of Micronesia",
-    lat: "7°27′",
-    lon: "151°51′"
+    lat: "7.450",
+    lng: "151.850"
 }, {
     id: 587,
     city: "Brisbane",
     country: "Australia",
-    lat: "-27°28′",
-    lon: "153°01′"
+    lat: "-27.467",
+    lng: "153.017"
 }, {
     id: 588,
     city: "Gold Coast",
     country: "Australia",
-    lat: "-28°10′",
-    lon: "153°33′"
+    lat: "-28.167",
+    lng: "153.550"
 }, {
     id: 589,
     city: "Palikir",
     country: "Federated States of Micronesia",
-    lat: "6°55′",
-    lon: "158°11′"
+    lat: "6.917",
+    lng: "158.183"
 }, {
     id: 590,
     city: "Honiara",
     country: "Solomon Islands",
-    lat: "-9°26′",
-    lon: "159°57′"
+    lat: "-9.433",
+    lng: "159.950"
 }, {
     id: 591,
     city: "Nouméa",
     country: "New Caledonia",
-    lat: "-22°16′",
-    lon: "166°27′"
+    lat: "-22.267",
+    lng: "166.450"
 }, {
     id: 592,
     city: "Invercargill",
     country: "New Zealand",
-    lat: "-46°25′",
-    lon: "168°18′"
+    lat: "-46.417",
+    lng: "168.300"
 }, {
     id: 593,
     city: "Dunedin",
     country: "New Zealand",
-    lat: "-45°52′",
-    lon: "170°30′"
+    lat: "-45.867",
+    lng: "170.500"
 }, {
     id: 594,
     city: "Majuro",
     country: "Marshall Islands",
-    lat: "7°04′",
-    lon: "171°16′"
+    lat: "7.067",
+    lng: "171.267"
 }, {
     id: 595,
     city: "Christchurch",
     country: "New Zealand",
-    lat: "-43°32′",
-    lon: "172°37′"
+    lat: "-43.533",
+    lng: "172.617"
 }, {
     id: 596,
     city: "Wellington",
     country: "New Zealand",
-    lat: "-41°17′",
-    lon: "174°46′"
+    lat: "-41.283",
+    lng: "174.767"
 }, {
     id: 597,
     city: "Auckland",
     country: "New Zealand",
-    lat: "-36°51′",
-    lon: "174°47′"
+    lat: "-36.850",
+    lng: "174.783"
 }, {
     id: 598,
     city: "Suva",
     country: "Fiji",
-    lat: "-18°08′",
-    lon: "178°26′"
+    lat: "-18.133",
+    lng: "178.433"
 }, {
     id: 599,
     city: "Funafuti",
     country: "Tuvalu",
-    lat: "-8°31′",
-    lon: "179°13′"
+    lat: "-8.517",
+    lng: "179.217"
 }, {
     id: 600,
     city: "Labasa",
     country: "Fiji",
-    lat: "-16°26′",
-    lon: "179°22′"
+    lat: "-16.433",
+    lng: "179.367"
 }, {
     id: 601,
     city: "Nukuʻalofa",
     country: "Tonga",
-    lat: "-21°8′",
-    lon: "-175°12′"
+    lat: "-21.133",
+    lng: "-175.200"
 }, {
     id: 602,
     city: "Rabi Island",
     country: "",
-    lat: "38°′",
-    lon: "-123°′"
+    lat: "38.000",
+    lng: "-123.000"
 }, {
     id: 603,
     city: "St. Louis",
     country: "United States",
-    lat: "38°37′",
-    lon: "-90°11′"
+    lat: "38.617",
+    lng: "-90.183"
 }, {
     id: 604,
     city: "Santiago de Cuba",
     country: "Cuba",
-    lat: "20°01′",
-    lon: "-75°48′"
+    lat: "20.017",
+    lng: "-75.800"
 }, {
     id: 605,
     city: "New York City",
     country: "United States",
-    lat: "40°43′",
-    lon: "-74°00′"
+    lat: "40.717",
+    lng: "-74.000"
 }, {
     id: 606,
     city: "Port-au-Prince",
     country: "Haiti",
-    lat: "18°32′",
-    lon: "-72°20′"
+    lat: "18.533",
+    lng: "-72.333"
 }, {
     id: 607,
     city: "San Carlos de Bariloche",
     country: "Argentina",
-    lat: "-41°09′",
-    lon: "-71°18′"
+    lat: "-41.150",
+    lng: "-71.300"
 }, {
     id: 608,
     city: "Quebec City",
     country: "Canada",
-    lat: "46°48′",
-    lon: "-71°13′"
+    lat: "46.800",
+    lng: "-71.217"
 }, {
     id: 609,
     city: "City of Halifax",
     country: "Canada",
-    lat: "44°40′",
-    lon: "-63°36′"
+    lat: "44.667",
+    lng: "-63.600"
 }, {
     id: 610,
     city: "Santa Cruz de la Sierra",
     country: "Bolivia",
-    lat: "-17°48′",
-    lon: "-63°10′"
+    lat: "-17.800",
+    lng: "-63.167"
 }, {
     id: 611,
     city: "St. George's",
     country: "Grenada",
-    lat: "12°03′",
-    lon: "-61°45′"
+    lat: "12.050",
+    lng: "-61.750"
 }, {
     id: 612,
     city: "Port of Spain",
     country: "Trinidad and Tobago",
-    lat: "10°40′",
-    lon: "-61°31′"
+    lat: "10.667",
+    lng: "-61.517"
 }, {
     id: 613,
     city: "Fort-de-France",
     country: "Martinique",
-    lat: "14°36′",
-    lon: "-61°05′"
+    lat: "14.600",
+    lng: "-61.083"
 }, {
     id: 614,
     city: "Ciudad del Este",
     country: "Argentina",
-    lat: "-25°25′",
-    lon: "-54°37′"
+    lat: "-25.417",
+    lng: "-54.617"
 }, {
     id: 615,
     city: "São José dos Campos",
     country: "Brazil",
-    lat: "-23°11′",
-    lon: "-45°52′"
+    lat: "-23.183",
+    lng: "-45.867"
 }, {
     id: 616,
     city: "Rio de Janeiro",
     country: "Brazil",
-    lat: "-22°54′",
-    lon: "-43°14′"
+    lat: "-22.900",
+    lng: "-43.233"
 }, {
     id: 617,
     city: "Horta (Azores)",
     country: "Portugal",
-    lat: "38º32′",
-    lon: "-28º38′"
+    lat: "38.533",
+    lng: "-28.633"
 }, {
     id: 618,
     city: "Angra do Heroísmo",
     country: "Portugal",
-    lat: "38º39′",
-    lon: "-27º13′"
+    lat: "38.650",
+    lng: "-27.217"
 }, {
     id: 619,
     city: "Santa Cruz de Tenerife",
     country: "Spain",
-    lat: "28º28′",
-    lon: "-16º15′"
+    lat: "28.467",
+    lng: "-16.250"
 }, {
     id: 620,
     city: "Las Palmas de Gran Canaria",
     country: "Spain",
-    lat: "28º8′",
-    lon: "-15º26′"
+    lat: "28.133",
+    lng: "-15.433"
 }, {
     id: 621,
     city: "Cork (city)",
     country: "Ireland",
-    lat: "51º53′",
-    lon: "-8º28′"
+    lat: "51.883",
+    lng: "-8.467"
 }, {
     id: 622,
     city: "Marrakech",
     country: "Morocco",
-    lat: "31º38′",
-    lon: "-8º0′"
+    lat: "31.633",
+    lng: "-8.000"
 }, {
     id: 623,
     city: "Andorra la Vella",
     country: "Andorra",
-    lat: "42°30′",
-    lon: "1°30′"
+    lat: "42.500",
+    lng: "1.500"
 }, {
     id: 624,
     city: "Luxembourg (city)",
     country: "Luxembourg",
-    lat: "49°36′",
-    lon: "6°07′"
+    lat: "49.600",
+    lng: "6.117"
 }, {
     id: 625,
     city: "City of San Marino",
     country: "San Marino",
-    lat: "43°56′",
-    lon: "12°26′"
+    lat: "43.933",
+    lng: "12.433"
 }, {
     id: 626,
     city: "Vatican City",
     country: "",
-    lat: "41°54′",
-    lon: "12°27′"
+    lat: "41.900",
+    lng: "12.450"
 }, {
     id: 627,
     city: "Split (city)",
     country: "Croatia",
-    lat: "43°30′",
-    lon: "16°26′"
+    lat: "43.500",
+    lng: "16.433"
 }, {
     id: 628,
     city: "Gdańsk",
     country: "Poland",
-    lat: "54°21′",
-    lon: "18°40′"
+    lat: "54.350",
+    lng: "18.667"
 }, {
     id: 629,
     city: "Thessaloniki",
     country: "Greece",
-    lat: "40°38′",
-    lon: "22°57′"
+    lat: "40.633",
+    lng: "22.950"
 }, {
     id: 630,
     city: "İzmir",
     country: "Turkey",
-    lat: "38°26′",
-    lon: "27°09′"
+    lat: "38.433",
+    lng: "27.150"
 }, {
     id: 631,
     city: "Chişinău",
     country: "Moldova",
-    lat: "47°0′",
-    lon: "28°52′"
+    lat: "47.000",
+    lng: "28.867"
 }, {
     id: 632,
     city: "Kiev",
     country: "Ukraine",
-    lat: "50°27′",
-    lon: "30°31′"
+    lat: "50.450",
+    lng: "30.517"
 }, {
     id: 633,
     city: "Dar es Salaam",
     country: "Tanzania",
-    lat: "-6°49′",
-    lon: "39°16′"
+    lat: "-6.817",
+    lng: "39.267"
 }, {
     id: 634,
     city: "Djibouti (city)",
     country: "Djibouti",
-    lat: "11°35′",
-    lon: "43°08′"
+    lat: "11.583",
+    lng: "43.133"
 }, {
     id: 635,
     city: "Tskhinvali",
     country: "Georgia",
-    lat: "42°14′",
-    lon: "43°58′"
+    lat: "42.233",
+    lng: "43.967"
 }, {
     id: 636,
     city: "Sana'a",
     country: "Yemen",
-    lat: "15°21′",
-    lon: "44°12′"
+    lat: "15.350",
+    lng: "44.200"
 }, {
     id: 637,
     city: "Nizhny Novgorod",
     country: "Russia",
-    lat: "56°20′",
-    lon: "44°0′"
+    lat: "56.333",
+    lng: "44.000"
 }, {
     id: 638,
     city: "Arbil",
     country: "Iraq",
-    lat: "36°20′",
-    lon: "44°01′"
+    lat: "36.333",
+    lng: "44.017"
 }, {
     id: 639,
     city: "Kuwait City",
     country: "Kuwait",
-    lat: "29°22′",
-    lon: "47°58′"
+    lat: "29.367",
+    lng: "47.967"
 }, {
     id: 640,
     city: "Malé",
     country: "Republic of Maldives",
-    lat: "4°10′",
-    lon: "73°30′"
+    lat: "4.167",
+    lng: "73.500"
 }, {
     id: 641,
     city: "Sri Jayawardenapura-Kotte",
     country: "Sri Lanka",
-    lat: "6°54′",
-    lon: "79°53′"
+    lat: "6.900",
+    lng: "79.883"
 }, {
     id: 642,
     city: "Kolkata",
     country: "India",
-    lat: "22°34′",
-    lon: "88°22′"
+    lat: "22.567",
+    lng: "88.367"
 }, {
     id: 643,
     city: "Naypyidaw",
     country: "",
-    lat: "19°45′",
-    lon: "96°06′"
+    lat: "19.750",
+    lng: "96.100"
 }, {
     id: 644,
     city: "Phuket (city)",
     country: "Thailand",
-    lat: "7°53′",
-    lon: "98°24′"
+    lat: "7.883",
+    lng: "98.400"
 }, {
     id: 645,
     city: "Alor Star",
     country: "Malaysia",
-    lat: "6°07′",
-    lon: "100°22′"
+    lat: "6.117",
+    lng: "100.367"
 }, {
     id: 646,
     city: "Malacca Town",
     country: "Malaysia",
-    lat: "2°11′",
-    lon: "102°23′"
+    lat: "2.183",
+    lng: "102.383"
 }, {
     id: 647,
     city: "Huế",
     country: "Vietnam",
-    lat: "16°28′",
-    lon: "107°36′"
+    lat: "16.467",
+    lng: "107.600"
 }, {
     id: 648,
     city: "Xi'an",
     country: "China",
-    lat: "34°16′",
-    lon: "108°54′"
+    lat: "34.267",
+    lng: "108.900"
 }, {
     id: 649,
     city: "Yogyakarta (city)",
     country: "Indonesia",
-    lat: "-7°48′",
-    lon: "110°22′"
+    lat: "-7.800",
+    lng: "110.367"
 }, {
     id: 650,
     city: "Makati City",
     country: "Philippines",
-    lat: "14°33′",
-    lon: "121°02′"
+    lat: "14.550",
+    lng: "121.033"
 }, {
     id: 651,
     city: "Koror",
     country: "Republic of Palau",
-    lat: "7°21′",
-    lon: "134°28′"
+    lat: "7.350",
+    lng: "134.467"
 }, {
     id: 652,
     city: "Tokyo",
     country: "Japan",
-    lat: "35°41′",
-    lon: "139°46′"
+    lat: "35.683",
+    lng: "139.767"
 }, {
     id: 653,
     city: "Petropavlovsk-Kamchatsky",
     country: "Russia",
-    lat: "53°01′",
-    lon: "158°39′"
+    lat: "53.017",
+    lng: "158.650"
 }, {
     id: 654,
     city: "Yaren District",
     country: "Nauru",
-    lat: "-0°33′",
-    lon: "166°55′"
+    lat: "0.550",
+    lng: "166.917"
 }, {
     id: 655,
     city: "Port Vila",
     country: "Vanuatu",
-    lat: "-17°45′",
-    lon: "168°18′"
+    lat: "-17.750",
+    lng: "168.300"
 }, {
     id: 656,
     city: "South Tarawa",
     country: "",
-    lat: "1°19′",
-    lon: "172°59′"
+    lat: "1.317",
+    lng: "172.983"
 }, {
     id: 657,
     city: "Mata-Utu",
     country: "Wallis and Futuna",
-    lat: "-13°17′",
-    lon: "176°11′"
+    lat: "-13.283",
+    lng: "176.183"
 }, {
     id: 658,
     city: "Anadyr (town)",
     country: "",
-    lat: "64°44′",
-    lon: "177°30′"
+    lat: "64.733",
+    lng: "177.500"
 }, {
     id: 659,
     city: "Nukulaelae",
     country: "",
-    lat: "-9°23′",
-    lon: "179°51′"
+    lat: "-9.383",
+    lng: "179.850"
 }];
 
 module.exports = LOCALES;
