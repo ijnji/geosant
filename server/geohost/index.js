@@ -4,7 +4,8 @@ const shortid = require('shortid');
 
 const STATE_WAITING = 0;
 const STATE_PLAYING = 1;
-const LOCALES = require('./locales.js').LOCALES;
+const STATE_FINISHED = 2;
+const LOCALES = require('./locales.js');
 
 let geohost = {};
 geohost.games = {};
@@ -13,7 +14,9 @@ geohost.openGames = [];
 
 geohost.emitError = function(socket, message) {
     message = message || '';
-    socket.emit('eServerError', message);
+    socket.emit('eServerError', {
+        message: message
+    });
 }
 
 geohost.onDisconnect = function(socket) {
@@ -22,19 +25,10 @@ geohost.onDisconnect = function(socket) {
     if (gameId) geohost.endGame(gameId);
 };
 
-geohost.endGame = function(gameId) {
-    let game = geohost.games[gameId];
-    if (!game) return;
-    game.sockets.forEach(function(soc) {
-        soc.emit('eServerGameEnd');
-        delete(geohost.socketToGame[soc]);
-    });
-    delete(geohost.games[game]);
-}
-
 geohost.onNewGame = function(socket) {
     let gameId = shortid.generate();
     geohost.games[gameId] = {
+        id: gameId,
         state: STATE_WAITING,
         locale: 0,
         round: 0,
@@ -76,30 +70,55 @@ geohost.onJoinGame = function(socket, gameId) {
     game.sockets.push(socket);
     if (game.sockets.length === 2) {
         game.state = STATE_PLAYING;
-        geohost.nextRound(game);
+        geohost.nextRound(game.id);
     }
 };
 
-geohost.nextRound = function(game) {
-    if (game.state !== STATE_PLAYING) return;
-    if (game.round >= 10) return;
-
+geohost.nextRound = function(gameId) {
+    let game = geohost.games[gameId];
     game.round++;
     game.locale = geohost.randomLocaleIndex();
-    game.guesses = {};
+    game.guessCoords = [];
+    game.guessTimeStart = [ new Date(), new Date() ];
+    game.guessTimeEnd = [];
     game.sockets.forEach(function(soc) {
-        socket.emit('eServerNextRound', {
+        soc.emit('eServerNextRound', {
             round: game.round,
-            localeCity: LOCALES[game.state.locale].city,
-            localeCountry: LOCALES[game.state.locale].country,
+            city: LOCALES[game.state.locale].city,
+            country: LOCALES[game.state.locale].country,
         });
     });
-    game.timeoutHandler = setTimeout(geohost.checkRound, 1000, game);
+    game.timeout = setTimeout(geohost.endRound, 1000, game.id);
 };
 
-geohost.checkRound = function(game) {
-    
+geohost.endRound = function(gameId) {
+    let game = geohost.games[gameId];
+    clearTimeout(game.timeout);
+    game.sockets.forEach(function(soc, idx) {
+        soc.emit('eServerEndRound', {
+            self: idx,
+            guessCoords: game.guessCoords,
+            guessTimeStart: game.guessTimeStart,
+            guessTimeEnd: game.guessTimeEnd
+        });
+    });
+    if (game.round < 10) {
+        geohost.nextRound(game.id);
+    } else {
+        game.state = STATE_FINISHED;
+        geohost.endGame(game.id);
+    }
 };
+
+geohost.endGame = function(gameId) {
+    let game = geohost.games[gameId];
+    if (!game) return;
+    game.sockets.forEach(function(soc) {
+        soc.emit('eServerGameEnd');
+        delete(geohost.socketToGame[soc]);
+    });
+    delete(geohost.games[game]);
+}
 
 geohost.randomLocaleIndex = function() {
     let max = LOCALES.length;

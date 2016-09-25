@@ -1,6 +1,6 @@
 'use strict';
 
-window.app.factory('SocketFactory', function() {
+window.app.factory('SocketFactory', function(GeoclientFactory) {
     let factory = {};
 
     factory.socket = window.io(window.location.origin);
@@ -14,11 +14,15 @@ window.app.factory('SocketFactory', function() {
     });
 
     factory.socket.on('eServerError', function(resObj) {
-        console.log('Round ' + resObj.round + ': location at ' + resObj.locale);
+        console.log('Server error: ' + resObj.message);
     });
 
     factory.socket.on('eServerNextRound', function(resObj) {
-        console.log('Round ' + resObj.round + ': location at ' + resObj.locale);
+
+    });
+
+    factory.socket.on('eServerEndRound', function(resObj) {
+
     });
 
     factory.socket.on('eServerEndGame', function(resObj) {
