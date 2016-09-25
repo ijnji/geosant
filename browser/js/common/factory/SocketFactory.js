@@ -9,7 +9,19 @@ window.app.factory('SocketFactory', function() {
         console.log('I\'m connected!');
     });
 
+    factory.socket.on('disconect', function() {
+        console.log('I\'m connected!');
+    });
+
+    factory.socket.on('eServerError', function(resObj) {
+        console.log('Round ' + resObj.round + ': location at ' + resObj.locale);
+    });
+
     factory.socket.on('eServerNextRound', function(resObj) {
+        console.log('Round ' + resObj.round + ': location at ' + resObj.locale);
+    });
+
+    factory.socket.on('eServerEndGame', function(resObj) {
         console.log('Round ' + resObj.round + ': location at ' + resObj.locale);
     });
 
