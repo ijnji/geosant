@@ -12,6 +12,13 @@ geohost.games = {};
 geohost.socketToGame = {};
 geohost.openGames = [];
 
+geohost.emitMessage = function(socket, message) {
+    message = message || '';
+    socket.emit('eServerMessage', {
+        message: message
+    });
+};
+
 geohost.emitError = function(socket, message) {
     message = message || '';
     socket.emit('eServerError', {
@@ -25,7 +32,7 @@ geohost.onDisconnect = function(socket) {
     if (gameId) geohost.endGame(gameId);
 };
 
-geohost.onNewGame = function(socket) {
+geohost.onCreateGame = function(socket) {
     let gameId = shortid.generate();
     geohost.games[gameId] = {
         id: gameId,
@@ -33,42 +40,46 @@ geohost.onNewGame = function(socket) {
         locale: 0,
         round: 0,
         guesses: {}, // Key is socket.id
-        sockets: [ socket ]
+        sockets: []
     };
-    geohost.socketToGame[socket.id] = gameId;
     geohost.openGames.push(gameId);
+    socket.emit('eServerGameAvailable', {
+        gameId: gameId
+    });
     console.log(socket.id + ' created game ' + gameId);
 }
 
-geohost.getRandomOpenGameIndex = function() {
-    if (geohost.openGames.length === 0) return -1;
-    let r = Math.floor(Math.random() * geohost.openGames.length);
-    return r;
+geohost.onGetOpenGame = function(socket) {
+    if (geohost.openGames.length === 0) {
+        geohost.emitError(socket, 'No open games');
+        return;
+    }
+    let openGameIndex = geohost.openGames.length - 1;
+    let gameId = geohost.openGames[openGameIndex];
+    socket.emit('eServerGameAvailable', {
+        gameId: gameId
+    });
+    console.log(socket.id + ' has available game ' + gameId);
 }
 
 geohost.onJoinGame = function(socket, gameId) {
+    console.log(socket.id + ' trying to join ' + gameId);
     if (!gameId) {
-        console.log(socket.id + ': wants to join any game');
-        let openGameIndex = geohost.getRandomOpenGameIndex();
-        if (openGameIndex === -1) {
-            geohost.emitError(socket, 'No open games');
-            return;
-        }
-        gameId = geohost.openGames[openGameIndex];
-        geohost.openGames.splice(openGameIndex, 1);
-    } else {
-        console.log(socket.id + ': wants to join ' + gameId);
-        let openGameIndex = geohost.openGames.indexOf(gameId);
-        if (openGameIndex === -1) {
-            geohost.emitError(socket, 'Game not available to join');
-            return;
-        }
-        geohost.openGames.splice(openGameIndex, 1);
+        geohost.emitError(socket, 'Game not available to join');
+        return;
+    }
+    let openGameIndex = geohost.openGames.indexOf(gameId);
+    if (openGameIndex === -1) {
+        geohost.emitError(socket, 'Game not available to join');
+        return;
     }
     geohost.socketToGame[socket.id] = gameId;
     let game = geohost.games[gameId];
     game.sockets.push(socket);
+    geohost.emitMessage(socket, 'Successfully joined ' + gameId);
     if (game.sockets.length === 2) {
+        let openGameIndex = geohost.openGames.indexOf(gameId);
+        if (gameId !== -1) geohost.openGames.splice(openGameIndex, 1);
         game.state = STATE_PLAYING;
         geohost.nextRound(game.id);
     }
@@ -82,10 +93,11 @@ geohost.nextRound = function(gameId) {
     game.guessTimeStart = [ new Date(), new Date() ];
     game.guessTimeEnd = [];
     game.sockets.forEach(function(soc) {
+        geohost.emitMessage(soc, 'New round!');
         soc.emit('eServerNextRound', {
             round: game.round,
-            city: LOCALES[game.state.locale].city,
-            country: LOCALES[game.state.locale].country,
+            city: LOCALES[game.locale].city,
+            country: LOCALES[game.locale].country,
         });
     });
     game.timeout = setTimeout(geohost.endRound, 1000, game.id);

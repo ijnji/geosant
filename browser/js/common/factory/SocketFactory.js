@@ -6,36 +6,20 @@ window.app.factory('SocketFactory', function() {
     factory.socket = window.io(window.location.origin);
 
     factory.socket.on('connect', function() {
-        console.log('I\'m connected!');
+        console.log('Socket connected to server');
     });
 
     factory.socket.on('disconect', function() {
-        console.log('I\'m connected!');
+        console.log('Socket disconnected from server');
     });
 
-    factory.socket.on('eServerError', function(resObj) {
-        console.log('Server error: ' + resObj.message);
+    factory.socket.on('eServerError', function(msgObj) {
+        console.log('Server error: ' + msgObj.message);
     });
 
-    factory.socket.on('eServerNextRound', function(resObj) {
-
+    factory.socket.on('eServerMessage', function(msgObj) {
+        console.log('Server message: ' + msgObj.message);
     });
-
-    factory.socket.on('eServerEndRound', function(resObj) {
-
-    });
-
-    factory.socket.on('eServerEndGame', function(resObj) {
-        console.log('Round ' + resObj.round + ': location at ' + resObj.locale);
-    });
-
-    factory.joinGame = function(gameName) {
-        factory.socket.emit('eClientJoinGame', gameName);
-    };
-
-    factory.newGame = function() {
-        factory.socket.emit('eClientNewGame');
-    };
 
     return factory;
 });

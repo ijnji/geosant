@@ -17,11 +17,14 @@ io.on('connection', function(socket) {
     socket.on('disconnect', function() {
         geohost.onDisconnect(socket);
     });
-    socket.on('eClientNewGame', function() {
-        geohost.onNewGame(socket);
+    socket.on('eClientCreateGame', function() {
+        geohost.onCreateGame(socket);
     })
-    socket.on('eClientJoinGame', function(gameName) {
-        geohost.onJoinGame(socket, gameName);
+    socket.on('eClientGetOpenGame', function() {
+        geohost.onGetOpenGame(socket);
+    });
+    socket.on('eClientJoinGame', function(msgObj) {
+        geohost.onJoinGame(socket, msgObj.gameId);
     });
 
 });

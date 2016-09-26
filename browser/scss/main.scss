@@ -1,32 +1,84 @@
-// $primary-color: #3f51b5;
-// $dark-primary-color: #303f9f;
-// $light-primary-color: #c5cae9;
-// $secondary-color: #ffffff;
-// $accent-color: #03a9f4;
-// $primary-text-color: #ffffff;
-// $secondary-text-color: #757575;
-// $dark-secondary-text-color: #212121;
-// $light-secondary-text-coor: #BDBDBD;
 
-// * {
-//     box-sizing: border-box;
-// }
+$pri-color-dark: #061824;
+$pri-color-mid: #1E3E52;
+$pri-color-light: #467C9E;
+$pri-text-color: #CBECFD;
+$pri-link-color: #8EC9D1;
+$pri-link-accent-color: #FFFFFF;
 
-// body {
-//     font-family: 'Exo', sans-serif;
-//     background: $dark-primary-color;
-//     color: $primary-text-color;
-// }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5em;
+    border: 0;
+}
 
-// a {
-//     color: $primary-text-color;
-//     &:hover {
-//         color: $accent-color;
-//         background: none;
-//         text-decoration: none;
-//     }
-//     &:focus {
-//         background: none;
-//         text-decoration: none;
-//     }
-// }
+html,body {
+    font-family: 'Exo', sans-serif;
+    color: $pri-text-color;
+    height: 100%;
+}
+
+body {
+    // background-image: radial-gradient(farthest-corner at 50% 125%, $pri-color-light 0%, $pri-color-dark 100%);
+    background-image: linear-gradient(0deg, $pri-color-dark 0%, $pri-color-mid 100%);
+    background-size: auto 600px;
+    background-repeat: repeat-x;
+    background-color: $pri-color-dark;
+    background-position: left top;
+}
+
+a {
+    color: $pri-link-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $pri-link-accent-color;
+        background: none;
+        text-decoration: none;
+    }
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-family: 'Exo', sans-serif;
+    font-size: large;
+    color: $pri-text-color;
+    padding: 5px 25px;
+    width: 300px;
+    cursor: pointer;
+    border: 2px solid $pri-link-color; 
+    margin-left: 10px;
+    margin-right: 10px;
+    &:hover {
+        color: $pri-link-accent-color;
+        border: 2px solid $pri-link-accent-color;
+    }
+    .main {
+       width: 300px; 
+    }
+}
+
+h1,h2,h3,h4 {
+    font-weight: bold;
+}
+
+canvas {
+    border: 1px solid white;
+    width: 800px;
+    height: 500px;
+}
+
+.midvspacer {
+    height: 35vh;
+}
+
+.topvspacer {
+    height: 10vh;
+}
+
+.hcenter {
+    text-align: center;
+}
