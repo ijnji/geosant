@@ -22,11 +22,28 @@ window.app.controller('GameController', function($scope, $state, SocketFactory) 
         $scope.$digest();
     });
 
-    let canvas = new fabric.StaticCanvas('canvas');
-    fabric.loadSVGFromURL('/worldmap.svg', function(obj, opts) {
-        let o = fabric.util.groupSVGElements(obj, {
-            width: 500, height: 500
-        });
-        canvas.add(o).renderAll();
-    });
+    let R = Raphael('map', 1000, 400);
+    let globe = {};
+    let attr = {
+        fill: '#1E3E52',
+        stroke: '#467C9E',
+        'stroke-width': 1,
+        'stroke-linejoin': 'round'
+    };
+    let current = undefined;
+    for (let cty in WORLDMAP) {
+        globe[cty] = R.path(WORLDMAP[cty]).attr(attr);
+        (function(c, cty) {
+            c[0].style.cursor = 'pointer';
+            c[0].onmouseover = function() {
+                c.animate({ fill: '#467C9E' }, 500);
+                current = cty;
+            };
+            c[0].onmouseout = function() {
+                c.animate({ fill: '#1E3E52', stroke: '#467C9E'}, 500);
+            };
+        })(globe[cty], cty);
+    }
+
 });
+

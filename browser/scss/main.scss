@@ -65,10 +65,10 @@ h1,h2,h3,h4 {
     font-weight: bold;
 }
 
-canvas {
-    border: 1px solid white;
-    width: 800px;
-    height: 500px;
+#map {
+    border: 10px solid $pri-color-mid;
+    width: 1000px;
+    height: 400px;
 }
 
 .midvspacer {
